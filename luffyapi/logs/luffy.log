@@ -1,0 +1,15 @@
+INFO 2025-02-10 08:50:59,112 autoreload 8438 125308944588800 Watching for file changes with StatReloader
+INFO 2025-02-10 08:51:03,358 basehttp 8438 125308889990720 "GET / HTTP/1.1" 200 12068
+INFO 2025-02-10 09:33:35,526 autoreload 8438 125308944588800 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-02-10 09:33:36,329 autoreload 9118 136461011832832 Watching for file changes with StatReloader
+INFO 2025-02-10 10:18:33,053 autoreload 5266 135797449441280 Watching for file changes with StatReloader
+INFO 2025-02-10 10:18:52,169 basehttp 5266 135797395162688 "GET / HTTP/1.1" 200 12068
+WARNING 2025-02-10 10:18:52,271 log 5266 135797395162688 Not Found: /favicon.ico
+WARNING 2025-02-10 10:18:52,271 basehttp 5266 135797395162688 "GET /favicon.ico HTTP/1.1" 404 2210
+INFO 2025-02-11 13:26:40,684 autoreload 6157 131855898370048 Watching for file changes with StatReloader
+INFO 2025-02-11 13:30:35,592 autoreload 4563 124046715457536 Watching for file changes with StatReloader
+INFO 2025-02-11 13:31:40,277 autoreload 5178 125163176419328 Watching for file changes with StatReloader
+INFO 2025-02-11 13:33:01,797 autoreload 5216 127230756110336 Watching for file changes with StatReloader
+INFO 2025-02-11 13:33:16,645 basehttp 5216 127230619420224 "GET / HTTP/1.1" 200 12068
+WARNING 2025-02-11 13:33:16,928 log 5216 127230619420224 Not Found: /favicon.ico
+WARNING 2025-02-11 13:33:16,930 basehttp 5216 127230619420224 "GET /favicon.ico HTTP/1.1" 404 2210

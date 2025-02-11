@@ -11,9 +11,14 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
-
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+"""
+等价于
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR 项目的主应用目录
+"""
 
 
 # Quick-start development settings - unsuitable for production
@@ -74,10 +79,18 @@ WSGI_APPLICATION = 'luffyapi.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': BASE_DIR / 'db.sqlite3', # 可以当做离线数据库
+    # }
+    "default": {
+            "ENGINE": "django.db.backends.mysql",
+            "HOST": "127.0.0.1",
+            "PORT": 3306,
+            "USER": "luffy_user",
+            "PASSWORD": "luffy",
+            "NAME": "luffy",
+        }
 }
 
 
@@ -121,3 +134,58 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+# 日志配置
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    # 日志格式
+    "formatters": {
+        "verbose": {
+            "format": "{levelname} {asctime} {module} {process:d} {thread:d} {message}",
+            "style": "{",
+        },
+        "simple": {
+            "format": "{levelname} {message}",
+            "style": "{",
+        },
+    },
+    # 过滤器
+    "filters": {
+        "require_debug_true": {
+            "()": "django.utils.log.RequireDebugTrue",
+        },
+    },
+    # 处理方式
+    "handlers": {
+        "console": {
+            "level": "INFO",
+            "filters": ["require_debug_true"],
+            "class": "logging.StreamHandler",
+            "formatter": "simple",
+        },
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            # 日志位置,日志文件名,日志保存目录必须手动创建
+            'filename': os.path.join(os.path.dirname(BASE_DIR), "logs/luffy.log"),
+            # 日志文件的最大值,这里我们设置300M
+            'maxBytes': 300 * 1024 * 1024,
+            # 日志文件的数量,设置最大日志数量为10
+            'backupCount': 10,
+            # 日志格式:详细格式
+            'formatter': 'verbose'
+        },
+    },
+    # 日志对象
+    "loggers": {
+        "django": {
+            "handlers": ["console","file"],
+            "propagate": True, #  # 是否让日志信息继续冒泡给其他的日志处理系统
+        },
+    },
+}
+
+REST_FRAMEWORK = {  # 新加的配置
+    # 异常处理
+    'EXCEPTION_HANDLER': 'luffyapi.utils.exceptions.custom_exception_handler',  # 自己定义的异常处理
+}
