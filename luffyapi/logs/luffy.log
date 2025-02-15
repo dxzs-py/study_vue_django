@@ -13,3 +13,107 @@ INFO 2025-02-11 13:33:01,797 autoreload 5216 127230756110336 Watching for file c
 INFO 2025-02-11 13:33:16,645 basehttp 5216 127230619420224 "GET / HTTP/1.1" 200 12068
 WARNING 2025-02-11 13:33:16,928 log 5216 127230619420224 Not Found: /favicon.ico
 WARNING 2025-02-11 13:33:16,930 basehttp 5216 127230619420224 "GET /favicon.ico HTTP/1.1" 404 2210
+INFO 2025-02-11 13:35:49,040 autoreload 5952 131221817765888 Watching for file changes with StatReloader
+INFO 2025-02-11 13:35:56,411 basehttp 5952 131221753431616 "GET / HTTP/1.1" 200 12068
+WARNING 2025-02-11 13:35:56,677 log 5952 131221753431616 Not Found: /favicon.ico
+WARNING 2025-02-11 13:35:56,680 basehttp 5952 131221753431616 "GET /favicon.ico HTTP/1.1" 404 2210
+INFO 2025-02-14 09:01:35,646 autoreload 16132 138885357858816 Watching for file changes with StatReloader
+INFO 2025-02-14 09:02:04,246 basehttp 16132 138885214504512 "GET / HTTP/1.1" 200 12068
+WARNING 2025-02-14 09:02:04,341 log 16132 138885214504512 Not Found: /favicon.ico
+WARNING 2025-02-14 09:02:04,342 basehttp 16132 138885214504512 "GET /favicon.ico HTTP/1.1" 404 2217
+INFO 2025-02-14 09:44:45,247 autoreload 16132 138885357858816 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-02-14 09:44:46,115 autoreload 17381 135697166655488 Watching for file changes with StatReloader
+INFO 2025-02-14 09:56:13,179 autoreload 5198 138980235788288 Watching for file changes with StatReloader
+INFO 2025-02-14 09:58:47,106 autoreload 5837 138209999835136 Watching for file changes with StatReloader
+INFO 2025-02-14 09:59:09,677 basehttp 5837 138209933657664 "GET / HTTP/1.1" 200 12068
+WARNING 2025-02-14 09:59:09,769 log 5837 138209933657664 Not Found: /favicon.ico
+WARNING 2025-02-14 09:59:09,770 basehttp 5837 138209933657664 "GET /favicon.ico HTTP/1.1" 404 2217
+INFO 2025-02-15 01:38:32,997 autoreload 5070 125558666706944 Watching for file changes with StatReloader
+WARNING 2025-02-15 01:38:39,198 log 5070 125558602073664 Not Found: /favicon.ico
+WARNING 2025-02-15 01:38:39,199 basehttp 5070 125558602073664 "GET /favicon.ico HTTP/1.1" 404 2217
+INFO 2025-02-15 02:12:14,964 autoreload 5070 125558666706944 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-02-15 02:12:15,945 autoreload 6523 123471818518528 Watching for file changes with StatReloader
+INFO 2025-02-15 02:13:46,368 autoreload 6546 131997121413120 Watching for file changes with StatReloader
+INFO 2025-02-15 04:22:27,631 autoreload 8627 125739919200256 Watching for file changes with StatReloader
+INFO 2025-02-15 04:23:38,751 autoreload 8672 136507818463232 Watching for file changes with StatReloader
+INFO 2025-02-15 04:29:30,674 autoreload 8672 136507818463232 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-02-15 04:29:31,319 autoreload 8732 124246793027584 Watching for file changes with StatReloader
+INFO 2025-02-15 04:30:25,343 autoreload 8813 127339178270720 Watching for file changes with StatReloader
+INFO 2025-02-15 04:33:51,652 autoreload 8997 126465964773376 Watching for file changes with StatReloader
+INFO 2025-02-15 14:34:07,763 autoreload 5026 123141505794048 Watching for file changes with StatReloader
+INFO 2025-02-15 14:35:21,464 autoreload 5069 140645465239552 Watching for file changes with StatReloader
+ERROR 2025-02-15 14:35:40,209 exception 5069 140645398218304 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-02-15 14:35:40,265 log 5069 140645398218304 Bad Request: /
+WARNING 2025-02-15 14:35:40,266 basehttp 5069 140645398218304 "GET / HTTP/1.1" 400 77353
+ERROR 2025-02-15 14:36:23,263 exception 5069 140645398218304 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-02-15 14:36:23,302 log 5069 140645398218304 Bad Request: /
+WARNING 2025-02-15 14:36:23,303 basehttp 5069 140645398218304 "GET / HTTP/1.1" 400 77079
+ERROR 2025-02-15 14:36:23,468 exception 5069 140645387732544 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-02-15 14:36:23,499 log 5069 140645387732544 Bad Request: /favicon.ico
+WARNING 2025-02-15 14:36:23,500 basehttp 5069 140645387732544 "GET /favicon.ico HTTP/1.1" 400 77004
+WARNING 2025-02-15 14:36:39,983 log 5069 140645387732544 Not Found: /
+WARNING 2025-02-15 14:36:39,984 basehttp 5069 140645387732544 "GET / HTTP/1.1" 404 2573
+WARNING 2025-02-15 14:36:40,054 log 5069 140645387732544 Not Found: /favicon.ico
+WARNING 2025-02-15 14:36:40,055 basehttp 5069 140645387732544 "GET /favicon.ico HTTP/1.1" 404 2624
+INFO 2025-02-15 14:37:46,007 autoreload 5587 129173496946688 Watching for file changes with StatReloader
+WARNING 2025-02-15 14:38:03,455 log 5587 129173353924160 Not Found: /
+WARNING 2025-02-15 14:38:03,456 basehttp 5587 129173353924160 "GET / HTTP/1.1" 404 2573
+INFO 2025-02-15 14:38:21,061 basehttp 5587 129173353924160 "GET /banner HTTP/1.1" 301 0
+INFO 2025-02-15 14:38:21,122 basehttp 5587 129173343438400 "GET /banner/ HTTP/1.1" 200 5149
+INFO 2025-02-15 14:38:21,172 basehttp 5587 129173343438400 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-02-15 14:38:21,195 basehttp 5587 129173343438400 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-02-15 14:38:21,201 basehttp 5587 129173353924160 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-02-15 14:38:21,202 basehttp 5587 129173322466880 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-02-15 14:38:21,205 basehttp 5587 129173301495360 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-02-15 14:38:21,207 basehttp 5587 129173332952640 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-02-15 14:38:21,209 basehttp 5587 129173311981120 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2025-02-15 14:38:21,248 basehttp 5587 129173332952640 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-02-15 14:38:21,251 basehttp 5587 129173322466880 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-02-15 14:38:21,250 basehttp 5587 129173353924160 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-02-15 14:38:21,253 basehttp 5587 129173301495360 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-02-15 14:38:21,259 basehttp 5587 129173343438400 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-02-15 14:38:38,730 basehttp 5587 129173343438400 "GET /admin HTTP/1.1" 301 0
+INFO 2025-02-15 14:38:38,740 basehttp 5587 129173322466880 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-02-15 14:38:38,779 basehttp 5587 129173322466880 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+INFO 2025-02-15 14:38:38,861 basehttp 5587 129173322466880 "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2025-02-15 14:38:38,879 basehttp 5587 129173311981120 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-02-15 14:38:38,880 basehttp 5587 129173332952640 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-02-15 14:38:38,883 basehttp 5587 129173343438400 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2025-02-15 14:38:38,886 basehttp 5587 129173301495360 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-02-15 14:38:38,888 basehttp 5587 129173353924160 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2025-02-15 14:38:38,902 basehttp 5587 129173343438400 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2025-02-15 14:39:01,961 log 5587 129173343438400 Not Found: /
+WARNING 2025-02-15 14:39:01,962 basehttp 5587 129173343438400 "GET / HTTP/1.1" 404 2573
+WARNING 2025-02-15 14:39:02,040 log 5587 129173343438400 Not Found: /favicon.ico
+WARNING 2025-02-15 14:39:02,041 basehttp 5587 129173343438400 "GET /favicon.ico HTTP/1.1" 404 2624
+INFO 2025-02-15 14:39:06,391 basehttp 5587 129173343438400 "GET /banner/ HTTP/1.1" 200 5149
