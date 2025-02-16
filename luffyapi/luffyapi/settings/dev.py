@@ -48,6 +48,7 @@ ALLOWED_HOSTS = [
 
 # 应用程序定义
 INSTALLED_APPS = [
+    'simpleui',  # 必须放在 admin 之前
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -140,9 +141,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# 更改默认语言为中文
+LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'UTC'
+# 修改时区
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
@@ -223,3 +226,9 @@ REST_FRAMEWORK = {  # 新加的配置
     # 异常处理
     'EXCEPTION_HANDLER': 'luffyapi.utils.exceptions.custom_exception_handler',  # 自己定义的异常处理
 }
+
+# SimpleUI配置
+SIMPLEUI_LOGO = ''  # 去掉默认Logo或换成自己Logo链接
+# 隐藏右侧SimpleUI广告链接和使用分析
+SIMPLEUI_HOME_INFO = False
+SIMPLEUI_ANALYSIS = False

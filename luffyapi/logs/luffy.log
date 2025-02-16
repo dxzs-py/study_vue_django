@@ -117,3 +117,277 @@ WARNING 2025-02-15 14:39:01,962 basehttp 5587 129173343438400 "GET / HTTP/1.1" 4
 WARNING 2025-02-15 14:39:02,040 log 5587 129173343438400 Not Found: /favicon.ico
 WARNING 2025-02-15 14:39:02,041 basehttp 5587 129173343438400 "GET /favicon.ico HTTP/1.1" 404 2624
 INFO 2025-02-15 14:39:06,391 basehttp 5587 129173343438400 "GET /banner/ HTTP/1.1" 200 5149
+INFO 2025-02-15 14:46:47,395 autoreload 6346 131072794619904 Watching for file changes with StatReloader
+INFO 2025-02-15 14:46:51,425 basehttp 6346 131072727713344 "GET /banner/ HTTP/1.1" 200 5149
+INFO 2025-02-15 14:52:16,585 autoreload 6346 131072794619904 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/views.py changed, reloading.
+INFO 2025-02-15 14:52:17,518 autoreload 6554 127768052785152 Watching for file changes with StatReloader
+INFO 2025-02-15 15:05:02,899 autoreload 6554 127768052785152 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/views.py changed, reloading.
+INFO 2025-02-15 15:05:03,614 autoreload 6679 137468352036864 Watching for file changes with StatReloader
+INFO 2025-02-16 02:48:33,844 autoreload 4874 132145908543488 Watching for file changes with StatReloader
+INFO 2025-02-16 02:48:45,451 basehttp 4874 132145840391744 "GET /banner/ HTTP/1.1" 200 5149
+WARNING 2025-02-16 02:48:45,701 log 4874 132145840391744 Not Found: /favicon.ico
+WARNING 2025-02-16 02:48:45,701 basehttp 4874 132145840391744 "GET /favicon.ico HTTP/1.1" 404 2624
+INFO 2025-02-16 02:48:52,311 basehttp 4874 132145840391744 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-02-16 02:48:52,346 basehttp 4874 132145840391744 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+INFO 2025-02-16 03:20:21,328 autoreload 5894 126856186773504 Watching for file changes with StatReloader
+WARNING 2025-02-16 03:20:32,132 log 5894 126856112113216 Not Found: /
+WARNING 2025-02-16 03:20:32,133 basehttp 5894 126856112113216 "GET / HTTP/1.1" 404 2573
+WARNING 2025-02-16 03:20:32,230 log 5894 126856112113216 Not Found: /favicon.ico
+WARNING 2025-02-16 03:20:32,230 basehttp 5894 126856112113216 "GET /favicon.ico HTTP/1.1" 404 2624
+INFO 2025-02-16 03:20:36,955 basehttp 5894 126856112113216 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-02-16 03:20:36,973 basehttp 5894 126856112113216 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4076
+INFO 2025-02-16 03:20:37,100 basehttp 5894 126856017741376 "GET /static/admin/simpleui-x/css/login.css?_=2.1 HTTP/1.1" 200 500
+INFO 2025-02-16 03:20:37,117 basehttp 5894 126855996769856 "GET /static/admin/simpleui-x/js/vue.min.js?_=2025.01.13 HTTP/1.1" 200 93675
+INFO 2025-02-16 03:20:37,121 basehttp 5894 126856101627456 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 200 101784
+INFO 2025-02-16 03:20:37,123 basehttp 5894 126856017741376 "GET /static/admin/simpleui-x/js/login.js?_=3.3 HTTP/1.1" 200 669
+INFO 2025-02-16 03:20:37,124 basehttp 5894 126856007255616 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 200 115997
+INFO 2025-02-16 03:20:37,134 basehttp 5894 126856112113216 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 200 238628
+INFO 2025-02-16 03:20:37,136 basehttp 5894 126855996769856 "GET /static/admin/simpleui-x/particles/particles.js HTTP/1.1" 200 51264
+INFO 2025-02-16 03:20:37,139 basehttp 5894 126855986284096 "GET /static/admin/simpleui-x/elementui/index.js?_=2025.01.13 HTTP/1.1" 200 586253
+INFO 2025-02-16 03:20:37,148 basehttp 5894 126855986284096 "GET /static/admin/simpleui-x/particles/app.js HTTP/1.1" 200 3728
+INFO 2025-02-16 03:20:37,212 basehttp 5894 126855986284096 "GET /static/admin/simpleui-x/img/bg.svg HTTP/1.1" 200 9547
+INFO 2025-02-16 03:20:37,406 basehttp 5894 126855986284096 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150472
+INFO 2025-02-16 03:20:46,161 basehttp 5894 126855986284096 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-02-16 03:20:46,169 basehttp 5894 126855986284096 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4076
+INFO 2025-02-16 03:20:52,257 basehttp 5894 126855986284096 "GET /banner/ HTTP/1.1" 200 5149
+INFO 2025-02-16 03:21:30,098 autoreload 5894 126856186773504 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-02-16 11:21:31,041 autoreload 6156 127420694773760 Watching for file changes with StatReloader
+INFO 2025-02-16 11:25:49,570 basehttp 6156 127420621391424 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 200 28200
+INFO 2025-02-16 11:25:55,023 basehttp 6156 127420621391424 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-02-16 11:25:55,091 basehttp 6156 127420621391424 "GET /admin/ HTTP/1.1" 200 17823
+INFO 2025-02-16 11:25:55,192 basehttp 6156 127420621391424 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 200 6994
+INFO 2025-02-16 11:25:55,193 basehttp 6156 127420537505344 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 200 3861
+INFO 2025-02-16 11:25:55,194 basehttp 6156 127420516533824 "GET /static/admin/simpleui-x/automatic/segment.js?_=2025.01.13 HTTP/1.1" 200 1194
+INFO 2025-02-16 11:25:55,194 basehttp 6156 127420506048064 "GET /static/admin/simpleui-x/locale/en-us.js?_=2025.01.13 HTTP/1.1" 200 811
+INFO 2025-02-16 11:25:55,197 basehttp 6156 127420495562304 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2025.01.13 HTTP/1.1" 200 1254
+INFO 2025-02-16 11:25:55,198 basehttp 6156 127420527019584 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2025.01.13 HTTP/1.1" 200 12677
+INFO 2025-02-16 11:25:55,214 basehttp 6156 127420516533824 "GET /static/admin/simpleui-x/js/cookie.js?_=2025.01.13 HTTP/1.1" 200 524
+INFO 2025-02-16 11:25:55,222 basehttp 6156 127420537505344 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2025.01.13 HTTP/1.1" 200 6329
+INFO 2025-02-16 11:25:55,224 basehttp 6156 127420495562304 "GET /static/admin/simpleui-x/theme/theme.js?_=2025.01.13 HTTP/1.1" 200 4274
+INFO 2025-02-16 11:25:55,225 basehttp 6156 127420527019584 "GET /static/admin/simpleui-x/js/menu.js?_=2025.01.13 HTTP/1.1" 200 1216
+INFO 2025-02-16 11:25:55,226 basehttp 6156 127420506048064 "GET /static/admin/simpleui-x/js/index.js?_=2025.01.13 HTTP/1.1" 200 21589
+INFO 2025-02-16 11:25:55,417 basehttp 6156 127420506048064 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25096
+INFO 2025-02-16 11:25:55,419 basehttp 6156 127420537505344 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 107460
+INFO 2025-02-16 11:30:50,288 autoreload 6156 127420694773760 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/admin.py changed, reloading.
+INFO 2025-02-16 11:30:50,909 autoreload 6391 134250480619520 Watching for file changes with StatReloader
+INFO 2025-02-16 11:30:59,376 autoreload 6443 136994729992192 Watching for file changes with StatReloader
+INFO 2025-02-16 11:31:30,700 autoreload 6482 125611116199936 Watching for file changes with StatReloader
+INFO 2025-02-16 11:32:10,348 autoreload 6508 130615867346944 Watching for file changes with StatReloader
+INFO 2025-02-16 11:32:13,718 basehttp 6508 130615724738112 "GET /admin/ HTTP/1.1" 200 18184
+INFO 2025-02-16 11:32:18,894 basehttp 6508 130615724738112 "GET /admin/home/banner/ HTTP/1.1" 200 25133
+INFO 2025-02-16 11:32:18,927 basehttp 6508 130615724738112 "GET /static/admin/css/base.css?_=2.7 HTTP/1.1" 200 22092
+INFO 2025-02-16 11:32:18,928 basehttp 6508 130615714252352 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 200 4829
+INFO 2025-02-16 11:32:18,946 basehttp 6508 130615682795072 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 200 189
+INFO 2025-02-16 11:32:18,947 basehttp 6508 130615672309312 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 200 811
+INFO 2025-02-16 11:32:18,948 basehttp 6508 130615703766592 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 200 4270
+INFO 2025-02-16 11:32:18,949 basehttp 6508 130615693280832 "GET /static/admin/css/changelists.css?_=20180905 HTTP/1.1" 200 6878
+INFO 2025-02-16 11:32:18,950 basehttp 6508 130615714252352 "GET /static/admin/css/responsive.css?_=20180905 HTTP/1.1" 200 17972
+INFO 2025-02-16 11:32:18,967 basehttp 6508 130615682795072 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 200 1254
+INFO 2025-02-16 11:32:18,970 basehttp 6508 130615672309312 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 200 524
+INFO 2025-02-16 11:32:18,978 basehttp 6508 130615724738112 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-02-16 11:32:18,981 basehttp 6508 130615693280832 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-02-16 11:32:18,996 basehttp 6508 130615703766592 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 11:32:18,999 basehttp 6508 130615714252352 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-02-16 11:32:19,019 basehttp 6508 130615672309312 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-02-16 11:32:19,020 basehttp 6508 130615682795072 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2025-02-16 11:32:19,026 basehttp 6508 130615693280832 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-02-16 11:32:19,027 basehttp 6508 130615724738112 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-02-16 11:32:19,049 basehttp 6508 130615703766592 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-02-16 11:32:19,051 basehttp 6508 130615714252352 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 87533
+INFO 2025-02-16 11:32:19,068 basehttp 6508 130615682795072 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 200 12677
+INFO 2025-02-16 11:32:19,069 basehttp 6508 130615672309312 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 200 1194
+INFO 2025-02-16 11:32:19,076 basehttp 6508 130615693280832 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 200 14237
+INFO 2025-02-16 11:35:05,895 autoreload 6508 130615867346944 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/admin.py changed, reloading.
+INFO 2025-02-16 11:35:06,542 autoreload 6758 138225067343872 Watching for file changes with StatReloader
+INFO 2025-02-16 11:35:14,937 basehttp 6758 138224924100160 "GET /admin/ HTTP/1.1" 200 18187
+WARNING 2025-02-16 11:35:15,338 log 6758 138224924100160 Not Found: /favicon.ico
+WARNING 2025-02-16 11:35:15,340 basehttp 6758 138224924100160 "GET /favicon.ico HTTP/1.1" 404 2624
+INFO 2025-02-16 11:35:29,994 basehttp 6758 138224924100160 "GET /admin/auth/user/ HTTP/1.1" 200 34917
+INFO 2025-02-16 11:35:30,046 basehttp 6758 138224924100160 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 11:35:30,094 basehttp 6758 138224913614400 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-02-16 11:35:30,397 basehttp 6758 138224913614400 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-02-16 11:35:34,506 basehttp 6758 138224913614400 "GET /admin/auth/group/ HTTP/1.1" 200 29196
+INFO 2025-02-16 11:35:34,538 basehttp 6758 138224913614400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 11:35:38,583 basehttp 6758 138224913614400 "GET /admin/home/banner/ HTTP/1.1" 200 25130
+INFO 2025-02-16 11:35:38,616 basehttp 6758 138224913614400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 11:36:01,704 basehttp 6758 138224913614400 "GET /static/admin/simpleui-x/theme/layui.css HTTP/1.1" 200 4337
+WARNING 2025-02-16 11:36:08,025 log 6758 138224913614400 Not Found: /
+WARNING 2025-02-16 11:36:08,026 basehttp 6758 138224913614400 "GET / HTTP/1.1" 404 2573
+INFO 2025-02-16 12:08:49,332 basehttp 6758 138224913614400 "GET /admin/home/banner/ HTTP/1.1" 200 25130
+INFO 2025-02-16 12:08:49,369 basehttp 6758 138224913614400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 12:15:05,013 basehttp 6758 138224913614400 "GET /admin/home/banner/add/ HTTP/1.1" 200 12191
+INFO 2025-02-16 12:15:05,057 basehttp 6758 138224903128640 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-02-16 12:15:05,058 basehttp 6758 138224892642880 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-02-16 12:15:05,062 basehttp 6758 138224913614400 "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+INFO 2025-02-16 12:15:05,078 basehttp 6758 138224924100160 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 12:15:05,111 basehttp 6758 138224913614400 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2025-02-16 12:16:24,500 basehttp 6758 138224913614400 "GET /admin/home/banner/ HTTP/1.1" 200 25130
+INFO 2025-02-16 12:16:24,530 basehttp 6758 138224913614400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 12:16:26,736 basehttp 6758 138224913614400 "GET /admin/home/banner/?o=1 HTTP/1.1" 200 25619
+INFO 2025-02-16 12:16:26,780 basehttp 6758 138224913614400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 12:16:28,325 basehttp 6758 138224913614400 "GET /admin/home/banner/?o=-1 HTTP/1.1" 200 25620
+INFO 2025-02-16 12:16:28,365 basehttp 6758 138224913614400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 12:16:37,776 basehttp 6758 138224913614400 "GET /admin/auth/user/ HTTP/1.1" 200 34917
+INFO 2025-02-16 12:16:37,808 basehttp 6758 138224913614400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 12:16:39,738 basehttp 6758 138224913614400 "GET /admin/auth/group/ HTTP/1.1" 200 29196
+INFO 2025-02-16 12:16:39,769 basehttp 6758 138224913614400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 12:16:49,299 basehttp 6758 138224913614400 "GET /static/admin/simpleui-x/theme/purple.css HTTP/1.1" 200 4544
+INFO 2025-02-16 12:16:54,919 basehttp 6758 138224913614400 "GET /static/admin/simpleui-x/theme/e-blue.css HTTP/1.1" 200 4376
+INFO 2025-02-16 12:16:57,129 basehttp 6758 138224913614400 "GET /static/admin/simpleui-x/theme/element.css HTTP/1.1" 200 4239
+INFO 2025-02-16 12:19:08,971 autoreload 6758 138225067343872 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/apps.py changed, reloading.
+INFO 2025-02-16 12:19:09,624 autoreload 7497 139805107154944 Watching for file changes with StatReloader
+INFO 2025-02-16 12:19:10,032 basehttp 7497 139805035857472 "GET /admin/ HTTP/1.1" 200 18187
+INFO 2025-02-16 12:19:10,257 basehttp 7497 139805035857472 "GET /admin/auth/user/ HTTP/1.1" 200 34917
+INFO 2025-02-16 12:19:10,292 basehttp 7497 139805035857472 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 12:19:12,319 basehttp 7497 139805035857472 "GET /admin/ HTTP/1.1" 200 18187
+INFO 2025-02-16 12:19:12,493 basehttp 7497 139805035857472 "GET /admin/auth/user/ HTTP/1.1" 200 34917
+INFO 2025-02-16 12:19:12,524 basehttp 7497 139805035857472 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 12:19:17,912 autoreload 7512 133757913944064 Watching for file changes with StatReloader
+INFO 2025-02-16 12:19:20,884 basehttp 7512 133757761750592 "GET /admin/ HTTP/1.1" 200 18187
+INFO 2025-02-16 12:19:21,098 basehttp 7512 133757761750592 "GET /admin/auth/user/ HTTP/1.1" 200 34917
+INFO 2025-02-16 12:19:21,130 basehttp 7512 133757761750592 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 12:19:39,382 autoreload 7512 133757913944064 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/apps.py changed, reloading.
+INFO 2025-02-16 12:19:40,027 autoreload 7536 134326460375040 Watching for file changes with StatReloader
+INFO 2025-02-16 12:19:40,800 basehttp 7536 134326308046400 "GET /admin/ HTTP/1.1" 200 18227
+INFO 2025-02-16 12:19:41,080 basehttp 7536 134326308046400 "GET /admin/auth/user/ HTTP/1.1" 200 34917
+INFO 2025-02-16 12:19:41,150 basehttp 7536 134326308046400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 12:22:19,281 autoreload 7536 134326460375040 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/models.py changed, reloading.
+INFO 2025-02-16 12:22:19,896 autoreload 7603 136811057352704 Watching for file changes with StatReloader
+INFO 2025-02-16 12:22:20,737 basehttp 7603 136810984375872 "GET /admin/ HTTP/1.1" 200 18227
+INFO 2025-02-16 12:22:20,945 basehttp 7603 136810984375872 "GET /admin/auth/user/ HTTP/1.1" 200 34917
+INFO 2025-02-16 12:22:20,980 basehttp 7603 136810984375872 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 12:22:24,638 basehttp 7603 136810984375872 "GET /admin/auth/group/ HTTP/1.1" 200 29196
+INFO 2025-02-16 12:22:24,666 basehttp 7603 136810984375872 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 12:27:12,994 autoreload 7603 136811057352704 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/models.py changed, reloading.
+INFO 2025-02-16 12:27:13,622 autoreload 7690 127196082843648 Watching for file changes with StatReloader
+INFO 2025-02-16 12:27:14,595 basehttp 7690 127196008023616 "GET /admin/ HTTP/1.1" 200 16755
+INFO 2025-02-16 12:27:14,619 basehttp 7690 127196008023616 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2025-02-16 12:27:14,622 basehttp 7690 127195924137536 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-02-16 12:27:14,626 basehttp 7690 127195913651776 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2025-02-16 12:27:14,628 basehttp 7690 127195924137536 "GET /static/admin/simpleui-x/js/vue.min.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-02-16 12:27:14,639 basehttp 7690 127195913651776 "GET /static/admin/simpleui-x/elementui/index.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-02-16 12:27:14,907 basehttp 7690 127195913651776 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-02-16 12:28:08,544 autoreload 7690 127196082843648 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-02-16 12:28:09,197 autoreload 7734 129058979794944 Watching for file changes with StatReloader
+INFO 2025-02-16 12:28:09,612 basehttp 7734 129058906048064 "GET /admin/ HTTP/1.1" 200 16873
+INFO 2025-02-16 12:28:11,148 basehttp 7734 129058906048064 "GET /admin/ HTTP/1.1" 200 16873
+INFO 2025-02-16 12:28:15,907 basehttp 7734 129058906048064 "GET /admin/ HTTP/1.1" 200 16873
+INFO 2025-02-16 12:30:12,342 autoreload 7734 129058979794944 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-02-16 12:30:12,986 autoreload 7797 134780580818944 Watching for file changes with StatReloader
+INFO 2025-02-16 12:30:13,268 basehttp 7797 134780433729088 "GET /admin/ HTTP/1.1" 200 18227
+INFO 2025-02-16 12:30:13,303 basehttp 7797 134780423243328 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2025-02-16 12:30:13,304 basehttp 7797 134780433729088 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2025-02-16 12:30:13,306 basehttp 7797 134780402271808 "GET /static/admin/simpleui-x/automatic/segment.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-02-16 12:30:13,305 basehttp 7797 134780412757568 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-02-16 12:30:13,324 basehttp 7797 134780423243328 "GET /static/admin/simpleui-x/js/cookie.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-02-16 12:30:13,324 basehttp 7797 134780412757568 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-02-16 12:30:13,325 basehttp 7797 134780402271808 "GET /static/admin/simpleui-x/locale/en-us.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-02-16 12:30:13,326 basehttp 7797 134780391786048 "GET /static/admin/simpleui-x/theme/theme.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-02-16 12:30:13,328 basehttp 7797 134780381300288 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-02-16 12:30:13,334 basehttp 7797 134780381300288 "GET /static/admin/simpleui-x/js/menu.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-02-16 12:30:13,337 basehttp 7797 134780391786048 "GET /static/admin/simpleui-x/js/index.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-02-16 12:30:13,459 basehttp 7797 134780391786048 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2025-02-16 12:30:13,493 basehttp 7797 134780391786048 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-02-16 12:30:13,495 basehttp 7797 134780381300288 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-brands-400.woff2 HTTP/1.1" 304 0
+INFO 2025-02-16 12:40:16,861 autoreload 7797 134780580818944 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-02-16 12:40:17,498 autoreload 8009 132026367410176 Watching for file changes with StatReloader
+INFO 2025-02-16 13:59:49,827 autoreload 4365 137820795932672 Watching for file changes with StatReloader
+INFO 2025-02-16 13:59:56,209 basehttp 4365 137820721120832 "GET /admin/ HTTP/1.1" 200 16755
+WARNING 2025-02-16 13:59:56,766 log 4365 137820721120832 Not Found: /favicon.ico
+WARNING 2025-02-16 13:59:56,768 basehttp 4365 137820721120832 "GET /favicon.ico HTTP/1.1" 404 2624
+INFO 2025-02-16 14:00:11,358 basehttp 4365 137820721120832 "GET /admin/password_change/?dialog=1 HTTP/1.1" 200 7453
+INFO 2025-02-16 14:00:11,383 basehttp 4365 137820721120832 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2025-02-16 14:00:11,387 basehttp 4365 137820710635072 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-02-16 14:00:11,400 basehttp 4365 137820695955008 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2025-02-16 14:00:11,402 basehttp 4365 137820685469248 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2025-02-16 14:00:11,404 basehttp 4365 137820599486016 "GET /static/admin/simpleui-x/js/vue.min.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-02-16 14:00:11,405 basehttp 4365 137820589000256 "GET /static/admin/simpleui-x/elementui/index.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-02-16 14:00:11,406 basehttp 4365 137820710635072 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2025-02-16 14:00:11,413 basehttp 4365 137820695955008 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2025-02-16 14:00:11,415 basehttp 4365 137820599486016 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2025-02-16 14:00:11,420 basehttp 4365 137820685469248 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2025-02-16 14:00:11,507 basehttp 4365 137820685469248 "GET /static/admin/simpleui-x/theme/element.css HTTP/1.1" 304 0
+INFO 2025-02-16 14:00:11,540 basehttp 4365 137820685469248 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2025-02-16 14:08:45,666 basehttp 4365 137820695955008 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2025-02-16 14:13:48,292 basehttp 4365 137820685469248 "GET /admin/home/banner/ HTTP/1.1" 200 25130
+INFO 2025-02-16 14:13:48,328 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:13:48,356 basehttp 4365 137820695955008 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2025-02-16 14:13:48,363 basehttp 4365 137820589000256 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2025-02-16 14:13:48,364 basehttp 4365 137820695955008 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2025-02-16 14:13:56,485 basehttp 4365 137820695955008 "GET /admin/home/banner/add/ HTTP/1.1" 200 12191
+INFO 2025-02-16 14:13:56,528 basehttp 4365 137820695955008 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:22:10,402 basehttp 4365 137820685469248 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2025-02-16 14:22:10,435 basehttp 4365 137820685469248 "GET /admin/home/banner/1/change/ HTTP/1.1" 200 13508
+INFO 2025-02-16 14:22:10,522 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:22:10,607 basehttp 4365 137820685469248 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-02-16 14:23:36,653 basehttp 4365 137820685469248 "GET /admin/home/banner/1/delete/ HTTP/1.1" 200 6106
+INFO 2025-02-16 14:23:36,696 basehttp 4365 137820685469248 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2025-02-16 14:23:40,342 basehttp 4365 137820685469248 "POST /admin/home/banner/1/delete/ HTTP/1.1" 302 0
+INFO 2025-02-16 14:23:40,373 basehttp 4365 137820685469248 "GET /admin/home/banner/ HTTP/1.1" 200 25268
+INFO 2025-02-16 14:23:40,447 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:23:43,145 basehttp 4365 137820685469248 "GET /admin/home/banner/add/ HTTP/1.1" 200 12191
+INFO 2025-02-16 14:23:43,177 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:24:31,140 basehttp 4365 137820685469248 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2025-02-16 14:24:31,167 basehttp 4365 137820685469248 "GET /admin/home/banner/add/ HTTP/1.1" 200 12437
+INFO 2025-02-16 14:24:31,238 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:25:17,510 basehttp 4365 137820685469248 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2025-02-16 14:25:17,542 basehttp 4365 137820685469248 "GET /admin/home/banner/add/ HTTP/1.1" 200 12443
+INFO 2025-02-16 14:25:17,615 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:26:36,304 basehttp 4365 137820685469248 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2025-02-16 14:26:36,336 basehttp 4365 137820685469248 "GET /admin/home/banner/ HTTP/1.1" 200 26552
+INFO 2025-02-16 14:26:36,418 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:27:14,624 basehttp 4365 137820685469248 "GET /admin/home/banner/2/change/ HTTP/1.1" 200 13266
+INFO 2025-02-16 14:27:14,670 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:27:16,740 basehttp 4365 137820685469248 "GET /admin/home/banner/ HTTP/1.1" 200 26375
+INFO 2025-02-16 14:27:16,771 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:27:17,794 basehttp 4365 137820685469248 "GET /admin/home/banner/3/change/ HTTP/1.1" 200 13197
+INFO 2025-02-16 14:27:17,825 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:27:19,183 basehttp 4365 137820685469248 "GET /admin/home/banner/ HTTP/1.1" 200 26375
+INFO 2025-02-16 14:27:19,220 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:27:21,251 basehttp 4365 137820685469248 "GET /admin/home/banner/4/change/ HTTP/1.1" 200 13221
+INFO 2025-02-16 14:27:21,286 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:27:22,189 basehttp 4365 137820685469248 "GET /admin/home/banner/ HTTP/1.1" 200 26375
+INFO 2025-02-16 14:27:22,215 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:27:23,189 basehttp 4365 137820685469248 "GET /admin/home/banner/?o=1 HTTP/1.1" 200 26942
+INFO 2025-02-16 14:27:23,223 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:27:24,446 basehttp 4365 137820685469248 "GET /admin/home/banner/?o=-1 HTTP/1.1" 200 26946
+INFO 2025-02-16 14:27:24,472 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:27:30,431 basehttp 4365 137820685469248 "GET /admin/home/banner/?o=-1 HTTP/1.1" 200 26946
+INFO 2025-02-16 14:27:30,466 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:27:35,185 basehttp 4365 137820685469248 "GET /admin/home/banner/?o=-1 HTTP/1.1" 200 26946
+INFO 2025-02-16 14:27:35,212 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:27:39,551 basehttp 4365 137820685469248 "GET /admin/home/banner/4/change/?_changelist_filters=o%3D-1 HTTP/1.1" 200 13312
+INFO 2025-02-16 14:27:39,590 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:27:50,425 basehttp 4365 137820685469248 "GET /admin/home/banner/ HTTP/1.1" 200 26375
+INFO 2025-02-16 14:27:50,451 basehttp 4365 137820685469248 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:27:58,266 basehttp 4365 137820685469248 "GET /banner/ HTTP/1.1" 200 5811
+INFO 2025-02-16 14:27:58,309 basehttp 4365 137820685469248 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-02-16 14:27:58,326 basehttp 4365 137820695955008 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2025-02-16 14:27:58,331 basehttp 4365 137820685469248 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2025-02-16 14:27:58,342 basehttp 4365 137820695955008 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-02-16 14:27:58,343 basehttp 4365 137820589000256 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2025-02-16 14:27:58,345 basehttp 4365 137820721120832 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2025-02-16 14:27:58,346 basehttp 4365 137820599486016 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2025-02-16 14:27:58,348 basehttp 4365 137820578514496 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2025-02-16 14:27:58,351 basehttp 4365 137820721120832 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2025-02-16 14:27:58,352 basehttp 4365 137820589000256 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2025-02-16 14:27:58,357 basehttp 4365 137820599486016 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2025-02-16 14:27:58,401 basehttp 4365 137820589000256 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2025-02-16 14:30:55,146 basehttp 4365 137820695955008 "GET /admin/home/banner/4/change/ HTTP/1.1" 200 13221
+INFO 2025-02-16 14:30:55,180 basehttp 4365 137820695955008 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:30:58,579 basehttp 4365 137820695955008 "POST /admin/home/banner/4/change/ HTTP/1.1" 302 0
+INFO 2025-02-16 14:30:58,615 basehttp 4365 137820695955008 "GET /admin/home/banner/ HTTP/1.1" 200 26552
+INFO 2025-02-16 14:30:58,691 basehttp 4365 137820695955008 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:31:01,189 basehttp 4365 137820695955008 "GET /banner/ HTTP/1.1" 200 6130
+INFO 2025-02-16 14:31:30,931 basehttp 4365 137820695955008 "GET /admin/auth/user/ HTTP/1.1" 200 34917
+INFO 2025-02-16 14:31:30,957 basehttp 4365 137820695955008 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:31:38,100 basehttp 4365 137820695955008 "GET /admin/auth/user/add/ HTTP/1.1" 200 12387
+INFO 2025-02-16 14:31:38,128 basehttp 4365 137820695955008 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:31:38,132 basehttp 4365 137820721120832 "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+INFO 2025-02-16 14:31:38,157 basehttp 4365 137820721120832 "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 200 1480
+INFO 2025-02-16 14:31:46,504 basehttp 4365 137820721120832 "GET /admin/auth/user/ HTTP/1.1" 200 34917
+INFO 2025-02-16 14:31:46,531 basehttp 4365 137820721120832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:32:53,670 basehttp 4365 137820721120832 "GET /admin/home/banner/?o=1 HTTP/1.1" 200 26942
+INFO 2025-02-16 14:32:53,699 basehttp 4365 137820721120832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-02-16 14:32:54,058 basehttp 4365 137820721120832 "GET /admin/home/banner/?o=-1 HTTP/1.1" 200 26946
+INFO 2025-02-16 14:32:54,084 basehttp 4365 137820721120832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
