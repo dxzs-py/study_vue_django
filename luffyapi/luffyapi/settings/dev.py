@@ -23,14 +23,15 @@ BASE_DIR 项目的主应用目录
 
 # 把apps目录下面的所有子应用设置为可以直接导包，那就需要把apps设置为默认导包路径
 import sys
+
 sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
 import home
+
 """
 因为sys.path默认送不含有该路径的，这样送在sys.path中添加一个路径。
 但是pycharm还是会认为导包失败
 这样就不用from luffyapi.apps import home这么长的写导包
 """
-
 
 # 快速启动开发设置 - 不适合生产
 # 查看 https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
@@ -57,10 +58,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'corsheaders',  # 跨域请求,需要配置CORS_ORIGIN_WHITELIST
-    'rest_framework', # 有很多功能，方便后面开发
+    'rest_framework',  # 有很多功能，方便后面开发
+    'rest_framework_simplejwt',
 
     # 子应用
     'home',
+    'user_login',
+
 ]
 
 # CORS组的配置信息
@@ -120,6 +124,40 @@ DATABASES = {
     }
 }
 
+# 设置redis缓存
+CACHES = {
+    # 默认缓存
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        # 项目上线时,需要调整这里的路径
+        "LOCATION": "redis://127.0.0.1:6379/0",
+
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 提供给xadmin或者admin的session存储
+    "session": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 提供存储短信验证码
+    "sms_code":{
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+# 设置admin用户登录时,登录信息session保存到redis
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "session"
+
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
@@ -158,14 +196,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 # 设置django的静态文件目录
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,"static")
+    os.path.join(BASE_DIR, "static")
 ]
-
-# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错
-MEDIA_ROOT=os.path.join(BASE_DIR, "uploads")
-# 访问上传文件的url地址前缀
-MEDIA_URL ="/media/"
-
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
@@ -225,10 +257,76 @@ LOGGING = {
 REST_FRAMEWORK = {  # 新加的配置
     # 异常处理
     'EXCEPTION_HANDLER': 'luffyapi.utils.exceptions.custom_exception_handler',  # 自己定义的异常处理
+
+    # 默认认证类设置
+    # 该配置项定义了API请求的身份验证机制，默认使用以下几种身份验证方式：
+    # - JWTAuthentication：基于JSON Web Token (JWT) 的身份验证，通过rest_framework_simplejwt库实现。
+    # - SessionAuthentication：基于会话的身份验证，适用于浏览器客户端。
+    # - BasicAuthentication：基于HTTP基本认证的身份验证，适用于简单的API调用。
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication'
+    ],
+
+    # 默认权限类设置
+    # 该配置项定义了API请求的权限控制，默认要求用户必须通过身份验证才能访问受保护的API资源。
+    # - IsAuthenticated：仅允许已通过身份验证的用户访问API。
+    'DEFAULT_PERMISSION_CLASSES': [
+        # 'rest_framework.permissions.IsAuthenticated',  # 默认要求认证
+        'rest_framework.permissions.AllowAny',  # 所有视图默认开放
+    ],
+
 }
 
 # SimpleUI配置
+# SIMPLEUI_CONFIG = {
+#     "title": "LuffyCity",  # 修改标题
+#     "site_title": "LuffyCity",  # 修改左上角标题
+#     "site_footer": "LuffyCity",  # 修改页脚
+#     "menu_style": "accordion",  # 菜单折叠
+# }
 SIMPLEUI_LOGO = ''  # 去掉默认Logo或换成自己Logo链接
 # 隐藏右侧SimpleUI广告链接和使用分析
 SIMPLEUI_HOME_INFO = False
 SIMPLEUI_ANALYSIS = False
+# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错
+MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
+# 访问上传文件的url地址前缀
+MEDIA_URL = "/media/"
+
+# 注册自定义用户模型 值格式必须是“应用名.模型类名”
+AUTH_USER_MODEL = 'user_login.User'
+
+# simplejwt配置， 需要导入datetime模块
+from datetime import timedelta
+
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=3),  # 访问令牌有效期
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=7),  # 刷新令牌有效期
+    'ROTATE_REFRESH_TOKENS': True,  # 刷新后使旧令牌失效
+    'BLACKLIST_AFTER_ROTATION': True,  # 需安装 `rest_framework_simplejwt.token_blacklist`
+    'ALGORITHM': 'HS256',  # 加密算法
+    "TOKEN_OBTAIN_SERIALIZER": "user_login.serializers.MyTokenObtainPairSerializer",  # 自定义序列化器
+}
+# 实现多条件登录
+AUTHENTICATION_BACKENDS = [
+    'user_login.serializers.UsernameMobileAuthBackend'
+]
+
+SMS = {
+    # 主账号，登陆云通讯网站后，可在"控制台-应用"中看到开发者主账号ACCOUNT SID
+    "_accountSid": "2c94811c946f6bfb0195f1708c154156",
+    # 主账号Token，登陆云通讯网站后，可在控制台-应用中看到开发者主账号AUTH TOKEN
+    "_accountToken": "d6a9786cf13b4a25a9fbef299400993b",
+    # 请使用管理控制台首页的APPID或自己创建应用的APPID
+    "_appId": "2c94811c946f6bfb0195f1708db5415d",
+    # 说明：请求地址，生产环境配置成app.cloopen.com
+    # 沙箱环境地址： sandboxapp.cloopen.com
+    "_serverIP": "sandboxapp.cloopen.com",
+    # 说明：请求端口 ，生产环境为8883
+    "_serverPort": "8883",
+    # 说明：REST API版本号保持不变
+    "_softVersion": "2013-12-26"
+}
+

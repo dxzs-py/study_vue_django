@@ -29,7 +29,7 @@ table {
 }
 
 [class*=" el-icon-"], [class^=el-icon-] {
-  font-size: 50px;
+  font-size: 16px;  /* 用来设置Element插件某些大小 */
 }
 
 .el-carousel__arrow {
@@ -58,4 +58,33 @@ table {
 .el-checkbox__inner::after {
   height: 9px;
   width: 5px;
+}
+
+.el-submenu__icon-arrow::before{
+  /*content:"";   !* 这个是控制Header.vue那个箭头是什么这样写是不展示任何东西，不写content就是展示默认选项 *!  */
+  font-size: 20px;
+}
+.el-submenu__title{
+  padding: 0;
+}
+.el-menu--popup{   /* 这个是控制下拉框的位置 */
+  min-width: 140px;
+  margin-left: 10px;
+}
+
+
+.geetest_holder.geetest_wind{
+  min-width: 100%!important;
+  margin-top: 20px;
+}
+
+.el-pagination button, .el-pagination span:not([class*=suffix]),
+.el-input--mini,
+.el-pagination__sizes .el-input .el-input__inner,
+.el-pager li{
+  font-size: 16px;
+}
+
+.course-brief img{
+  width: 100%;
 }
