@@ -30,6 +30,10 @@ urlpatterns = [
     # 将以'admin/'开头的URL映射到Django自带的管理后台
     path('admin/', admin.site.urls),
     re_path(r'media/(?P<path>.*)', serve, {"document_root": settings.MEDIA_ROOT}),
+    path(r'^ckeditor/', include('ckeditor_uploader.urls')),
+
     path('', include('home.urls')),
     path('user/', include('user_login.urls')),
+    path('course/', include('course.urls')),
+
 ]

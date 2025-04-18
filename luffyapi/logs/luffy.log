@@ -1,1319 +1,255 @@
-INFO 2025-03-10 11:43:23,406 basehttp 5410 128663852942912 "GET /admin/ HTTP/1.1" 200 19841
-INFO 2025-03-10 11:43:44,775 basehttp 5410 128663961994816 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 11:43:44,796 basehttp 5410 128663961994816 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 11:43:44,801 basehttp 5410 128663831971392 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 11:43:50,218 basehttp 5410 128663852942912 "GET /admin/ HTTP/1.1" 200 19841
-INFO 2025-03-10 11:43:57,822 basehttp 5410 128663852942912 "GET /admin/user_login/user/ HTTP/1.1" 200 36474
-INFO 2025-03-10 11:43:57,870 basehttp 5410 128663852942912 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-03-10 11:43:57,872 basehttp 5410 128663821485632 "GET /static/admin/css/changelists.css?_=20180905 HTTP/1.1" 304 0
-INFO 2025-03-10 21:56:58,295 autoreload 5085 132147937755136 Watching for file changes with StatReloader
-INFO 2025-03-10 21:57:13,739 basehttp 5085 132147859949120 "GET /admin/ HTTP/1.1" 200 19841
-WARNING 2025-03-10 21:57:14,198 log 5085 132147859949120 Not Found: /favicon.ico
-WARNING 2025-03-10 21:57:14,199 basehttp 5085 132147859949120 "GET /favicon.ico HTTP/1.1" 404 3260
-WARNING 2025-03-10 21:57:14,211 log 5085 132147859949120 Not Found: /favicon.ico
-WARNING 2025-03-10 21:57:14,212 basehttp 5085 132147859949120 "GET /favicon.ico HTTP/1.1" 404 3260
-INFO 2025-03-10 21:57:16,582 basehttp 5085 132147859949120 "GET /admin/ HTTP/1.1" 200 19841
-INFO 2025-03-10 22:03:41,922 basehttp 5085 132147859949120 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:03:41,929 basehttp 5085 132147849463360 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:03:41,932 basehttp 5085 132147838977600 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:06:12,027 basehttp 5085 132147838977600 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:06:14,396 basehttp 5085 132147838977600 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:06:14,423 basehttp 5085 132147849463360 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:06:14,433 basehttp 5085 132147859949120 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:06:28,457 basehttp 5085 132147859949120 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:06:31,575 basehttp 5085 132147859949120 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:06:31,613 basehttp 5085 132147859949120 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:06:31,617 basehttp 5085 132147849463360 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:07:07,687 basehttp 5085 132147859949120 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:09:40,213 basehttp 5085 132147838977600 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:09:40,224 basehttp 5085 132147859949120 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:09:40,233 basehttp 5085 132147849463360 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:09:56,895 basehttp 5085 132147859949120 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:09:56,959 basehttp 5085 132147849463360 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:09:56,964 basehttp 5085 132147838977600 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:11:26,225 basehttp 5085 132147838977600 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:11:26,281 basehttp 5085 132147849463360 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:11:26,302 basehttp 5085 132147859949120 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:14:52,451 basehttp 5085 132147859949120 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:14:56,480 basehttp 5085 132147859949120 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:14:56,513 basehttp 5085 132147849463360 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:14:56,525 basehttp 5085 132147838977600 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:18:54,220 basehttp 5085 132147838977600 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:18:54,279 basehttp 5085 132147838977600 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:18:54,288 basehttp 5085 132147859949120 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:19:51,870 basehttp 5085 132147838977600 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:19:57,536 basehttp 5085 132147838977600 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:19:57,615 basehttp 5085 132147859949120 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:19:57,631 basehttp 5085 132147849463360 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:20:39,602 basehttp 5085 132147849463360 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:20:55,343 basehttp 5085 132147849463360 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:20:55,409 basehttp 5085 132147859949120 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:20:55,416 basehttp 5085 132147838977600 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:21:34,327 basehttp 5085 132147838977600 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:21:34,384 basehttp 5085 132147859949120 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:21:34,396 basehttp 5085 132147849463360 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:22:09,215 basehttp 5085 132147849463360 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:22:09,284 basehttp 5085 132147859949120 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:22:09,307 basehttp 5085 132147838977600 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:22:47,887 basehttp 5085 132147838977600 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:22:52,896 basehttp 5085 132147838977600 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:22:52,974 basehttp 5085 132147838977600 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:22:52,980 basehttp 5085 132147859949120 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:23:43,794 basehttp 5085 132147859949120 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:24:26,880 basehttp 5085 132147859949120 "GET /user/captcha/?username=15674458323 HTTP/1.1" 200 140
-INFO 2025-03-10 22:24:38,037 basehttp 5085 132147859949120 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
-INFO 2025-03-10 22:24:38,049 basehttp 5085 132147859949120 "POST /user/captcha/ HTTP/1.1" 200 17
-INFO 2025-03-10 22:24:38,114 basehttp 5085 132147859949120 "OPTIONS /user/login/token/ HTTP/1.1" 200 0
-INFO 2025-03-10 22:24:39,304 basehttp 5085 132147859949120 "POST /user/login/token/ HTTP/1.1" 200 669
-INFO 2025-03-10 22:24:40,889 basehttp 5085 132147838977600 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:24:40,892 basehttp 5085 132147859949120 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:24:40,903 basehttp 5085 132147849463360 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:40:36,918 basehttp 5085 132147849463360 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:40:37,026 basehttp 5085 132147859949120 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:40:37,049 basehttp 5085 132147838977600 "GET /nav/footer/ HTTP/1.1" 200 354
-WARNING 2025-03-10 22:42:46,171 log 5085 132147838977600 Bad Request: /user/captcha/
-WARNING 2025-03-10 22:42:46,173 basehttp 5085 132147838977600 "GET /user/captcha/?username= HTTP/1.1" 400 44
-WARNING 2025-03-10 22:42:47,370 log 5085 132147838977600 Bad Request: /user/captcha/
-WARNING 2025-03-10 22:42:47,372 basehttp 5085 132147838977600 "GET /user/captcha/?username= HTTP/1.1" 400 44
-WARNING 2025-03-10 22:42:47,870 log 5085 132147838977600 Bad Request: /user/captcha/
-WARNING 2025-03-10 22:42:47,872 basehttp 5085 132147838977600 "GET /user/captcha/?username= HTTP/1.1" 400 44
-WARNING 2025-03-10 22:42:48,094 log 5085 132147838977600 Bad Request: /user/captcha/
-WARNING 2025-03-10 22:42:48,096 basehttp 5085 132147838977600 "GET /user/captcha/?username= HTTP/1.1" 400 44
-INFO 2025-03-10 22:43:03,006 basehttp 5085 132147838977600 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:43:03,062 basehttp 5085 132147838977600 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:43:03,067 basehttp 5085 132147859949120 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:43:20,403 basehttp 5085 132147838977600 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-10 22:43:20,971 basehttp 5085 132147838977600 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-10 22:43:21,159 basehttp 5085 132147838977600 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-10 22:43:29,736 basehttp 5085 132147838977600 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-10 22:43:35,179 basehttp 5085 132147838977600 "POST /user/captcha/ HTTP/1.1" 200 17
-INFO 2025-03-10 22:43:36,199 basehttp 5085 132147838977600 "POST /user/login/token/ HTTP/1.1" 200 669
-INFO 2025-03-10 22:43:37,660 basehttp 5085 132147838977600 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:43:37,686 basehttp 5085 132147859949120 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:43:37,688 basehttp 5085 132147849463360 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 22:48:51,151 basehttp 5085 132147838977600 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-10 22:48:56,818 basehttp 5085 132147838977600 "POST /user/captcha/ HTTP/1.1" 200 17
-INFO 2025-03-10 22:48:57,823 basehttp 5085 132147838977600 "POST /user/login/token/ HTTP/1.1" 200 669
-INFO 2025-03-10 22:48:59,117 basehttp 5085 132147838977600 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 22:48:59,182 basehttp 5085 132147838977600 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 22:48:59,211 basehttp 5085 132147849463360 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 23:02:10,751 basehttp 5085 132147849463360 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-10 23:02:18,059 basehttp 5085 132147849463360 "POST /user/captcha/ HTTP/1.1" 200 17
-WARNING 2025-03-10 23:02:19,103 log 5085 132147849463360 Unauthorized: /user/login/token/
-WARNING 2025-03-10 23:02:19,105 basehttp 5085 132147849463360 "POST /user/login/token/ HTTP/1.1" 401 55
-INFO 2025-03-10 23:02:23,609 basehttp 5085 132147849463360 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-10 23:02:36,090 basehttp 5085 132147849463360 "POST /user/captcha/ HTTP/1.1" 200 17
-INFO 2025-03-10 23:02:37,130 basehttp 5085 132147849463360 "POST /user/login/token/ HTTP/1.1" 200 669
-INFO 2025-03-10 23:02:38,519 basehttp 5085 132147849463360 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 23:02:38,619 basehttp 5085 132147849463360 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 23:02:38,642 basehttp 5085 132147838977600 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 23:11:40,230 basehttp 5085 132147838977600 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 23:11:40,265 basehttp 5085 132147849463360 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 23:11:40,284 basehttp 5085 132147859949120 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 23:22:06,564 autoreload 5085 132147937755136 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-03-10 23:22:11,179 autoreload 7447 131074885095424 Watching for file changes with StatReloader
-INFO 2025-03-10 23:22:29,385 autoreload 7447 131074885095424 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/views.py changed, reloading.
-INFO 2025-03-10 23:22:30,811 autoreload 7492 134263495438336 Watching for file changes with StatReloader
-INFO 2025-03-10 23:23:20,203 autoreload 7532 129830742814720 Watching for file changes with StatReloader
-INFO 2025-03-10 23:23:24,345 basehttp 7532 129830664275520 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 23:23:24,355 basehttp 7532 129830643304000 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-10 23:23:24,364 basehttp 7532 129830653789760 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 23:23:35,436 autoreload 7532 129830742814720 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/views.py changed, reloading.
-INFO 2025-03-10 23:23:36,793 autoreload 7553 125337314910208 Watching for file changes with StatReloader
-INFO 2025-03-10 23:23:43,251 autoreload 7553 125337314910208 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/views.py changed, reloading.
-INFO 2025-03-10 23:23:44,600 autoreload 7577 136246772424704 Watching for file changes with StatReloader
-INFO 2025-03-10 23:23:55,816 basehttp 7577 136246611412544 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-10 23:23:55,832 basehttp 7577 136246621898304 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-10 23:23:55,840 basehttp 7577 136246600926784 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-11 22:04:19,256 autoreload 13087 133797692620800 Watching for file changes with StatReloader
-WARNING 2025-03-11 22:05:09,808 log 13087 133797546821184 Method Not Allowed: /user/reg/
-WARNING 2025-03-11 22:05:09,809 basehttp 13087 133797546821184 "GET /user/reg/ HTTP/1.1" 405 45
-WARNING 2025-03-11 22:05:48,874 log 13087 133797546821184 Bad Request: /user/reg/
-WARNING 2025-03-11 22:05:48,875 basehttp 13087 133797546821184 "POST /user/reg/ HTTP/1.1" 400 79
-WARNING 2025-03-11 22:07:03,791 log 13087 133797536335424 Bad Request: /user/reg/
-WARNING 2025-03-11 22:07:03,792 basehttp 13087 133797536335424 "POST /user/reg/ HTTP/1.1" 400 98
-ERROR 2025-03-11 22:07:48,250 log 13087 133797536335424 Internal Server Error: /user/reg/
-Traceback (most recent call last):
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
-    instance = ModelClass._default_manager.create(**validated_data)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/query.py", line 677, in create
-    obj = self.model(**kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/base.py", line 567, in __init__
-    raise TypeError(
-TypeError: User() got unexpected keyword arguments: 'sms_code'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
-    return view_func(request, *args, **kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/generics.py", line 194, in post
-    return self.create(request, *args, **kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/mixins.py", line 19, in create
-    self.perform_create(serializer)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/mixins.py", line 24, in perform_create
-    serializer.save()
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/serializers.py", line 208, in save
-    self.instance = self.create(validated_data)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/serializers.py", line 1008, in create
-    raise TypeError(msg)
-TypeError: Got a `TypeError` when calling `User.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `User.objects.create()`. You may need to make the field read-only, or override the UserModelSerializer.create() method to handle this correctly.
-Original exception was:
- Traceback (most recent call last):
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/serializers.py", line 989, in create
-    instance = ModelClass._default_manager.create(**validated_data)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/query.py", line 677, in create
-    obj = self.model(**kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/base.py", line 567, in __init__
-    raise TypeError(
-TypeError: User() got unexpected keyword arguments: 'sms_code'
-
-ERROR 2025-03-11 22:07:48,252 basehttp 13087 133797536335424 "POST /user/reg/ HTTP/1.1" 500 165154
-INFO 2025-03-11 22:30:10,520 autoreload 13087 133797692620800 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-03-11 22:30:11,646 autoreload 13572 136435181043712 Watching for file changes with StatReloader
-INFO 2025-03-11 22:33:02,006 autoreload 13572 136435181043712 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-03-11 22:33:02,667 autoreload 13640 137538016043008 Watching for file changes with StatReloader
-INFO 2025-03-11 22:41:13,017 autoreload 13640 137538016043008 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-03-11 22:41:13,872 autoreload 14054 139043189944320 Watching for file changes with StatReloader
-WARNING 2025-03-11 22:41:29,676 log 14054 139043044066880 Bad Request: /user/login/token/
-WARNING 2025-03-11 22:41:29,677 basehttp 14054 139043044066880 "POST /user/login/token/ HTTP/1.1" 400 41
-WARNING 2025-03-11 22:41:47,420 log 14054 139043044066880 Bad Request: /user/login/token/
-WARNING 2025-03-11 22:41:47,421 basehttp 14054 139043044066880 "POST /user/login/token/ HTTP/1.1" 400 41
-WARNING 2025-03-11 22:42:06,143 log 14054 139043044066880 Bad Request: /user/login/token/
-WARNING 2025-03-11 22:42:06,143 basehttp 14054 139043044066880 "POST /user/login/token/ HTTP/1.1" 400 41
-WARNING 2025-03-11 22:42:23,508 log 14054 139043044066880 Unauthorized: /user/login/token/
-WARNING 2025-03-11 22:42:23,509 basehttp 14054 139043044066880 "POST /user/login/token/ HTTP/1.1" 401 55
-WARNING 2025-03-11 22:42:58,316 log 14054 139043044066880 Unauthorized: /user/login/token/
-WARNING 2025-03-11 22:42:58,317 basehttp 14054 139043044066880 "POST /user/login/token/ HTTP/1.1" 401 55
-INFO 2025-03-11 22:43:11,776 basehttp 14054 139043044066880 "POST /user/login/token/ HTTP/1.1" 200 669
-INFO 2025-03-11 23:00:46,989 autoreload 14054 139043189944320 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-03-11 23:00:47,755 autoreload 14375 127892151709696 Watching for file changes with StatReloader
-INFO 2025-03-11 23:03:49,004 autoreload 14375 127892151709696 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-03-11 23:03:49,977 autoreload 14453 129963453718528 Watching for file changes with StatReloader
-INFO 2025-03-12 13:08:24,539 autoreload 5220 140101203800064 Watching for file changes with StatReloader
-WARNING 2025-03-12 13:08:31,492 log 5220 140101124359744 Bad Request: /user/reg/
-WARNING 2025-03-12 13:08:31,493 basehttp 5220 140101124359744 "POST /user/reg/ HTTP/1.1" 400 39
-INFO 2025-03-12 13:09:12,732 basehttp 5220 140101124359744 "POST /user/reg/ HTTP/1.1" 201 33
-WARNING 2025-03-12 13:09:19,231 log 5220 140101124359744 Bad Request: /user/reg/
-WARNING 2025-03-12 13:09:19,232 basehttp 5220 140101124359744 "POST /user/reg/ HTTP/1.1" 400 61
-WARNING 2025-03-12 13:09:45,163 log 5220 140101124359744 Bad Request: /user/reg/
-WARNING 2025-03-12 13:09:45,164 basehttp 5220 140101124359744 "POST /user/reg/ HTTP/1.1" 400 36
-INFO 2025-03-12 13:10:40,776 basehttp 5220 140101113873984 "GET /admin/ HTTP/1.1" 200 19841
-INFO 2025-03-12 13:10:40,831 basehttp 5220 140101113873984 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,843 basehttp 5220 140101113873984 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,846 basehttp 5220 140101025793600 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,851 basehttp 5220 140101015307840 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,856 basehttp 5220 140101015307840 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,857 basehttp 5220 140101025793600 "GET /static/admin/simpleui-x/js/vue.min.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,865 basehttp 5220 140100983850560 "GET /static/admin/simpleui-x/automatic/segment.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,865 basehttp 5220 140100994336320 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,866 basehttp 5220 140101004822080 "GET /static/admin/simpleui-x/elementui/index.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,879 basehttp 5220 140101004822080 "GET /static/admin/simpleui-x/locale/en-us.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,881 basehttp 5220 140100994336320 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,885 basehttp 5220 140100983850560 "GET /static/admin/simpleui-x/js/cookie.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,913 basehttp 5220 140101025793600 "GET /static/admin/simpleui-x/theme/theme.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,917 basehttp 5220 140101015307840 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,919 basehttp 5220 140101113873984 "GET /static/admin/simpleui-x/js/menu.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:40,935 basehttp 5220 140100983850560 "GET /static/admin/simpleui-x/js/index.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:41,302 basehttp 5220 140100983850560 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:41,305 basehttp 5220 140101015307840 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:41,312 basehttp 5220 140101113873984 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
-WARNING 2025-03-12 13:10:41,353 log 5220 140101113873984 Not Found: /favicon.ico
-WARNING 2025-03-12 13:10:41,354 basehttp 5220 140101113873984 "GET /favicon.ico HTTP/1.1" 404 3260
-INFO 2025-03-12 13:10:43,856 basehttp 5220 140101113873984 "GET /admin/user_login/user/ HTTP/1.1" 200 37860
-INFO 2025-03-12 13:10:43,885 basehttp 5220 140101113873984 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:43,886 basehttp 5220 140101015307840 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:43,893 basehttp 5220 140101025793600 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:43,896 basehttp 5220 140100983850560 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:43,898 basehttp 5220 140101004822080 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:43,899 basehttp 5220 140100994336320 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:43,931 basehttp 5220 140100994336320 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:43,935 basehttp 5220 140101113873984 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:43,942 basehttp 5220 140101004822080 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
-INFO 2025-03-12 13:10:43,950 basehttp 5220 140101015307840 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-03-12 13:16:44,175 autoreload 5220 140101203800064 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-03-12 13:16:45,528 autoreload 5811 140311778607104 Watching for file changes with StatReloader
-WARNING 2025-03-12 13:17:01,680 log 5811 140311699392064 Bad Request: /user/reg/
-WARNING 2025-03-12 13:17:01,682 basehttp 5811 140311699392064 "POST /user/reg/ HTTP/1.1" 400 119
-WARNING 2025-03-12 13:17:54,629 log 5811 140311699392064 Bad Request: /user/login/token/
-WARNING 2025-03-12 13:17:54,630 basehttp 5811 140311699392064 "POST /user/login/token/ HTTP/1.1" 400 81
-WARNING 2025-03-12 13:18:07,299 log 5811 140311699392064 Bad Request: /user/login/token/
-WARNING 2025-03-12 13:18:07,300 basehttp 5811 140311699392064 "POST /user/login/token/ HTTP/1.1" 400 71
-INFO 2025-03-12 13:18:59,543 basehttp 5811 140311699392064 "POST /user/login/token/ HTTP/1.1" 200 669
-INFO 2025-03-12 13:24:52,674 autoreload 5811 140311778607104 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-03-12 13:24:53,351 autoreload 6058 136327372734464 Watching for file changes with StatReloader
-INFO 2025-03-12 13:25:14,428 basehttp 6058 136327219643968 "POST /user/reg/ HTTP/1.1" 201 272
-INFO 2025-03-12 14:00:36,244 autoreload 6058 136327372734464 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-03-12 14:00:37,051 autoreload 6711 129726877544448 Watching for file changes with StatReloader
-INFO 2025-03-12 18:01:58,266 autoreload 6711 129726877544448 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-03-12 18:01:59,725 autoreload 7600 126424706560000 Watching for file changes with StatReloader
-INFO 2025-03-12 18:25:20,837 autoreload 7600 126424706560000 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-03-12 18:25:21,542 autoreload 7942 138068975857664 Watching for file changes with StatReloader
-INFO 2025-03-12 18:32:42,621 basehttp 7942 138068807910976 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 18:32:42,624 basehttp 7942 138068828882496 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 18:32:42,665 basehttp 7942 138068818396736 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-12 18:32:42,790 basehttp 7942 138068786939456 "GET /media/banner/Loginbg.3377d0c.jpg HTTP/1.1" 304 0
-INFO 2025-03-12 18:32:42,796 basehttp 7942 138068700956224 "GET /media/banner/banner2.png HTTP/1.1" 304 0
-INFO 2025-03-12 18:32:42,796 basehttp 7942 138068797425216 "GET /media/banner/clash_dBw4us0.jpg HTTP/1.1" 304 0
-INFO 2025-03-12 19:39:38,261 basehttp 7942 138068807910976 "OPTIONS /user/reg/ HTTP/1.1" 200 0
-WARNING 2025-03-12 19:39:38,414 log 7942 138068807910976 Bad Request: /user/reg/
-WARNING 2025-03-12 19:39:38,415 basehttp 7942 138068807910976 "POST /user/reg/ HTTP/1.1" 400 61
-WARNING 2025-03-12 19:41:31,687 log 7942 138068807910976 Bad Request: /user/reg/
-WARNING 2025-03-12 19:41:31,688 basehttp 7942 138068807910976 "POST /user/reg/ HTTP/1.1" 400 98
-WARNING 2025-03-12 19:41:34,737 log 7942 138068807910976 Bad Request: /user/reg/
-WARNING 2025-03-12 19:41:34,738 basehttp 7942 138068807910976 "POST /user/reg/ HTTP/1.1" 400 61
-WARNING 2025-03-12 19:42:05,879 log 7942 138068807910976 Bad Request: /user/reg/
-WARNING 2025-03-12 19:42:05,880 basehttp 7942 138068807910976 "POST /user/reg/ HTTP/1.1" 400 61
-WARNING 2025-03-12 19:55:50,210 log 7942 138068807910976 Bad Request: /user/reg/
-WARNING 2025-03-12 19:55:50,211 basehttp 7942 138068807910976 "POST /user/reg/ HTTP/1.1" 400 73
-WARNING 2025-03-12 19:55:54,156 log 7942 138068807910976 Bad Request: /user/reg/
-WARNING 2025-03-12 19:55:54,157 basehttp 7942 138068807910976 "POST /user/reg/ HTTP/1.1" 400 36
-WARNING 2025-03-12 19:55:59,441 log 7942 138068807910976 Bad Request: /user/reg/
-WARNING 2025-03-12 19:55:59,442 basehttp 7942 138068807910976 "POST /user/reg/ HTTP/1.1" 400 36
-WARNING 2025-03-12 19:56:11,176 log 7942 138068807910976 Bad Request: /user/reg/
-WARNING 2025-03-12 19:56:11,177 basehttp 7942 138068807910976 "POST /user/reg/ HTTP/1.1" 400 61
-WARNING 2025-03-12 19:57:25,626 log 7942 138068807910976 Bad Request: /user/reg/
-WARNING 2025-03-12 19:57:25,627 basehttp 7942 138068807910976 "POST /user/reg/ HTTP/1.1" 400 73
-WARNING 2025-03-12 19:57:29,580 log 7942 138068807910976 Bad Request: /user/reg/
-WARNING 2025-03-12 19:57:29,581 basehttp 7942 138068807910976 "POST /user/reg/ HTTP/1.1" 400 36
-WARNING 2025-03-12 19:57:37,465 log 7942 138068807910976 Bad Request: /user/reg/
-WARNING 2025-03-12 19:57:37,466 basehttp 7942 138068807910976 "POST /user/reg/ HTTP/1.1" 400 61
-INFO 2025-03-12 19:59:42,944 basehttp 7942 138068807910976 "POST /user/reg/ HTTP/1.1" 201 272
-INFO 2025-03-12 20:00:08,750 basehttp 7942 138068807910976 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 20:00:08,756 basehttp 7942 138068797425216 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 20:00:08,769 basehttp 7942 138068818396736 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-12 20:01:48,261 basehttp 7942 138068818396736 "POST /user/reg/ HTTP/1.1" 201 272
-WARNING 2025-03-12 20:01:51,319 log 7942 138068818396736 Bad Request: /user/reg/
-WARNING 2025-03-12 20:01:51,320 basehttp 7942 138068818396736 "POST /user/reg/ HTTP/1.1" 400 61
-INFO 2025-03-12 20:02:23,355 basehttp 7942 138068786939456 "GET /admin/ HTTP/1.1" 200 19841
-INFO 2025-03-12 20:02:23,799 basehttp 7942 138068786939456 "GET /admin/user_login/user/ HTTP/1.1" 200 42018
-INFO 2025-03-12 20:02:23,860 basehttp 7942 138068786939456 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-03-12 20:02:27,768 basehttp 7942 138068786939456 "GET /admin/user_login/user/5/change/ HTTP/1.1" 200 13685
-INFO 2025-03-12 20:02:27,823 basehttp 7942 138068786939456 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-03-12 20:02:29,838 basehttp 7942 138068786939456 "GET /admin/user_login/user/ HTTP/1.1" 200 42018
-INFO 2025-03-12 20:02:29,882 basehttp 7942 138068786939456 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-03-12 20:02:37,902 basehttp 7942 138068786939456 "POST /admin/user_login/user/ HTTP/1.1" 200 6549
-INFO 2025-03-12 20:02:37,942 basehttp 7942 138068786939456 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
-INFO 2025-03-12 20:02:42,108 basehttp 7942 138068786939456 "POST /admin/user_login/user/ HTTP/1.1" 302 0
-INFO 2025-03-12 20:02:42,162 basehttp 7942 138068786939456 "GET /admin/user_login/user/ HTTP/1.1" 200 37953
-INFO 2025-03-12 20:02:42,246 basehttp 7942 138068786939456 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-03-12 20:05:56,741 basehttp 7942 138068818396736 "POST /user/reg/ HTTP/1.1" 201 272
-INFO 2025-03-12 20:05:57,781 basehttp 7942 138068818396736 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 20:05:57,786 basehttp 7942 138068797425216 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-12 20:05:57,793 basehttp 7942 138068807910976 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 20:06:23,028 basehttp 7942 138068807910976 "GET /user/captcha/?username=15674458333 HTTP/1.1" 200 140
-INFO 2025-03-12 20:06:29,837 basehttp 7942 138068807910976 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
-INFO 2025-03-12 20:06:29,844 basehttp 7942 138068807910976 "POST /user/captcha/ HTTP/1.1" 200 17
-INFO 2025-03-12 20:06:29,900 basehttp 7942 138068807910976 "OPTIONS /user/login/token/ HTTP/1.1" 200 0
-INFO 2025-03-12 20:06:30,806 basehttp 7942 138068807910976 "POST /user/login/token/ HTTP/1.1" 200 638
-INFO 2025-03-12 20:06:32,145 basehttp 7942 138068807910976 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 20:06:32,151 basehttp 7942 138068797425216 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-12 20:06:32,173 basehttp 7942 138068818396736 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 20:06:42,471 basehttp 7942 138068786939456 "GET /admin/ HTTP/1.1" 200 21026
-INFO 2025-03-12 20:06:42,676 basehttp 7942 138068786939456 "GET /admin/user_login/user/ HTTP/1.1" 200 39246
-INFO 2025-03-12 20:06:42,714 basehttp 7942 138068786939456 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-03-12 20:11:07,751 basehttp 7942 138068818396736 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 20:11:07,776 basehttp 7942 138068818396736 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-12 20:11:07,781 basehttp 7942 138068797425216 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 20:11:24,788 basehttp 7942 138068818396736 "GET /user/captcha/?username=15674458333 HTTP/1.1" 200 140
-INFO 2025-03-12 20:11:31,045 basehttp 7942 138068818396736 "POST /user/captcha/ HTTP/1.1" 200 17
-INFO 2025-03-12 20:11:31,929 basehttp 7942 138068818396736 "POST /user/login/token/ HTTP/1.1" 200 638
-INFO 2025-03-12 20:11:33,415 basehttp 7942 138068818396736 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 20:11:33,436 basehttp 7942 138068807910976 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 20:11:33,437 basehttp 7942 138068797425216 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-12 20:23:06,572 basehttp 7942 138068807910976 "GET /user/captcha/?username=15674458323 HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:06,738 basehttp 7942 138068807910976 "GET /user/captcha/?username=15674458323 HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:10,086 basehttp 7942 138068807910976 "GET /user/captcha/?username=15674458323 HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:10,826 basehttp 7942 138068807910976 "GET /user/captcha/?username=15674458323 HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:13,386 basehttp 7942 138068807910976 "GET /user/captcha/?username=15674458323 HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:30,736 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:32,678 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:33,127 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:33,329 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:34,409 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:36,203 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:37,250 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:37,393 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:38,717 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:38,869 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:40,906 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:42,271 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:46,027 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:46,211 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:48,133 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:49,497 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 20:23:49,644 basehttp 7942 138068807910976 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 21:37:57,046 autoreload 7942 138068975857664 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/views.py changed, reloading.
-INFO 2025-03-12 21:37:58,945 autoreload 11139 129594709479424 Watching for file changes with StatReloader
-WARNING 2025-03-12 21:38:03,711 log 11139 129594619332160 Unauthorized: /banner/
-WARNING 2025-03-12 21:38:03,713 basehttp 11139 129594619332160 "GET /banner/ HTTP/1.1" 401 43
-INFO 2025-03-12 21:38:03,728 basehttp 11139 129594629817920 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 21:38:03,756 basehttp 11139 129594608846400 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 21:38:19,593 basehttp 11139 129594608846400 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-12 21:38:26,411 basehttp 11139 129594608846400 "POST /user/captcha/ HTTP/1.1" 200 17
-INFO 2025-03-12 21:38:27,274 basehttp 11139 129594608846400 "POST /user/login/token/ HTTP/1.1" 200 669
-INFO 2025-03-12 21:38:28,501 basehttp 11139 129594608846400 "GET /nav/header/ HTTP/1.1" 200 239
-WARNING 2025-03-12 21:38:28,507 log 11139 129594629817920 Unauthorized: /banner/
-WARNING 2025-03-12 21:38:28,510 basehttp 11139 129594629817920 "GET /banner/ HTTP/1.1" 401 43
-INFO 2025-03-12 21:38:28,526 basehttp 11139 129594619332160 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 22:08:38,567 autoreload 11139 129594709479424 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
-INFO 2025-03-12 22:08:39,324 autoreload 11546 136981157003264 Watching for file changes with StatReloader
-INFO 2025-03-12 22:08:39,979 basehttp 11546 136981000488512 "GET /admin/ HTTP/1.1" 200 21026
-INFO 2025-03-12 22:08:40,284 basehttp 11546 136981000488512 "GET /admin/user_login/user/ HTTP/1.1" 200 39246
-INFO 2025-03-12 22:08:40,320 basehttp 11546 136981000488512 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-03-12 22:08:43,326 basehttp 11546 136981000488512 "GET /admin/home/banner/ HTTP/1.1" 200 28210
-INFO 2025-03-12 22:08:43,363 basehttp 11546 136980990002752 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
-INFO 2025-03-12 22:08:43,369 basehttp 11546 136980979516992 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
-INFO 2025-03-12 22:08:43,397 basehttp 11546 136981000488512 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-03-12 22:08:44,977 basehttp 11546 136981000488512 "GET /admin/home/banner/4/change/ HTTP/1.1" 200 13213
-INFO 2025-03-12 22:08:45,037 basehttp 11546 136981000488512 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-03-12 22:08:50,745 basehttp 11546 136980969031232 "GET /nav/header/ HTTP/1.1" 200 239
-WARNING 2025-03-12 22:08:50,770 log 11546 136980969031232 Unauthorized: /banner/
-WARNING 2025-03-12 22:08:50,771 basehttp 11546 136980969031232 "GET /banner/ HTTP/1.1" 401 43
-INFO 2025-03-12 22:08:50,782 basehttp 11546 136980958545472 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 22:09:16,016 autoreload 11546 136981157003264 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
-INFO 2025-03-12 22:09:16,714 autoreload 11579 123206865903616 Watching for file changes with StatReloader
-INFO 2025-03-12 22:09:18,882 basehttp 11579 123206786614848 "GET /nav/header/ HTTP/1.1" 200 239
-WARNING 2025-03-12 22:09:18,883 log 11579 123206704825920 Unauthorized: /banner/
-WARNING 2025-03-12 22:09:18,885 basehttp 11579 123206704825920 "GET /banner/ HTTP/1.1" 401 43
-INFO 2025-03-12 22:09:18,953 basehttp 11579 123206694340160 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 22:19:27,528 autoreload 11579 123206865903616 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
-INFO 2025-03-12 22:19:28,281 autoreload 11727 124357936627712 Watching for file changes with StatReloader
-WARNING 2025-03-12 22:19:28,723 log 11727 124357848335936 Unauthorized: /banner/
-WARNING 2025-03-12 22:19:28,729 basehttp 11727 124357848335936 "GET /banner/ HTTP/1.1" 401 43
-INFO 2025-03-12 22:19:28,745 basehttp 11727 124357837850176 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 22:19:28,750 basehttp 11727 124357858821696 "GET /nav/header/ HTTP/1.1" 200 239
-WARNING 2025-03-12 22:19:32,561 log 11727 124357837850176 Unauthorized: /banner/
-WARNING 2025-03-12 22:19:32,562 basehttp 11727 124357837850176 "GET /banner/ HTTP/1.1" 401 43
-INFO 2025-03-12 22:19:32,565 basehttp 11727 124357858821696 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 22:19:32,663 basehttp 11727 124357848335936 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 22:19:43,831 autoreload 11727 124357936627712 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/views.py changed, reloading.
-INFO 2025-03-12 22:19:44,529 autoreload 11749 133112954499072 Watching for file changes with StatReloader
-INFO 2025-03-12 22:19:45,615 basehttp 11749 133112874927680 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 22:19:45,665 basehttp 11749 133112864441920 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-12 22:19:45,669 basehttp 11749 133112778458688 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 22:22:36,264 autoreload 11749 133112954499072 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
-INFO 2025-03-12 22:22:36,974 autoreload 11795 134351532138496 Watching for file changes with StatReloader
-INFO 2025-03-12 22:22:41,470 basehttp 11795 134351452898880 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 22:22:41,489 basehttp 11795 134351442413120 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-12 22:22:41,493 basehttp 11795 134351431927360 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 22:22:54,063 basehttp 11795 134351421441600 "GET /user/captcha/?username=daixing HTTP/1.1" 200 7141
-INFO 2025-03-12 22:22:54,140 basehttp 11795 134351421441600 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
-INFO 2025-03-12 22:22:54,148 basehttp 11795 134351421441600 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
-INFO 2025-03-12 22:22:54,157 basehttp 11795 134351339652672 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
-INFO 2025-03-12 22:22:54,160 basehttp 11795 134351329166912 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
-INFO 2025-03-12 22:22:54,163 basehttp 11795 134351339652672 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
-INFO 2025-03-12 22:22:54,166 basehttp 11795 134351318681152 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
-INFO 2025-03-12 22:22:54,170 basehttp 11795 134351329166912 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
-INFO 2025-03-12 22:22:54,172 basehttp 11795 134351297709632 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
-INFO 2025-03-12 22:22:54,173 basehttp 11795 134351308195392 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
-INFO 2025-03-12 22:22:54,175 basehttp 11795 134351318681152 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
-INFO 2025-03-12 22:22:54,178 basehttp 11795 134351308195392 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
-INFO 2025-03-12 22:22:54,217 basehttp 11795 134351329166912 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
-INFO 2025-03-12 22:23:16,100 autoreload 11795 134351532138496 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-03-12 22:23:16,871 autoreload 11875 134873777958912 Watching for file changes with StatReloader
-INFO 2025-03-12 22:23:18,356 basehttp 11875 134873698272832 "GET /user/captcha/?username=daixing HTTP/1.1" 200 7141
-INFO 2025-03-12 22:24:52,356 autoreload 11875 134873777958912 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/home/views.py changed, reloading.
-INFO 2025-03-12 22:24:53,052 autoreload 11949 127125868105728 Watching for file changes with StatReloader
-WARNING 2025-03-12 22:24:55,635 log 11949 127125711488576 Unauthorized: /banner/
-WARNING 2025-03-12 22:24:55,637 basehttp 11949 127125711488576 "GET /banner/ HTTP/1.1" 401 43
-INFO 2025-03-12 22:24:55,648 basehttp 11949 127125721974336 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 22:24:55,653 basehttp 11949 127125701002816 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 22:30:53,941 autoreload 11949 127125868105728 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-03-12 22:30:54,682 autoreload 12076 138232443379712 Watching for file changes with StatReloader
-INFO 2025-03-12 22:31:01,678 autoreload 12076 138232443379712 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
-INFO 2025-03-12 22:31:02,352 autoreload 12093 136930292068352 Watching for file changes with StatReloader
-INFO 2025-03-12 22:31:04,296 basehttp 12093 136930131969600 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-12 22:31:04,297 basehttp 12093 136930121483840 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 22:31:04,303 basehttp 12093 136930213758528 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 22:31:14,874 autoreload 12093 136930292068352 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
-INFO 2025-03-12 22:31:15,596 autoreload 12115 140063113728000 Watching for file changes with StatReloader
-INFO 2025-03-12 22:31:16,179 basehttp 12115 140062968776256 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 22:31:16,219 basehttp 12115 140062958290496 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-12 22:31:16,225 basehttp 12115 140062947804736 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 22:31:17,878 basehttp 12115 140062947804736 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 22:31:17,944 basehttp 12115 140062958290496 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-12 22:31:17,949 basehttp 12115 140062968776256 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 22:31:18,999 basehttp 12115 140062968776256 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 22:31:19,063 basehttp 12115 140062947804736 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 22:31:19,064 basehttp 12115 140062958290496 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-12 22:31:19,817 basehttp 12115 140062947804736 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-12 22:31:19,871 basehttp 12115 140062968776256 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-12 22:31:19,877 basehttp 12115 140062958290496 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-12 22:56:00,396 autoreload 12115 140063113728000 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-03-12 22:56:01,125 autoreload 12507 128746961694720 Watching for file changes with StatReloader
-WARNING 2025-03-12 22:56:10,837 log 12507 128746809984576 Method Not Allowed: /user/login/token/
-WARNING 2025-03-12 22:56:10,838 basehttp 12507 128746809984576 "GET /user/login/token/ HTTP/1.1" 405 7510
-INFO 2025-03-12 22:56:22,315 basehttp 12507 128746809984576 "POST /user/login/token/ HTTP/1.1" 200 8213
-INFO 2025-03-12 23:28:58,197 autoreload 12507 128746961694720 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-03-12 23:28:58,928 autoreload 12894 127813452103680 Watching for file changes with StatReloader
-INFO 2025-03-21 18:46:13,426 autoreload 5671 128273483988992 Watching for file changes with StatReloader
-INFO 2025-03-21 18:47:26,925 basehttp 5671 128273384212032 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-21 18:47:26,928 basehttp 5671 128273405183552 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-21 18:47:26,937 basehttp 5671 128273394697792 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-21 18:47:34,778 basehttp 5671 128273373726272 "GET /admin/ HTTP/1.1" 200 21026
-INFO 2025-03-21 18:47:35,221 basehttp 5671 128273373726272 "GET /admin/home/banner/ HTTP/1.1" 200 28210
-WARNING 2025-03-21 18:47:35,689 log 5671 128273373726272 Not Found: /favicon.ico
-WARNING 2025-03-21 18:47:35,690 basehttp 5671 128273373726272 "GET /favicon.ico HTTP/1.1" 404 3260
-INFO 2025-03-21 18:59:55,741 basehttp 5671 128273394697792 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
-INFO 2025-03-21 19:00:14,086 basehttp 5671 128273394697792 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
-INFO 2025-03-21 19:00:14,092 basehttp 5671 128273394697792 "POST /user/captcha/ HTTP/1.1" 200 17
-INFO 2025-03-21 19:00:14,145 basehttp 5671 128273394697792 "OPTIONS /user/login/token/ HTTP/1.1" 200 0
-INFO 2025-03-21 19:00:15,167 basehttp 5671 128273394697792 "POST /user/login/token/ HTTP/1.1" 200 669
-INFO 2025-03-21 19:00:29,805 basehttp 5671 128273394697792 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-21 19:00:29,827 basehttp 5671 128273405183552 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-21 19:00:29,830 basehttp 5671 128273373726272 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-25 18:23:53,141 autoreload 4920 128142108536832 Watching for file changes with StatReloader
-INFO 2025-03-25 18:24:53,634 basehttp 4920 128141947307584 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-25 18:24:53,642 basehttp 4920 128141957793344 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-25 18:24:53,644 basehttp 4920 128141936821824 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-25 18:25:01,473 basehttp 4920 128141936821824 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-25 18:25:01,488 basehttp 4920 128141936821824 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-25 18:25:01,498 basehttp 4920 128141957793344 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-25 18:25:03,223 basehttp 4920 128141936821824 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-25 18:25:03,234 basehttp 4920 128141947307584 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-25 18:25:03,235 basehttp 4920 128141957793344 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-25 18:25:11,596 basehttp 4920 128141947307584 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-25 18:25:11,621 basehttp 4920 128141957793344 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-25 18:25:11,628 basehttp 4920 128141947307584 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-25 18:25:11,629 basehttp 4920 128141936821824 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-25 18:25:11,643 basehttp 4920 128141957793344 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-25 18:25:11,649 basehttp 4920 128141926336064 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-25 18:25:11,704 basehttp 4920 128141905364544 "GET /media/banner/Loginbg.3377d0c.jpg HTTP/1.1" 304 0
-INFO 2025-03-25 18:25:11,707 basehttp 4920 128141915850304 "GET /media/banner/clash_dBw4us0.jpg HTTP/1.1" 304 0
-INFO 2025-03-25 18:25:11,708 basehttp 4920 128141823575616 "GET /media/banner/banner2.png HTTP/1.1" 304 0
-INFO 2025-03-25 18:25:27,716 basehttp 4920 128141926336064 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-25 18:25:27,721 basehttp 4920 128141823575616 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-25 18:25:27,726 basehttp 4920 128141947307584 "GET /banner/ HTTP/1.1" 200 319
-WARNING 2025-03-25 18:25:38,905 log 4920 128141823575616 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 18:25:38,906 basehttp 4920 128141823575616 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-INFO 2025-03-25 18:25:47,379 basehttp 4920 128141823575616 "OPTIONS /user/reg/ HTTP/1.1" 200 0
-WARNING 2025-03-25 18:25:47,397 log 4920 128141823575616 Bad Request: /user/reg/
-WARNING 2025-03-25 18:25:47,398 basehttp 4920 128141823575616 "POST /user/reg/ HTTP/1.1" 400 98
-WARNING 2025-03-25 18:25:54,646 log 4920 128141823575616 Bad Request: /user/reg/
-WARNING 2025-03-25 18:25:54,646 basehttp 4920 128141823575616 "POST /user/reg/ HTTP/1.1" 400 61
-WARNING 2025-03-25 18:25:59,915 log 4920 128141823575616 Bad Request: /user/mobile/156744583234/
-WARNING 2025-03-25 18:25:59,916 basehttp 4920 128141823575616 "GET /user/mobile/156744583234/ HTTP/1.1" 400 38
-WARNING 2025-03-25 18:25:59,999 log 4920 128141823575616 Bad Request: /user/reg/
-WARNING 2025-03-25 18:25:59,999 basehttp 4920 128141823575616 "POST /user/reg/ HTTP/1.1" 400 36
-ERROR 2025-03-25 18:26:05,838 log 4920 128141823575616 Internal Server Error: /user/mobile/15674458321/
-Traceback (most recent call last):
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
-    return view_func(request, *args, **kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 511, in dispatch
-    self.response = self.finalize_response(request, response, *args, **kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 423, in finalize_response
-    assert isinstance(response, HttpResponseBase), (
-AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
-ERROR 2025-03-25 18:26:05,840 basehttp 4920 128141823575616 "GET /user/mobile/15674458321/ HTTP/1.1" 500 87746
-INFO 2025-03-25 18:26:06,809 basehttp 4920 128141823575616 "POST /user/reg/ HTTP/1.1" 201 272
-INFO 2025-03-25 18:26:08,050 basehttp 4920 128141823575616 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-25 18:26:08,079 basehttp 4920 128141947307584 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-25 18:26:08,086 basehttp 4920 128141823575616 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-25 18:26:24,399 basehttp 4920 128141926336064 "GET /admin/ HTTP/1.1" 200 21026
-INFO 2025-03-25 18:26:24,466 basehttp 4920 128141926336064 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,468 basehttp 4920 128141915850304 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,470 basehttp 4920 128141936821824 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,470 basehttp 4920 128141957793344 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,485 basehttp 4920 128141957793344 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,491 basehttp 4920 128141926336064 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,493 basehttp 4920 128141936821824 "GET /static/admin/simpleui-x/js/vue.min.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,492 basehttp 4920 128141915850304 "GET /static/admin/simpleui-x/elementui/index.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,496 basehttp 4920 128141905364544 "GET /static/admin/simpleui-x/automatic/segment.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,497 basehttp 4920 128141813089856 "GET /static/admin/simpleui-x/locale/en-us.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,506 basehttp 4920 128141813089856 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,507 basehttp 4920 128141905364544 "GET /static/admin/simpleui-x/js/cookie.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,541 basehttp 4920 128141936821824 "GET /static/admin/simpleui-x/theme/theme.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,544 basehttp 4920 128141926336064 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,544 basehttp 4920 128141915850304 "GET /static/admin/simpleui-x/js/menu.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,547 basehttp 4920 128141957793344 "GET /static/admin/simpleui-x/js/index.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,917 basehttp 4920 128141957793344 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,919 basehttp 4920 128141915850304 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:24,920 basehttp 4920 128141926336064 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
-WARNING 2025-03-25 18:26:24,960 log 4920 128141926336064 Not Found: /favicon.ico
-WARNING 2025-03-25 18:26:24,961 basehttp 4920 128141926336064 "GET /favicon.ico HTTP/1.1" 404 3260
-INFO 2025-03-25 18:26:31,051 basehttp 4920 128141926336064 "GET /admin/user_login/user/ HTTP/1.1" 200 40632
-INFO 2025-03-25 18:26:31,074 basehttp 4920 128141957793344 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,083 basehttp 4920 128141957793344 "GET /static/admin/css/changelists.css?_=20180905 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,087 basehttp 4920 128141936821824 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,087 basehttp 4920 128141905364544 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,088 basehttp 4920 128141915850304 "GET /static/admin/css/base.css?_=2.7 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,088 basehttp 4920 128141813089856 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,096 basehttp 4920 128141905364544 "GET /static/admin/css/responsive.css?_=20180905 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,105 basehttp 4920 128141915850304 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,107 basehttp 4920 128141926336064 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-03-25 18:26:31,108 basehttp 4920 128141813089856 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,108 basehttp 4920 128141936821824 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,127 basehttp 4920 128141957793344 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,141 basehttp 4920 128141905364544 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,156 basehttp 4920 128141915850304 "GET /static/admin/js/core.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,157 basehttp 4920 128141936821824 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,158 basehttp 4920 128141813089856 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,160 basehttp 4920 128141926336064 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,171 basehttp 4920 128141957793344 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,185 basehttp 4920 128141905364544 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,208 basehttp 4920 128141936821824 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,210 basehttp 4920 128141813089856 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,211 basehttp 4920 128141915850304 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,247 basehttp 4920 128141926336064 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:31,248 basehttp 4920 128141957793344 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:47,714 basehttp 4920 128141957793344 "POST /admin/user_login/user/ HTTP/1.1" 200 6401
-INFO 2025-03-25 18:26:47,735 basehttp 4920 128141957793344 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:26:50,750 basehttp 4920 128141957793344 "POST /admin/user_login/user/ HTTP/1.1" 302 0
-INFO 2025-03-25 18:26:50,792 basehttp 4920 128141957793344 "GET /admin/user_login/user/ HTTP/1.1" 200 37953
-INFO 2025-03-25 18:26:50,864 basehttp 4920 128141957793344 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-03-25 18:28:59,743 autoreload 4920 128142108536832 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-03-25 18:29:00,834 autoreload 6757 131236939702272 Watching for file changes with StatReloader
-WARNING 2025-03-25 18:29:15,094 log 6757 131236861314624 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 18:29:15,095 basehttp 6757 131236861314624 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 18:29:15,208 log 6757 131236861314624 Bad Request: /user/reg/
-WARNING 2025-03-25 18:29:15,209 basehttp 6757 131236861314624 "POST /user/reg/ HTTP/1.1" 400 141
-WARNING 2025-03-25 18:29:47,562 log 6757 131236861314624 Bad Request: /user/reg/
-WARNING 2025-03-25 18:29:47,563 basehttp 6757 131236861314624 "POST /user/reg/ HTTP/1.1" 400 141
-WARNING 2025-03-25 18:30:13,897 log 6757 131236861314624 Bad Request: /user/reg/
-WARNING 2025-03-25 18:30:13,897 basehttp 6757 131236861314624 "POST /user/reg/ HTTP/1.1" 400 101
-WARNING 2025-03-25 18:30:32,317 log 6757 131236850828864 Method Not Allowed: /user/reg/
-WARNING 2025-03-25 18:30:32,318 basehttp 6757 131236850828864 "GET /user/reg/ HTTP/1.1" 405 7775
-INFO 2025-03-25 18:30:32,368 basehttp 6757 131236850828864 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
-INFO 2025-03-25 18:30:32,370 basehttp 6757 131236840343104 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
-INFO 2025-03-25 18:30:32,375 basehttp 6757 131236829857344 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
-INFO 2025-03-25 18:30:32,377 basehttp 6757 131236750165568 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
-INFO 2025-03-25 18:30:32,380 basehttp 6757 131236840343104 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:30:32,382 basehttp 6757 131236850828864 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:30:32,386 basehttp 6757 131236829857344 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:30:32,387 basehttp 6757 131236739679808 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:30:32,391 basehttp 6757 131236750165568 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:30:32,395 basehttp 6757 131236729194048 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:30:32,398 basehttp 6757 131236739679808 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
-INFO 2025-03-25 18:30:32,410 basehttp 6757 131236729194048 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
-WARNING 2025-03-25 18:30:32,598 log 6757 131236729194048 Not Found: /favicon.ico
-WARNING 2025-03-25 18:30:32,598 basehttp 6757 131236729194048 "GET /favicon.ico HTTP/1.1" 404 3260
-WARNING 2025-03-25 18:34:03,368 log 6757 131236861314624 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 18:34:03,369 basehttp 6757 131236861314624 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 18:34:15,922 log 6757 131236861314624 Not Found: /user/mobile/12345678909/
-WARNING 2025-03-25 18:34:15,923 basehttp 6757 131236861314624 "GET /user/mobile/12345678909/ HTTP/1.1" 404 4789
-WARNING 2025-03-25 18:34:23,349 log 6757 131236861314624 Not Found: /user/mobile/12345678909/
-WARNING 2025-03-25 18:34:23,349 basehttp 6757 131236861314624 "GET /user/mobile/12345678909/ HTTP/1.1" 404 4789
-WARNING 2025-03-25 18:35:01,448 log 6757 131236861314624 Not Found: /user/mobile/12345678909/
-WARNING 2025-03-25 18:35:01,449 basehttp 6757 131236861314624 "GET /user/mobile/12345678909/ HTTP/1.1" 404 4789
-WARNING 2025-03-25 18:36:32,218 log 6757 131236861314624 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 18:36:32,219 basehttp 6757 131236861314624 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 18:36:39,340 log 6757 131236861314624 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 18:36:39,340 basehttp 6757 131236861314624 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 18:37:17,819 log 6757 131236861314624 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 18:37:17,820 basehttp 6757 131236861314624 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 18:37:29,074 log 6757 131236739679808 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 18:37:29,075 basehttp 6757 131236739679808 "GET /user/mobile/15674458323/ HTTP/1.1" 400 5309
-WARNING 2025-03-25 18:40:17,451 log 6757 131236861314624 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 18:40:17,452 basehttp 6757 131236861314624 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 18:43:32,467 log 6757 131236861314624 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 18:43:32,468 basehttp 6757 131236861314624 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 18:44:10,716 log 6757 131236861314624 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 18:44:10,717 basehttp 6757 131236861314624 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 18:44:30,313 log 6757 131236861314624 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 18:44:30,314 basehttp 6757 131236861314624 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 18:47:43,555 log 6757 131236861314624 Not Found: /user/mobile//
-WARNING 2025-03-25 18:47:43,555 basehttp 6757 131236861314624 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 18:47:47,858 log 6757 131236861314624 Not Found: /user/mobile//
-WARNING 2025-03-25 18:47:47,859 basehttp 6757 131236861314624 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 18:48:00,248 log 6757 131236861314624 Not Found: /user/mobile/15/
-WARNING 2025-03-25 18:48:00,249 basehttp 6757 131236861314624 "GET /user/mobile/15/ HTTP/1.1" 404 4762
-INFO 2025-03-25 18:48:35,802 autoreload 6757 131236939702272 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-03-25 18:48:36,852 autoreload 7342 128131380400128 Watching for file changes with StatReloader
-WARNING 2025-03-25 18:48:37,532 log 7342 128131302164032 Not Found: /user/mobile/15/
-WARNING 2025-03-25 18:48:37,533 basehttp 7342 128131302164032 "GET /user/mobile/15/ HTTP/1.1" 404 4762
-WARNING 2025-03-25 18:48:46,291 log 7342 128131220375104 Not Found: /user/mobile/15/
-WARNING 2025-03-25 18:48:46,293 basehttp 7342 128131220375104 "GET /user/mobile/15/ HTTP/1.1" 404 4762
-WARNING 2025-03-25 18:48:50,145 log 7342 128131220375104 Not Found: /user/mobile/15/
-WARNING 2025-03-25 18:48:50,147 basehttp 7342 128131220375104 "GET /user/mobile/15/ HTTP/1.1" 404 4762
-WARNING 2025-03-25 18:48:56,875 log 7342 128131220375104 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 18:48:56,876 basehttp 7342 128131220375104 "GET /user/mobile/15674458323/ HTTP/1.1" 400 5309
-INFO 2025-03-25 18:49:46,928 autoreload 7342 128131380400128 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-03-25 18:49:47,638 autoreload 7374 130726437896192 Watching for file changes with StatReloader
-WARNING 2025-03-25 18:50:31,393 log 7374 130726359991872 Not Found: /user/mobile/15674458/
-WARNING 2025-03-25 18:50:31,394 basehttp 7374 130726359991872 "GET /user/mobile/15674458/ HTTP/1.1" 404 4780
-WARNING 2025-03-25 18:50:54,688 log 7374 130726359991872 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 18:50:54,689 basehttp 7374 130726359991872 "GET /user/mobile/15674458323/ HTTP/1.1" 400 5309
-INFO 2025-03-25 20:30:53,842 autoreload 7374 130726437896192 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-03-25 20:30:55,309 autoreload 7699 136872942448640 Watching for file changes with StatReloader
-INFO 2025-03-25 20:31:01,332 basehttp 7699 136872862942784 "GET /user/mobile/15674458322/ HTTP/1.1" 200 5288
-INFO 2025-03-25 20:31:08,755 basehttp 7699 136872862942784 "GET /user/mobile/15674458320/ HTTP/1.1" 200 5288
-WARNING 2025-03-25 20:31:12,757 log 7699 136872862942784 Not Found: /user/mobile/1567445832/
-WARNING 2025-03-25 20:31:12,758 basehttp 7699 136872862942784 "GET /user/mobile/1567445832/ HTTP/1.1" 404 4786
-INFO 2025-03-25 20:31:32,319 basehttp 7699 136872841971264 "GET /admin/ HTTP/1.1" 200 21421
-INFO 2025-03-25 20:31:32,753 basehttp 7699 136872841971264 "GET /admin/user_login/user/ HTTP/1.1" 200 37860
-INFO 2025-03-25 20:31:32,810 basehttp 7699 136872841971264 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-03-25 20:32:01,933 basehttp 7699 136872862942784 "GET /user/mobile/15674458320/ HTTP/1.1" 200 5288
-INFO 2025-03-25 20:32:03,628 basehttp 7699 136872862942784 "GET /user/mobile/15674458320/ HTTP/1.1" 200 5288
-INFO 2025-03-25 20:32:04,689 basehttp 7699 136872862942784 "GET /user/mobile/15674458320/ HTTP/1.1" 200 5288
-INFO 2025-03-25 20:33:41,132 autoreload 7699 136872942448640 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-03-25 20:33:41,819 autoreload 7784 134261887127552 Watching for file changes with StatReloader
-WARNING 2025-03-25 20:33:45,385 log 7784 134261740930624 Not Found: /user/mobile/15/
-WARNING 2025-03-25 20:33:45,386 basehttp 7784 134261740930624 "GET /user/mobile/15/ HTTP/1.1" 404 4762
-WARNING 2025-03-25 20:33:48,381 log 7784 134261740930624 Not Found: /user/mobile/15/
-WARNING 2025-03-25 20:33:48,381 basehttp 7784 134261740930624 "GET /user/mobile/15/ HTTP/1.1" 404 4762
-WARNING 2025-03-25 21:03:10,670 log 7784 134261740930624 Not Found: /user/mobile/123/
-WARNING 2025-03-25 21:03:10,671 basehttp 7784 134261740930624 "GET /user/mobile/123/ HTTP/1.1" 404 4765
-WARNING 2025-03-25 21:03:10,967 log 7784 134261740930624 Not Found: /user/mobile/123/
-WARNING 2025-03-25 21:03:10,968 basehttp 7784 134261740930624 "GET /user/mobile/123/ HTTP/1.1" 404 4765
-WARNING 2025-03-25 21:03:14,011 log 7784 134261740930624 Not Found: /user/mobile/123/
-WARNING 2025-03-25 21:03:14,012 basehttp 7784 134261740930624 "GET /user/mobile/123/ HTTP/1.1" 404 4765
-WARNING 2025-03-25 21:03:14,309 log 7784 134261740930624 Not Found: /user/mobile/123/
-WARNING 2025-03-25 21:03:14,310 basehttp 7784 134261740930624 "GET /user/mobile/123/ HTTP/1.1" 404 4765
-WARNING 2025-03-25 21:03:19,021 log 7784 134261740930624 Not Found: /user/mobile/123/
-WARNING 2025-03-25 21:03:19,022 basehttp 7784 134261740930624 "GET /user/mobile/123/ HTTP/1.1" 404 4765
-WARNING 2025-03-25 21:03:19,345 log 7784 134261740930624 Not Found: /user/mobile/123/
-WARNING 2025-03-25 21:03:19,346 basehttp 7784 134261740930624 "GET /user/mobile/123/ HTTP/1.1" 404 4765
-WARNING 2025-03-25 21:03:52,352 log 7784 134261740930624 Not Found: /user/mobile/123/
-WARNING 2025-03-25 21:03:52,353 basehttp 7784 134261740930624 "GET /user/mobile/123/ HTTP/1.1" 404 4765
-WARNING 2025-03-25 21:03:52,653 log 7784 134261740930624 Not Found: /user/mobile/123/
-WARNING 2025-03-25 21:03:52,654 basehttp 7784 134261740930624 "GET /user/mobile/123/ HTTP/1.1" 404 4765
-WARNING 2025-03-25 21:04:02,225 log 7784 134261740930624 Not Found: /user/mobile/12/
-WARNING 2025-03-25 21:04:02,226 basehttp 7784 134261740930624 "GET /user/mobile/12/ HTTP/1.1" 404 4762
-WARNING 2025-03-25 21:04:42,033 log 7784 134261740930624 Not Found: /user/mobile/213/
-WARNING 2025-03-25 21:04:42,035 basehttp 7784 134261740930624 "GET /user/mobile/213/ HTTP/1.1" 404 4765
-WARNING 2025-03-25 21:04:51,114 log 7784 134261740930624 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:04:51,115 basehttp 7784 134261740930624 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-INFO 2025-03-25 21:04:54,522 basehttp 7784 134261740930624 "GET /user/mobile/15674458333/ HTTP/1.1" 200 59
-WARNING 2025-03-25 21:06:42,319 log 7784 134261740930624 Not Found: /user/mobile/321/
-WARNING 2025-03-25 21:06:42,320 basehttp 7784 134261740930624 "GET /user/mobile/321/ HTTP/1.1" 404 4765
-WARNING 2025-03-25 21:06:45,345 log 7784 134261740930624 Not Found: /user/mobile/321/
-WARNING 2025-03-25 21:06:45,346 basehttp 7784 134261740930624 "GET /user/mobile/321/ HTTP/1.1" 404 4765
-WARNING 2025-03-25 21:06:52,452 log 7784 134261740930624 Not Found: /user/mobile/321/
-WARNING 2025-03-25 21:06:52,453 basehttp 7784 134261740930624 "GET /user/mobile/321/ HTTP/1.1" 404 4765
-WARNING 2025-03-25 21:07:01,026 log 7784 134261740930624 Not Found: /user/mobile/3211/
-WARNING 2025-03-25 21:07:01,027 basehttp 7784 134261740930624 "GET /user/mobile/3211/ HTTP/1.1" 404 4768
-WARNING 2025-03-25 21:07:07,343 log 7784 134261740930624 Not Found: /user/mobile/3211/
-WARNING 2025-03-25 21:07:07,344 basehttp 7784 134261740930624 "GET /user/mobile/3211/ HTTP/1.1" 404 4768
-WARNING 2025-03-25 21:07:13,351 log 7784 134261730444864 Not Found: /user/mobile//
-WARNING 2025-03-25 21:07:13,352 basehttp 7784 134261730444864 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 21:07:13,364 log 7784 134261740930624 Not Found: /user/mobile/3211/
-WARNING 2025-03-25 21:07:13,364 basehttp 7784 134261740930624 "GET /user/mobile/3211/ HTTP/1.1" 404 4768
-WARNING 2025-03-25 21:12:21,682 log 7784 134261730444864 Not Found: /user/mobile//
-WARNING 2025-03-25 21:12:21,684 basehttp 7784 134261730444864 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 21:12:27,701 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:12:27,702 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:12:32,480 log 7784 134261730444864 Not Found: /user/mobile/1567445832/
-WARNING 2025-03-25 21:12:32,480 basehttp 7784 134261730444864 "GET /user/mobile/1567445832/ HTTP/1.1" 404 4786
-WARNING 2025-03-25 21:12:37,632 log 7784 134261730444864 Not Found: /user/mobile/1567445832/
-WARNING 2025-03-25 21:12:37,632 basehttp 7784 134261730444864 "GET /user/mobile/1567445832/ HTTP/1.1" 404 4786
-WARNING 2025-03-25 21:12:38,646 log 7784 134261730444864 Not Found: /user/mobile/1567445832/
-WARNING 2025-03-25 21:12:38,647 basehttp 7784 134261730444864 "GET /user/mobile/1567445832/ HTTP/1.1" 404 4786
-WARNING 2025-03-25 21:12:39,902 log 7784 134261730444864 Not Found: /user/mobile/1567445832/
-WARNING 2025-03-25 21:12:39,903 basehttp 7784 134261730444864 "GET /user/mobile/1567445832/ HTTP/1.1" 404 4786
-WARNING 2025-03-25 21:12:44,281 log 7784 134261730444864 Not Found: /user/mobile/1567445832/
-WARNING 2025-03-25 21:12:44,282 basehttp 7784 134261730444864 "GET /user/mobile/1567445832/ HTTP/1.1" 404 4786
-WARNING 2025-03-25 21:12:47,079 log 7784 134261730444864 Not Found: /user/mobile/1567445832/
-WARNING 2025-03-25 21:12:47,080 basehttp 7784 134261730444864 "GET /user/mobile/1567445832/ HTTP/1.1" 404 4786
-WARNING 2025-03-25 21:12:51,903 log 7784 134261730444864 Not Found: /user/mobile/1567445832/
-WARNING 2025-03-25 21:12:51,904 basehttp 7784 134261730444864 "GET /user/mobile/1567445832/ HTTP/1.1" 404 4786
-WARNING 2025-03-25 21:12:55,343 log 7784 134261730444864 Not Found: /user/mobile/1567445832/
-WARNING 2025-03-25 21:12:55,344 basehttp 7784 134261730444864 "GET /user/mobile/1567445832/ HTTP/1.1" 404 4786
-WARNING 2025-03-25 21:17:35,957 log 7784 134261730444864 Not Found: /user/mobile/1567445832/
-WARNING 2025-03-25 21:17:35,957 basehttp 7784 134261730444864 "GET /user/mobile/1567445832/ HTTP/1.1" 404 4786
-WARNING 2025-03-25 21:17:45,018 log 7784 134261730444864 Not Found: /user/mobile//
-WARNING 2025-03-25 21:17:45,019 basehttp 7784 134261730444864 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 21:17:49,534 log 7784 134261730444864 Not Found: /user/mobile//
-WARNING 2025-03-25 21:17:49,535 basehttp 7784 134261730444864 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 21:17:51,645 log 7784 134261730444864 Not Found: /user/mobile//
-WARNING 2025-03-25 21:17:51,645 basehttp 7784 134261730444864 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 21:17:54,345 log 7784 134261730444864 Not Found: /user/mobile//
-WARNING 2025-03-25 21:17:54,346 basehttp 7784 134261730444864 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 21:18:54,108 log 7784 134261730444864 Not Found: /user/mobile//
-WARNING 2025-03-25 21:18:54,109 basehttp 7784 134261730444864 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 21:18:59,810 log 7784 134261730444864 Not Found: /user/mobile//
-WARNING 2025-03-25 21:18:59,812 basehttp 7784 134261730444864 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 21:19:03,360 log 7784 134261730444864 Not Found: /user/mobile//
-WARNING 2025-03-25 21:19:03,360 basehttp 7784 134261730444864 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 21:36:29,350 log 7784 134261730444864 Not Found: /user/mobile//
-WARNING 2025-03-25 21:36:29,351 basehttp 7784 134261730444864 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 21:39:43,728 log 7784 134261730444864 Not Found: /user/mobile//
-WARNING 2025-03-25 21:39:43,729 basehttp 7784 134261730444864 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 21:39:53,220 log 7784 134261730444864 Not Found: /user/mobile/3213213321/
-WARNING 2025-03-25 21:39:53,220 basehttp 7784 134261730444864 "GET /user/mobile/3213213321/ HTTP/1.1" 404 4786
-WARNING 2025-03-25 21:40:02,425 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:40:02,426 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:40:04,521 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:40:04,523 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:40:06,588 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:40:06,589 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:40:10,367 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:40:10,369 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:40:55,741 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:40:55,742 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:41:00,994 log 7784 134261730444864 Not Found: /user/mobile/1567445832-/
-WARNING 2025-03-25 21:41:00,995 basehttp 7784 134261730444864 "GET /user/mobile/1567445832-/ HTTP/1.1" 404 4789
-WARNING 2025-03-25 21:41:05,403 log 7784 134261730444864 Not Found: /user/mobile/1567445832-/
-WARNING 2025-03-25 21:41:05,404 basehttp 7784 134261730444864 "GET /user/mobile/1567445832-/ HTTP/1.1" 404 4789
-WARNING 2025-03-25 21:43:38,419 log 7784 134261730444864 Not Found: /user/mobile//
-WARNING 2025-03-25 21:43:38,420 basehttp 7784 134261730444864 "GET /user/mobile// HTTP/1.1" 404 4756
-WARNING 2025-03-25 21:43:46,581 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:43:46,582 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:43:48,813 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:43:48,815 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:43:52,351 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:43:52,352 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:49:00,717 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:49:00,717 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:49:03,096 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:49:03,097 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:49:05,162 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:49:05,163 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:49:08,355 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:49:08,356 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:51:14,449 log 7784 134261730444864 Not Found: /user/mobile/15674458/
-WARNING 2025-03-25 21:51:14,450 basehttp 7784 134261730444864 "GET /user/mobile/15674458/ HTTP/1.1" 404 4780
-WARNING 2025-03-25 21:51:19,685 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:51:19,686 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:51:25,789 log 7784 134261730444864 Bad Request: /user/mobile/156744583232/
-WARNING 2025-03-25 21:51:25,790 basehttp 7784 134261730444864 "GET /user/mobile/156744583232/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:51:32,864 log 7784 134261730444864 Not Found: /user/mobile/1567445832/
-WARNING 2025-03-25 21:51:32,865 basehttp 7784 134261730444864 "GET /user/mobile/1567445832/ HTTP/1.1" 404 4786
-WARNING 2025-03-25 21:51:35,233 log 7784 134261730444864 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:51:35,234 basehttp 7784 134261730444864 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:51:38,633 log 7784 134261730444864 Bad Request: /user/mobile/156744583232/
-WARNING 2025-03-25 21:51:38,633 basehttp 7784 134261730444864 "GET /user/mobile/156744583232/ HTTP/1.1" 400 38
-WARNING 2025-03-25 21:51:55,295 log 7784 134261740930624 Bad Request: /user/mobile/156744583233/
-WARNING 2025-03-25 21:51:55,295 basehttp 7784 134261740930624 "GET /user/mobile/156744583233/ HTTP/1.1" 400 5315
-INFO 2025-03-25 21:52:41,902 autoreload 7784 134261887127552 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/urls.py changed, reloading.
-INFO 2025-03-25 21:52:42,635 autoreload 8814 133354321702912 Watching for file changes with StatReloader
-WARNING 2025-03-25 21:52:43,535 log 8814 133354169042496 Not Found: /user/mobile/156744583233/
-WARNING 2025-03-25 21:52:43,536 basehttp 8814 133354169042496 "GET /user/mobile/156744583233/ HTTP/1.1" 404 4793
-WARNING 2025-03-25 21:52:47,763 log 8814 133354169042496 Not Found: /user/mobile/15674458323/
-WARNING 2025-03-25 21:52:47,763 basehttp 8814 133354169042496 "GET /user/mobile/15674458323/ HTTP/1.1" 404 4790
-WARNING 2025-03-25 21:52:56,278 log 8814 133354169042496 Not Found: /user/mobile/15674458323/
-WARNING 2025-03-25 21:52:56,279 basehttp 8814 133354169042496 "GET /user/mobile/15674458323/ HTTP/1.1" 404 4790
-WARNING 2025-03-25 21:53:00,740 log 8814 133354169042496 Not Found: /user/mobile/15674458323$/
-WARNING 2025-03-25 21:53:00,741 basehttp 8814 133354169042496 "GET /user/mobile/15674458323$/ HTTP/1.1" 404 4793
-WARNING 2025-03-25 21:53:02,482 log 8814 133354169042496 Not Found: /user/mobile/15674458323/
-WARNING 2025-03-25 21:53:02,483 basehttp 8814 133354169042496 "GET /user/mobile/15674458323/ HTTP/1.1" 404 4790
-INFO 2025-03-25 21:53:14,861 autoreload 8814 133354321702912 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/urls.py changed, reloading.
-INFO 2025-03-25 21:53:15,522 autoreload 8849 124958193840128 Watching for file changes with StatReloader
-WARNING 2025-03-25 21:53:16,104 log 8849 124958044849728 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 21:53:16,105 basehttp 8849 124958044849728 "GET /user/mobile/15674458323/ HTTP/1.1" 400 5309
-INFO 2025-03-25 21:53:21,526 basehttp 8849 124958044849728 "GET /user/mobile/15674458333/ HTTP/1.1" 200 5321
-INFO 2025-03-25 21:53:28,105 basehttp 8849 124958044849728 "GET /user/mobile/156744583333/ HTTP/1.1" 200 5327
-INFO 2025-03-25 21:55:23,876 autoreload 8849 124958193840128 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/urls.py changed, reloading.
-INFO 2025-03-25 21:55:24,582 autoreload 8890 140113657569280 Watching for file changes with StatReloader
-WARNING 2025-03-25 21:57:05,572 log 8890 140113508042304 Not Found: /user/mobile/156744583333/
-WARNING 2025-03-25 21:57:05,573 basehttp 8890 140113508042304 "GET /user/mobile/156744583333/ HTTP/1.1" 404 4793
-WARNING 2025-03-25 21:57:09,817 log 8890 140113508042304 Not Found: /user/mobile/15674458333/
-WARNING 2025-03-25 21:57:09,818 basehttp 8890 140113508042304 "GET /user/mobile/15674458333/ HTTP/1.1" 404 4790
-INFO 2025-03-25 22:01:28,764 autoreload 8890 140113657569280 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/urls.py changed, reloading.
-INFO 2025-03-25 22:01:29,524 autoreload 8968 124214936522752 Watching for file changes with StatReloader
-INFO 2025-03-25 22:01:30,544 basehttp 8968 124214858221120 "GET /user/mobile/15674458333/ HTTP/1.1" 200 5321
-INFO 2025-03-25 22:01:30,751 basehttp 8968 124214858221120 "GET /user/mobile/15674458333/ HTTP/1.1" 200 5321
-INFO 2025-03-25 22:01:32,117 basehttp 8968 124214858221120 "GET /user/mobile/15674458333/ HTTP/1.1" 200 5321
-WARNING 2025-03-25 22:01:35,214 log 8968 124214858221120 Not Found: /user/mobile/156744583339/
-WARNING 2025-03-25 22:01:35,215 basehttp 8968 124214858221120 "GET /user/mobile/156744583339/ HTTP/1.1" 404 4795
-INFO 2025-03-25 22:01:38,745 basehttp 8968 124214858221120 "GET /user/mobile/15674458339/ HTTP/1.1" 200 5321
-WARNING 2025-03-25 22:02:51,187 log 8968 124214847735360 Not Found: /user/mobile/1567445832323/
-WARNING 2025-03-25 22:02:51,188 basehttp 8968 124214847735360 "GET /user/mobile/1567445832323/ HTTP/1.1" 404 4798
-WARNING 2025-03-25 22:02:53,551 log 8968 124214847735360 Not Found: /user/mobile/156744583232/
-WARNING 2025-03-25 22:02:53,552 basehttp 8968 124214847735360 "GET /user/mobile/156744583232/ HTTP/1.1" 404 4795
-INFO 2025-03-25 22:02:58,655 basehttp 8968 124214847735360 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-03-25 22:03:01,026 basehttp 8968 124214847735360 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-03-25 22:03:12,125 basehttp 8968 124214847735360 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-03-25 22:03:23,501 basehttp 8968 124214847735360 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-03-25 22:03:33,925 basehttp 8968 124214858221120 "GET /user/mobile/15674458323/ HTTP/1.1" 200 5321
-INFO 2025-03-25 22:03:41,264 basehttp 8968 124214858221120 "GET /user/mobile/15674458323/ HTTP/1.1" 200 5321
-INFO 2025-03-25 22:04:10,220 autoreload 8968 124214936522752 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/urls.py changed, reloading.
-INFO 2025-03-25 22:04:10,937 autoreload 9074 128228275773440 Watching for file changes with StatReloader
-WARNING 2025-03-25 22:04:12,028 log 9074 128228125574720 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 22:04:12,029 basehttp 9074 128228125574720 "GET /user/mobile/15674458323/ HTTP/1.1" 400 5309
-INFO 2025-03-25 22:04:19,032 autoreload 9074 128228275773440 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/urls.py changed, reloading.
-INFO 2025-03-25 22:04:19,749 autoreload 9102 131109325430784 Watching for file changes with StatReloader
-INFO 2025-03-25 22:04:20,631 basehttp 9102 131109176215104 "GET /user/mobile/15674458323/ HTTP/1.1" 200 5321
-INFO 2025-03-25 22:04:57,164 autoreload 9102 131109325430784 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-03-25 22:04:57,941 autoreload 9145 131242419236864 Watching for file changes with StatReloader
-INFO 2025-03-25 22:04:59,158 basehttp 9145 131242341172800 "GET /user/mobile/15674458323/ HTTP/1.1" 200 5321
-INFO 2025-03-25 22:08:09,669 autoreload 9145 131242419236864 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-03-25 22:08:10,377 autoreload 9209 123510403538944 Watching for file changes with StatReloader
-WARNING 2025-03-25 22:08:11,479 log 9209 123510324201024 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 22:08:11,480 basehttp 9209 123510324201024 "GET /user/mobile/15674458323/ HTTP/1.1" 400 5309
-WARNING 2025-03-25 22:08:22,056 log 9209 123510324201024 Bad Request: /user/mobile/156744583233/
-WARNING 2025-03-25 22:08:22,057 basehttp 9209 123510324201024 "GET /user/mobile/156744583233/ HTTP/1.1" 400 5315
-WARNING 2025-03-25 22:08:27,458 log 9209 123510324201024 Bad Request: /user/mobile/156744583233/
-WARNING 2025-03-25 22:08:27,459 basehttp 9209 123510324201024 "GET /user/mobile/156744583233/ HTTP/1.1" 400 5315
-INFO 2025-03-25 22:08:54,245 autoreload 9209 123510403538944 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-03-25 22:08:54,980 autoreload 9239 125101335130112 Watching for file changes with StatReloader
-WARNING 2025-03-25 22:08:58,447 log 9239 125101188056640 Bad Request: /user/mobile/156744583233/
-WARNING 2025-03-25 22:08:58,448 basehttp 9239 125101188056640 "GET /user/mobile/156744583233/ HTTP/1.1" 400 5315
-INFO 2025-03-25 22:10:08,520 autoreload 9239 125101335130112 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/urls.py changed, reloading.
-INFO 2025-03-25 22:10:09,290 autoreload 9263 127356682231808 Watching for file changes with StatReloader
-WARNING 2025-03-25 22:10:11,095 log 9263 127356603729472 Not Found: /user/mobile/156744583233/
-WARNING 2025-03-25 22:10:11,096 basehttp 9263 127356603729472 "GET /user/mobile/156744583233/ HTTP/1.1" 404 4795
-INFO 2025-03-25 22:10:17,210 basehttp 9263 127356603729472 "GET /user/mobile/15674458323/ HTTP/1.1" 200 5321
-INFO 2025-03-25 22:13:12,714 autoreload 9263 127356682231808 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-03-25 22:13:13,395 autoreload 9336 127978572464128 Watching for file changes with StatReloader
-WARNING 2025-03-25 22:13:16,316 log 9336 127978493183552 Bad Request: /user/mobile/15674458323/
-WARNING 2025-03-25 22:13:16,317 basehttp 9336 127978493183552 "GET /user/mobile/15674458323/ HTTP/1.1" 400 5309
-WARNING 2025-03-25 22:13:26,583 log 9336 127978493183552 Not Found: /user/mobile/156744583233
-WARNING 2025-03-25 22:13:26,584 basehttp 9336 127978493183552 "GET /user/mobile/156744583233 HTTP/1.1" 404 4792
-WARNING 2025-03-25 22:13:34,426 log 9336 127978493183552 Bad Request: /user/mobile/15674458323
-WARNING 2025-03-25 22:13:34,427 basehttp 9336 127978493183552 "GET /user/mobile/15674458323 HTTP/1.1" 400 5303
-WARNING 2025-03-25 22:13:45,787 log 9336 127978493183552 Not Found: /user/mobile/1567445832/
-WARNING 2025-03-25 22:13:45,788 basehttp 9336 127978493183552 "GET /user/mobile/1567445832/ HTTP/1.1" 404 4789
-WARNING 2025-03-25 22:13:50,246 log 9336 127978493183552 Not Found: /user/mobile/1567445832
-WARNING 2025-03-25 22:13:50,247 basehttp 9336 127978493183552 "GET /user/mobile/1567445832 HTTP/1.1" 404 4786
-INFO 2025-03-25 22:19:46,937 autoreload 4114 133130705227776 Watching for file changes with StatReloader
-INFO 2025-03-25 22:32:59,346 basehttp 4114 133130545530432 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-25 22:32:59,346 basehttp 4114 133130535044672 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-25 22:32:59,348 basehttp 4114 133130556016192 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-25 22:33:14,761 basehttp 4114 133130556016192 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-25 22:33:14,787 basehttp 4114 133130556016192 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-25 22:33:14,789 basehttp 4114 133130545530432 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-25 22:33:17,928 basehttp 4114 133130556016192 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-25 22:33:17,934 basehttp 4114 133130545530432 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-25 22:33:17,939 basehttp 4114 133130535044672 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-25 22:33:40,012 basehttp 4114 133130535044672 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-25 22:33:40,030 basehttp 4114 133130545530432 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-25 22:33:40,034 basehttp 4114 133130556016192 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-25 22:33:43,459 basehttp 4114 133130524558912 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-25 22:33:43,469 basehttp 4114 133130514073152 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-25 22:33:43,478 basehttp 4114 133130428089920 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-03-25 22:33:46,865 basehttp 4114 133130428089920 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-03-25 22:33:46,891 basehttp 4114 133130428089920 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-03-25 22:33:46,897 basehttp 4114 133130514073152 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-04-02 19:33:23,551 autoreload 5518 138801537474560 Watching for file changes with StatReloader
-INFO 2025-04-02 21:16:53,155 autoreload 7243 130099704373248 Watching for file changes with StatReloader
-WARNING 2025-04-02 21:19:27,181 log 7243 130099624019520 Not Found: /
-WARNING 2025-04-02 21:19:27,181 basehttp 7243 130099624019520 "GET / HTTP/1.1" 404 3209
-WARNING 2025-04-02 21:19:27,261 log 7243 130099624019520 Not Found: /favicon.ico
-WARNING 2025-04-02 21:19:27,262 basehttp 7243 130099624019520 "GET /favicon.ico HTTP/1.1" 404 3260
-INFO 2025-04-02 21:19:33,452 basehttp 7243 130099624019520 "GET /admin/ HTTP/1.1" 302 0
-INFO 2025-04-02 21:19:33,486 basehttp 7243 130099624019520 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4083
-INFO 2025-04-02 21:19:33,565 basehttp 7243 130099613533760 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
-INFO 2025-04-02 21:19:33,567 basehttp 7243 130099603048000 "GET /static/admin/simpleui-x/css/login.css?_=2.1 HTTP/1.1" 304 0
-INFO 2025-04-02 21:19:33,571 basehttp 7243 130099624019520 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
-INFO 2025-04-02 21:19:33,578 basehttp 7243 130099523356224 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
-INFO 2025-04-02 21:19:33,578 basehttp 7243 130099613533760 "GET /static/admin/simpleui-x/particles/particles.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:19:33,581 basehttp 7243 130099512870464 "GET /static/admin/simpleui-x/js/vue.min.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-04-02 21:19:33,580 basehttp 7243 130099603048000 "GET /static/admin/simpleui-x/js/login.js?_=3.3 HTTP/1.1" 304 0
-INFO 2025-04-02 21:19:33,583 basehttp 7243 130099502384704 "GET /static/admin/simpleui-x/elementui/index.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-04-02 21:19:33,592 basehttp 7243 130099502384704 "GET /static/admin/simpleui-x/particles/app.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:19:33,671 basehttp 7243 130099502384704 "GET /static/admin/simpleui-x/img/bg.svg HTTP/1.1" 304 0
-INFO 2025-04-02 21:19:33,839 basehttp 7243 130099502384704 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
-INFO 2025-04-02 21:19:37,550 basehttp 7243 130099502384704 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
-INFO 2025-04-02 21:19:41,025 basehttp 7243 130099502384704 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4344
-INFO 2025-04-02 21:19:53,985 basehttp 7243 130099502384704 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4344
-INFO 2025-04-02 21:21:07,969 basehttp 7243 130099502384704 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
-INFO 2025-04-02 21:21:08,079 basehttp 7243 130099502384704 "GET /admin/ HTTP/1.1" 200 21421
-INFO 2025-04-02 21:21:08,145 basehttp 7243 130099502384704 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:08,155 basehttp 7243 130099512870464 "GET /static/admin/simpleui-x/locale/en-us.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:08,155 basehttp 7243 130099603048000 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:08,157 basehttp 7243 130099613533760 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:08,158 basehttp 7243 130099523356224 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:08,159 basehttp 7243 130099624019520 "GET /static/admin/simpleui-x/automatic/segment.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:08,175 basehttp 7243 130099613533760 "GET /static/admin/simpleui-x/theme/theme.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:08,177 basehttp 7243 130099624019520 "GET /static/admin/simpleui-x/js/cookie.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:08,181 basehttp 7243 130099512870464 "GET /static/admin/simpleui-x/js/index.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:08,183 basehttp 7243 130099603048000 "GET /static/admin/simpleui-x/js/menu.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:08,183 basehttp 7243 130099523356224 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2025.01.13 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:08,404 basehttp 7243 130099603048000 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,122 basehttp 7243 130099603048000 "GET /admin/home/navigation/ HTTP/1.1" 200 34518
-INFO 2025-04-02 21:21:12,145 basehttp 7243 130099603048000 "GET /static/admin/css/base.css?_=2.7 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,151 basehttp 7243 130099624019520 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,151 basehttp 7243 130099512870464 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,157 basehttp 7243 130099613533760 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,159 basehttp 7243 130099502384704 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,174 basehttp 7243 130099502384704 "GET /static/admin/css/changelists.css?_=20180905 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,179 basehttp 7243 130099512870464 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,180 basehttp 7243 130099613533760 "GET /static/admin/css/responsive.css?_=20180905 HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,181 basehttp 7243 130099624019520 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,190 basehttp 7243 130099603048000 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,203 basehttp 7243 130099523356224 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-04-02 21:21:12,207 basehttp 7243 130099523356224 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,220 basehttp 7243 130099502384704 "GET /static/admin/js/core.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,223 basehttp 7243 130099613533760 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,228 basehttp 7243 130099512870464 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,231 basehttp 7243 130099624019520 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,235 basehttp 7243 130099603048000 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,253 basehttp 7243 130099523356224 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,266 basehttp 7243 130099502384704 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,269 basehttp 7243 130099613533760 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,273 basehttp 7243 130099512870464 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,277 basehttp 7243 130099624019520 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,282 basehttp 7243 130099603048000 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:12,306 basehttp 7243 130099523356224 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:17,947 basehttp 7243 130099491898944 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-04-02 21:21:17,965 basehttp 7243 130099470927424 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-04-02 21:21:17,970 basehttp 7243 130099481413184 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-04-02 21:21:18,045 basehttp 7243 130099311543872 "GET /media/banner/Loginbg.3377d0c.jpg HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:18,046 basehttp 7243 130099322029632 "GET /media/banner/clash_dBw4us0.jpg HTTP/1.1" 304 0
-INFO 2025-04-02 21:21:18,050 basehttp 7243 130099301058112 "GET /media/banner/banner2.png HTTP/1.1" 304 0
-INFO 2025-04-02 21:26:39,226 basehttp 7243 130099481413184 "GET /user/mobile/15674458322/ HTTP/1.1" 200 59
-WARNING 2025-04-02 21:26:41,589 log 7243 130099481413184 Bad Request: /user/mobile/15674458323/
-WARNING 2025-04-02 21:26:41,590 basehttp 7243 130099481413184 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-INFO 2025-04-02 21:26:44,788 basehttp 7243 130099481413184 "GET /user/mobile/15674458322/ HTTP/1.1" 200 59
-INFO 2025-04-02 21:26:54,179 basehttp 7243 130099481413184 "OPTIONS /user/reg/ HTTP/1.1" 200 0
-WARNING 2025-04-02 21:26:54,204 log 7243 130099481413184 Bad Request: /user/reg/
-WARNING 2025-04-02 21:26:54,205 basehttp 7243 130099481413184 "POST /user/reg/ HTTP/1.1" 400 38
-WARNING 2025-04-02 21:26:59,768 log 7243 130099481413184 Bad Request: /user/reg/
-WARNING 2025-04-02 21:26:59,769 basehttp 7243 130099481413184 "POST /user/reg/ HTTP/1.1" 400 38
-WARNING 2025-04-02 21:27:08,447 log 7243 130099481413184 Bad Request: /user/reg/
-WARNING 2025-04-02 21:27:08,448 basehttp 7243 130099481413184 "POST /user/reg/ HTTP/1.1" 400 38
-WARNING 2025-04-02 21:27:11,132 log 7243 130099481413184 Bad Request: /user/reg/
-WARNING 2025-04-02 21:27:11,133 basehttp 7243 130099481413184 "POST /user/reg/ HTTP/1.1" 400 38
-WARNING 2025-04-02 21:28:29,559 log 7243 130099481413184 Bad Request: /user/reg/
-WARNING 2025-04-02 21:28:29,560 basehttp 7243 130099481413184 "POST /user/reg/ HTTP/1.1" 400 38
-WARNING 2025-04-02 21:29:25,809 log 7243 130099481413184 Bad Request: /user/mobile/15674458323/
-WARNING 2025-04-02 21:29:25,809 basehttp 7243 130099481413184 "GET /user/mobile/15674458323/ HTTP/1.1" 400 38
-WARNING 2025-04-02 21:29:27,805 log 7243 130099481413184 Not Found: /user/mobile/1567445832/
-WARNING 2025-04-02 21:29:27,806 basehttp 7243 130099481413184 "GET /user/mobile/1567445832/ HTTP/1.1" 404 5078
-WARNING 2025-04-02 21:29:29,625 log 7243 130099481413184 Not Found: /user/mobile/156744583244/
-WARNING 2025-04-02 21:29:29,625 basehttp 7243 130099481413184 "GET /user/mobile/156744583244/ HTTP/1.1" 404 5084
-INFO 2025-04-02 21:29:31,355 basehttp 7243 130099481413184 "GET /user/mobile/15674458324/ HTTP/1.1" 200 59
-WARNING 2025-04-02 21:29:36,733 log 7243 130099481413184 Bad Request: /user/reg/
-WARNING 2025-04-02 21:29:36,734 basehttp 7243 130099481413184 "POST /user/reg/ HTTP/1.1" 400 41
-WARNING 2025-04-02 21:29:39,444 log 7243 130099481413184 Bad Request: /user/reg/
-WARNING 2025-04-02 21:29:39,445 basehttp 7243 130099481413184 "POST /user/reg/ HTTP/1.1" 400 38
-INFO 2025-04-02 21:31:01,670 autoreload 7243 130099704373248 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-04-02 21:31:02,462 autoreload 8187 134154870517760 Watching for file changes with StatReloader
-INFO 2025-04-02 21:31:06,106 basehttp 8187 134154790372928 "POST /user/reg/ HTTP/1.1" 201 272
-INFO 2025-04-02 21:31:08,010 basehttp 8187 134154790372928 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-04-02 21:31:08,025 basehttp 8187 134154700195392 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-04-02 21:31:08,030 basehttp 8187 134154710681152 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-04-02 21:35:34,986 basehttp 8187 134154689709632 "GET /admin/user_login/user/ HTTP/1.1" 200 39246
-INFO 2025-04-02 21:35:35,010 basehttp 8187 134154679223872 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
-INFO 2025-04-02 21:35:35,022 basehttp 8187 134154689709632 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-04-02 21:35:35,049 basehttp 8187 134154679223872 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
-INFO 2025-04-02 21:46:52,375 basehttp 8187 134154679223872 "GET /admin/user_login/user/1/change/ HTTP/1.1" 200 13745
-INFO 2025-04-02 21:46:52,411 basehttp 8187 134154689709632 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:46:52,412 basehttp 8187 134154710681152 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:46:52,419 basehttp 8187 134154679223872 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-04-02 21:46:57,740 basehttp 8187 134154679223872 "POST /admin/user_login/user/1/change/ HTTP/1.1" 302 0
-INFO 2025-04-02 21:46:57,786 basehttp 8187 134154679223872 "GET /admin/user_login/user/ HTTP/1.1" 200 39404
-INFO 2025-04-02 21:46:57,878 basehttp 8187 134154679223872 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-04-02 21:47:15,109 basehttp 8187 134154679223872 "POST /admin/user_login/user/ HTTP/1.1" 200 6401
-INFO 2025-04-02 21:47:15,137 basehttp 8187 134154679223872 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
-INFO 2025-04-02 21:47:16,600 basehttp 8187 134154679223872 "POST /admin/user_login/user/ HTTP/1.1" 302 0
-INFO 2025-04-02 21:47:16,636 basehttp 8187 134154679223872 "GET /admin/user_login/user/ HTTP/1.1" 200 36567
-INFO 2025-04-02 21:47:16,711 basehttp 8187 134154679223872 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-04-02 21:47:56,447 basehttp 8187 134154689709632 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-ERROR 2025-04-02 21:48:02,809 log 8187 134154689709632 Internal Server Error: /user/sms/15674458323/
-ERROR 2025-04-02 21:48:02,810 basehttp 8187 134154689709632 "GET /user/sms/15674458323/ HTTP/1.1" 500 32
-WARNING 2025-04-02 21:48:49,382 log 8187 134154689709632 Bad Request: /user/sms/15674458323/
-WARNING 2025-04-02 21:48:49,383 basehttp 8187 134154689709632 "GET /user/sms/15674458323/ HTTP/1.1" 400 55
-WARNING 2025-04-02 21:48:53,226 log 8187 134154689709632 Bad Request: /user/sms/15674458323/
-WARNING 2025-04-02 21:48:53,227 basehttp 8187 134154689709632 "GET /user/sms/15674458323/ HTTP/1.1" 400 55
-INFO 2025-04-02 21:49:38,343 autoreload 8470 123165709250560 Watching for file changes with StatReloader
-ERROR 2025-04-02 21:50:53,292 log 8470 123165560800832 Internal Server Error: /user/sms/15674458323/
-ERROR 2025-04-02 21:50:53,293 basehttp 8470 123165560800832 "GET /user/sms/15674458323/ HTTP/1.1" 500 32
-INFO 2025-04-02 21:55:16,375 autoreload 8470 123165709250560 /home/dx/Desktop/luffy/luffyapi/luffyapi/libs/yuntongxun/sms.py changed, reloading.
-INFO 2025-04-02 21:55:17,059 autoreload 8653 129561958260736 Watching for file changes with StatReloader
-INFO 2025-04-02 22:12:57,451 autoreload 9025 138760377921536 Watching for file changes with StatReloader
-INFO 2025-04-02 22:13:15,682 basehttp 9025 138760297645632 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-ERROR 2025-04-02 22:13:32,231 log 9025 138760297645632 Internal Server Error: /user/sms/15674458323/
-ERROR 2025-04-02 22:13:32,232 basehttp 9025 138760297645632 "GET /user/sms/15674458323/ HTTP/1.1" 500 32
-INFO 2025-04-02 22:15:14,015 autoreload 9025 138760377921536 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-04-02 22:15:14,710 autoreload 9123 125591890440192 Watching for file changes with StatReloader
-INFO 2025-04-02 22:15:16,262 basehttp 9123 125591743366720 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-02 22:17:21,492 basehttp 9123 125591743366720 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-02 22:18:22,474 basehttp 9123 125591743366720 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-02 22:24:43,514 autoreload 9328 129205810032640 Watching for file changes with StatReloader
-ERROR 2025-04-02 22:24:46,973 log 9328 129205729756736 Internal Server Error: /user/sms/15674458323/
-ERROR 2025-04-02 22:24:46,974 basehttp 9328 129205729756736 "GET /user/sms/15674458323/ HTTP/1.1" 500 32
-INFO 2025-04-02 22:25:01,569 autoreload 9382 139613576724480 Watching for file changes with StatReloader
-WARNING 2025-04-02 22:25:04,382 log 9382 139613496673856 Bad Request: /user/sms/15674458323/
-WARNING 2025-04-02 22:25:04,383 basehttp 9382 139613496673856 "GET /user/sms/15674458323/ HTTP/1.1" 400 55
-WARNING 2025-04-02 22:25:05,855 log 9382 139613496673856 Bad Request: /user/sms/15674458323/
-WARNING 2025-04-02 22:25:05,856 basehttp 9382 139613496673856 "GET /user/sms/15674458323/ HTTP/1.1" 400 55
-WARNING 2025-04-02 22:25:18,007 log 9382 139613496673856 Bad Request: /user/sms/15674458323/
-WARNING 2025-04-02 22:25:18,007 basehttp 9382 139613496673856 "GET /user/sms/15674458323/ HTTP/1.1" 400 55
-WARNING 2025-04-02 22:25:40,630 log 9382 139613496673856 Bad Request: /user/sms/15674458323/
-WARNING 2025-04-02 22:25:40,631 basehttp 9382 139613496673856 "GET /user/sms/15674458323/ HTTP/1.1" 400 55
-INFO 2025-04-02 22:26:09,891 basehttp 9382 139613496673856 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-02 22:26:22,886 autoreload 9436 136848690155520 Watching for file changes with StatReloader
-ERROR 2025-04-02 22:27:16,007 log 9436 136848609379904 Internal Server Error: /user/sms/15674458323/
-ERROR 2025-04-02 22:27:16,007 basehttp 9436 136848609379904 "GET /user/sms/15674458323/ HTTP/1.1" 500 32
-INFO 2025-04-02 22:29:30,084 autoreload 9436 136848690155520 /home/dx/Desktop/luffy/luffyapi/luffyapi/libs/yuntongxun/sms.py changed, reloading.
-INFO 2025-04-02 22:29:30,813 autoreload 9489 139540902170624 Watching for file changes with StatReloader
-WARNING 2025-04-02 22:29:34,771 log 9489 139540821968448 Not Found: /user/mobile//
-WARNING 2025-04-02 22:29:34,772 basehttp 9489 139540821968448 "GET /user/mobile// HTTP/1.1" 404 5048
-INFO 2025-04-02 22:29:40,940 basehttp 9489 139540821968448 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-ERROR 2025-04-02 22:29:48,592 log 9489 139540821968448 Internal Server Error: /user/sms/15674458323/
-ERROR 2025-04-02 22:29:48,593 basehttp 9489 139540821968448 "GET /user/sms/15674458323/ HTTP/1.1" 500 32
-INFO 2025-04-02 22:31:28,496 autoreload 9540 125155952742400 Watching for file changes with StatReloader
-ERROR 2025-04-02 22:32:20,081 log 9540 125155804186176 Internal Server Error: /user/sms/15674458323/
-ERROR 2025-04-02 22:32:20,082 basehttp 9540 125155804186176 "GET /user/sms/15674458323/ HTTP/1.1" 500 32
-INFO 2025-04-02 22:34:54,890 autoreload 9540 125155952742400 /home/dx/Desktop/luffy/luffyapi/luffyapi/libs/yuntongxun/sms.py changed, reloading.
-INFO 2025-04-02 22:34:55,559 autoreload 9642 128684129337344 Watching for file changes with StatReloader
-INFO 2025-04-02 22:37:59,129 autoreload 9642 128684129337344 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
-INFO 2025-04-02 22:37:59,794 autoreload 9715 133180988375040 Watching for file changes with StatReloader
-INFO 2025-04-02 22:38:21,341 basehttp 9715 133180908635712 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-WARNING 2025-04-02 22:38:24,657 log 9715 133180826846784 Bad Request: /user/sms/15674458323/
-WARNING 2025-04-02 22:38:24,658 basehttp 9715 133180826846784 "GET /user/sms/15674458323/ HTTP/1.1" 400 5287
-INFO 2025-04-02 22:38:24,688 basehttp 9715 133180826846784 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
-INFO 2025-04-02 22:38:24,700 basehttp 9715 133180805875264 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
-INFO 2025-04-02 22:38:24,701 basehttp 9715 133180816361024 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
-INFO 2025-04-02 22:38:24,709 basehttp 9715 133180795389504 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
-INFO 2025-04-02 22:38:24,713 basehttp 9715 133180816361024 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
-INFO 2025-04-02 22:38:24,718 basehttp 9715 133180795389504 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
-INFO 2025-04-02 22:38:24,721 basehttp 9715 133180805875264 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
-INFO 2025-04-02 22:38:24,725 basehttp 9715 133180784903744 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
-INFO 2025-04-02 22:38:24,725 basehttp 9715 133180774417984 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
-INFO 2025-04-02 22:38:24,728 basehttp 9715 133180784903744 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
-INFO 2025-04-02 22:38:24,731 basehttp 9715 133180774417984 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
-INFO 2025-04-02 22:38:24,753 basehttp 9715 133180826846784 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
-WARNING 2025-04-02 22:38:24,895 log 9715 133180826846784 Not Found: /favicon.ico
-WARNING 2025-04-02 22:38:24,896 basehttp 9715 133180826846784 "GET /favicon.ico HTTP/1.1" 404 3260
-INFO 2025-04-02 22:38:45,524 autoreload 9756 130109810614272 Watching for file changes with StatReloader
-INFO 2025-04-02 22:40:51,367 basehttp 9756 130109656794688 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-02 22:46:15,573 autoreload 9756 130109810614272 /home/dx/Desktop/luffy/luffyapi/luffyapi/libs/yuntongxun/sms.py changed, reloading.
-INFO 2025-04-02 22:46:16,299 autoreload 9908 132724369444864 Watching for file changes with StatReloader
-INFO 2025-04-02 22:46:45,431 autoreload 9908 132724369444864 /home/dx/Desktop/luffy/luffyapi/luffyapi/libs/yuntongxun/sms.py changed, reloading.
-INFO 2025-04-02 22:46:46,110 autoreload 9944 137187145981952 Watching for file changes with StatReloader
-INFO 2025-04-02 22:47:18,470 autoreload 9944 137187145981952 /home/dx/Desktop/luffy/luffyapi/luffyapi/libs/yuntongxun/sms.py changed, reloading.
-INFO 2025-04-02 22:47:19,197 autoreload 9960 127546718326784 Watching for file changes with StatReloader
-INFO 2025-04-02 22:47:53,564 autoreload 9960 127546718326784 /home/dx/Desktop/luffy/luffyapi/luffyapi/libs/yuntongxun/sms.py changed, reloading.
-INFO 2025-04-02 22:47:54,242 autoreload 9993 131139810713600 Watching for file changes with StatReloader
-INFO 2025-04-02 22:48:38,062 autoreload 9993 131139810713600 /home/dx/Desktop/luffy/luffyapi/luffyapi/libs/yuntongxun/sms.py changed, reloading.
-INFO 2025-04-02 22:48:38,741 autoreload 10018 140056927416320 Watching for file changes with StatReloader
-INFO 2025-04-02 22:50:14,050 autoreload 10018 140056927416320 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-04-02 22:50:14,786 autoreload 10066 129899627450368 Watching for file changes with StatReloader
-INFO 2025-04-02 22:50:16,255 basehttp 10066 129899471832640 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-02 22:50:52,387 autoreload 10066 129899627450368 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-04-02 22:50:53,042 autoreload 10091 134995171762176 Watching for file changes with StatReloader
-INFO 2025-04-02 22:50:55,904 autoreload 10106 137583819296768 Watching for file changes with StatReloader
-INFO 2025-04-02 22:51:29,076 basehttp 10106 137583738750528 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-02 22:52:05,413 autoreload 10106 137583819296768 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-04-02 22:52:06,140 autoreload 10158 134055879335936 Watching for file changes with StatReloader
-INFO 2025-04-02 22:52:47,704 basehttp 10158 134055725106752 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-02 22:53:42,580 autoreload 10158 134055879335936 /home/dx/Desktop/luffy/luffyapi/luffyapi/libs/yuntongxun/sms.py changed, reloading.
-INFO 2025-04-02 22:53:43,310 autoreload 10207 125258803736576 Watching for file changes with StatReloader
-INFO 2025-04-02 22:54:39,888 autoreload 10207 125258803736576 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-04-02 22:54:40,634 autoreload 10240 136916824326144 Watching for file changes with StatReloader
-INFO 2025-04-02 22:54:42,395 basehttp 10240 136916743751232 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-02 22:55:11,089 basehttp 10240 136916743751232 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-04-02 23:03:03,533 autoreload 10240 136916824326144 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-04-02 23:03:04,347 autoreload 10440 135259374592000 Watching for file changes with StatReloader
-INFO 2025-04-02 23:03:08,605 basehttp 10440 135259293222464 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-04-02 23:03:09,126 basehttp 10440 135259293222464 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-02 23:04:21,079 autoreload 10472 125368388497408 Watching for file changes with StatReloader
-INFO 2025-04-02 23:04:25,692 basehttp 10472 125368308598336 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-02 23:06:02,951 autoreload 10472 125368388497408 /home/dx/Desktop/luffy/luffyapi/luffyapi/libs/yuntongxun/sms.py changed, reloading.
-INFO 2025-04-02 23:06:03,705 autoreload 10536 128081959006208 Watching for file changes with StatReloader
-INFO 2025-04-02 23:15:40,646 basehttp 10536 128081878582848 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-02 23:21:16,944 autoreload 10536 128081959006208 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-04-02 23:21:17,959 autoreload 11061 133045986410496 Watching for file changes with StatReloader
-INFO 2025-04-02 23:22:23,964 autoreload 11061 133045986410496 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-04-02 23:22:24,693 autoreload 11089 131921732268032 Watching for file changes with StatReloader
-INFO 2025-04-02 23:22:30,545 basehttp 11089 131921583539776 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-02 23:24:29,423 autoreload 11089 131921732268032 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/views.py changed, reloading.
-INFO 2025-04-02 23:24:30,131 autoreload 11128 139936022568960 Watching for file changes with StatReloader
-INFO 2025-04-02 23:24:38,437 basehttp 11128 139935870879296 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-04-02 23:24:43,042 basehttp 11128 139935870879296 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-03 13:07:15,339 autoreload 11334 136411390095360 Watching for file changes with StatReloader
-INFO 2025-04-03 13:07:47,550 basehttp 11334 136411229455936 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-04-03 13:07:47,570 basehttp 11334 136411239941696 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-04-03 13:07:47,584 basehttp 11334 136411218970176 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-04-05 13:55:50,977 autoreload 4493 128694825095168 Watching for file changes with StatReloader
-INFO 2025-04-05 13:56:37,843 basehttp 4493 128694645425728 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-04-05 13:56:37,844 basehttp 4493 128694655911488 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-04-05 13:56:37,847 basehttp 4493 128694666397248 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-04-05 13:57:04,679 basehttp 4493 128694666397248 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-04-05 13:57:04,687 basehttp 4493 128694645425728 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-04-05 13:57:04,705 basehttp 4493 128694655911488 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-04-05 13:59:58,167 basehttp 4493 128694655911488 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-04-05 14:00:50,365 autoreload 5491 128426981240832 Watching for file changes with StatReloader
-INFO 2025-04-05 14:02:09,514 basehttp 5491 128426828629568 "GET /user/mobile/15674458322/ HTTP/1.1" 200 59
-ERROR 2025-04-05 14:02:19,767 views 5491 128426828629568 用户注册短信发送失败！手机号为：15674458322
-ERROR 2025-04-05 14:02:19,767 log 5491 128426828629568 Internal Server Error: /user/sms/15674458322/
-ERROR 2025-04-05 14:02:19,768 basehttp 5491 128426828629568 "GET /user/sms/15674458322/ HTTP/1.1" 500 32
-INFO 2025-04-05 14:02:29,521 basehttp 5491 128426828629568 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-04-05 14:02:30,145 basehttp 5491 128426828629568 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-05 14:02:58,032 basehttp 5491 128426828629568 "OPTIONS /user/reg/ HTTP/1.1" 200 0
-WARNING 2025-04-05 14:02:58,058 log 5491 128426828629568 Bad Request: /user/reg/
-WARNING 2025-04-05 14:02:58,059 basehttp 5491 128426828629568 "POST /user/reg/ HTTP/1.1" 400 41
-INFO 2025-04-05 14:04:37,492 autoreload 5491 128426981240832 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
-INFO 2025-04-05 14:04:38,173 autoreload 5621 132810393243648 Watching for file changes with StatReloader
-INFO 2025-04-05 14:12:11,212 basehttp 5621 132810245408320 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-04-05 14:12:56,646 basehttp 5621 132810245408320 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-04-05 14:13:24,619 basehttp 5621 132810245408320 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-04-05 14:13:36,323 basehttp 5621 132810245408320 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-04-05 14:13:42,061 basehttp 5621 132810245408320 "GET /user/mobile/15674458322/ HTTP/1.1" 200 59
-ERROR 2025-04-05 14:13:51,242 views 5621 132810245408320 用户注册短信发送失败！手机号为：15674458322
-ERROR 2025-04-05 14:13:51,243 log 5621 132810245408320 Internal Server Error: /user/sms/15674458322/
-ERROR 2025-04-05 14:13:51,244 basehttp 5621 132810245408320 "GET /user/sms/15674458322/ HTTP/1.1" 500 32
-WARNING 2025-04-05 14:13:53,975 log 5621 132810245408320 Bad Request: /user/sms/15674458322/
-WARNING 2025-04-05 14:13:53,975 basehttp 5621 132810245408320 "GET /user/sms/15674458322/ HTTP/1.1" 400 55
-INFO 2025-04-05 14:14:17,331 basehttp 5621 132810245408320 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-04-05 14:14:54,641 basehttp 5621 132810245408320 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-05 14:19:12,503 basehttp 5621 132810245408320 "POST /user/reg/ HTTP/1.1" 201 272
-INFO 2025-04-05 14:19:13,863 basehttp 5621 132810245408320 "GET /nav/header/ HTTP/1.1" 200 239
-INFO 2025-04-05 14:19:13,879 basehttp 5621 132810234922560 "GET /banner/ HTTP/1.1" 200 319
-INFO 2025-04-05 14:19:13,883 basehttp 5621 132810224436800 "GET /nav/footer/ HTTP/1.1" 200 354
-INFO 2025-04-05 14:19:27,041 basehttp 5621 132810213951040 "GET /admin/ HTTP/1.1" 200 21377
-WARNING 2025-04-05 14:19:27,523 log 5621 132810213951040 Not Found: /favicon.ico
-WARNING 2025-04-05 14:19:27,524 basehttp 5621 132810213951040 "GET /favicon.ico HTTP/1.1" 404 3260
-INFO 2025-04-05 14:19:32,352 basehttp 5621 132810213951040 "GET /admin/user_login/user/ HTTP/1.1" 200 37860
-INFO 2025-04-05 14:19:32,429 basehttp 5621 132810213951040 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-04-05 14:19:39,283 basehttp 5621 132810213951040 "POST /admin/user_login/user/ HTTP/1.1" 200 6253
-INFO 2025-04-05 14:19:40,723 basehttp 5621 132810213951040 "POST /admin/user_login/user/ HTTP/1.1" 302 0
-INFO 2025-04-05 14:19:40,807 basehttp 5621 132810213951040 "GET /admin/user_login/user/ HTTP/1.1" 200 36567
-INFO 2025-04-05 14:19:40,889 basehttp 5621 132810213951040 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-WARNING 2025-04-05 14:23:03,929 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:23:03,930 basehttp 5621 132810224436800 "GET /user/captcha/?username=15647758323 HTTP/1.1" 400 44
-WARNING 2025-04-05 14:23:06,032 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:23:06,033 basehttp 5621 132810224436800 "GET /user/captcha/?username=15647758323 HTTP/1.1" 400 44
-WARNING 2025-04-05 14:23:06,556 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:23:06,557 basehttp 5621 132810224436800 "GET /user/captcha/?username=15647758323 HTTP/1.1" 400 44
-WARNING 2025-04-05 14:23:06,774 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:23:06,775 basehttp 5621 132810224436800 "GET /user/captcha/?username=15647758323 HTTP/1.1" 400 44
-WARNING 2025-04-05 14:23:06,965 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:23:06,966 basehttp 5621 132810224436800 "GET /user/captcha/?username=15647758323 HTTP/1.1" 400 44
-WARNING 2025-04-05 14:23:07,186 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:23:07,187 basehttp 5621 132810224436800 "GET /user/captcha/?username=15647758323 HTTP/1.1" 400 44
-WARNING 2025-04-05 14:23:23,908 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:23:23,909 basehttp 5621 132810224436800 "GET /user/captcha/?username=15647758323 HTTP/1.1" 400 44
-WARNING 2025-04-05 14:24:21,080 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:24:21,081 basehttp 5621 132810224436800 "GET /user/captcha/?username=15647758329 HTTP/1.1" 400 44
-INFO 2025-04-05 14:24:52,915 basehttp 5621 132810213951040 "GET /admin/user_login/user/add/ HTTP/1.1" 200 12949
-INFO 2025-04-05 14:24:52,952 basehttp 5621 132810213951040 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-04-05 14:25:02,736 basehttp 5621 132810213951040 "POST /admin/user_login/user/add/ HTTP/1.1" 302 0
-INFO 2025-04-05 14:25:02,781 basehttp 5621 132810213951040 "GET /admin/user_login/user/ HTTP/1.1" 200 37999
-INFO 2025-04-05 14:25:02,854 basehttp 5621 132810213951040 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-04-05 14:25:07,939 basehttp 5621 132810224436800 "GET /user/captcha/?username=15674458323 HTTP/1.1" 200 140
-INFO 2025-04-05 14:25:14,562 basehttp 5621 132810224436800 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
-INFO 2025-04-05 14:25:14,568 basehttp 5621 132810224436800 "POST /user/captcha/ HTTP/1.1" 200 17
-INFO 2025-04-05 14:25:14,618 basehttp 5621 132810224436800 "OPTIONS /user/login/token/ HTTP/1.1" 200 0
-WARNING 2025-04-05 14:25:15,550 log 5621 132810224436800 Unauthorized: /user/login/token/
-WARNING 2025-04-05 14:25:15,551 basehttp 5621 132810224436800 "POST /user/login/token/ HTTP/1.1" 401 55
-INFO 2025-04-05 14:25:22,839 basehttp 5621 132810224436800 "GET /user/captcha/?username=15674458323 HTTP/1.1" 200 140
-INFO 2025-04-05 14:25:29,899 basehttp 5621 132810224436800 "POST /user/captcha/ HTTP/1.1" 200 17
-WARNING 2025-04-05 14:25:30,742 log 5621 132810224436800 Unauthorized: /user/login/token/
-WARNING 2025-04-05 14:25:30,743 basehttp 5621 132810224436800 "POST /user/login/token/ HTTP/1.1" 401 55
-INFO 2025-04-05 14:25:42,597 basehttp 5621 132810213951040 "GET /admin/user_login/user/10/change/ HTTP/1.1" 200 13678
-INFO 2025-04-05 14:25:42,630 basehttp 5621 132810213951040 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-04-05 14:25:47,527 basehttp 5621 132810213951040 "GET /admin/user_login/user/ HTTP/1.1" 200 37845
-INFO 2025-04-05 14:25:47,562 basehttp 5621 132810213951040 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-04-05 14:25:51,584 basehttp 5621 132810213951040 "POST /admin/user_login/user/ HTTP/1.1" 200 6246
-INFO 2025-04-05 14:25:52,789 basehttp 5621 132810213951040 "POST /admin/user_login/user/ HTTP/1.1" 302 0
-INFO 2025-04-05 14:25:52,833 basehttp 5621 132810213951040 "GET /admin/user_login/user/ HTTP/1.1" 200 36567
-INFO 2025-04-05 14:25:52,906 basehttp 5621 132810213951040 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-WARNING 2025-04-05 14:26:25,678 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:26:25,679 basehttp 5621 132810224436800 "GET /user/captcha/?username=15674458328 HTTP/1.1" 400 44
-WARNING 2025-04-05 14:26:28,975 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:26:28,976 basehttp 5621 132810224436800 "GET /user/captcha/?username=15674458328 HTTP/1.1" 400 44
-INFO 2025-04-05 14:26:33,860 basehttp 5621 132810224436800 "GET /user/captcha/?username=15674458329 HTTP/1.1" 200 140
-INFO 2025-04-05 14:26:53,100 basehttp 5621 132810224436800 "GET /user/captcha/?username=15674458329 HTTP/1.1" 200 140
-INFO 2025-04-05 14:26:58,833 basehttp 5621 132810224436800 "POST /user/captcha/ HTTP/1.1" 200 17
-INFO 2025-04-05 14:26:59,704 basehttp 5621 132810224436800 "POST /user/login/token/ HTTP/1.1" 200 669
-WARNING 2025-04-05 14:27:04,446 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:27:04,447 basehttp 5621 132810224436800 "GET /user/captcha/?username=15674458320 HTTP/1.1" 400 44
-WARNING 2025-04-05 14:27:05,964 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:27:05,965 basehttp 5621 132810224436800 "GET /user/captcha/?username=15674458320 HTTP/1.1" 400 44
-WARNING 2025-04-05 14:27:06,195 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:27:06,196 basehttp 5621 132810224436800 "GET /user/captcha/?username=15674458320 HTTP/1.1" 400 44
-WARNING 2025-04-05 14:31:23,278 log 5621 132810224436800 Bad Request: /user/captcha/
-WARNING 2025-04-05 14:31:23,279 basehttp 5621 132810224436800 "GET /user/captcha/?username=15674458323 HTTP/1.1" 400 44
-INFO 2025-04-05 14:32:30,707 basehttp 5621 132810224436800 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-04-05 14:32:32,924 basehttp 5621 132810224436800 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-05 15:04:51,099 autoreload 5621 132810393243648 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-04-05 15:04:52,227 autoreload 7047 136041544507392 Watching for file changes with StatReloader
-INFO 2025-04-05 15:04:56,634 basehttp 7047 136041396700736 "GET /admin/user_login/user/ HTTP/1.1" 200 36474
-INFO 2025-04-05 15:04:56,675 basehttp 7047 136041396700736 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-WARNING 2025-04-05 15:05:42,935 log 7047 136041396700736 Not Found: /login/token
-WARNING 2025-04-05 15:05:42,936 basehttp 7047 136041396700736 "GET /login/token HTTP/1.1" 404 3260
-INFO 2025-04-05 15:06:11,413 basehttp 7047 136041396700736 "GET /user/login/token HTTP/1.1" 301 0
-WARNING 2025-04-05 15:06:11,511 log 7047 136041386214976 Method Not Allowed: /user/login/token/
-WARNING 2025-04-05 15:06:11,512 basehttp 7047 136041386214976 "GET /user/login/token/ HTTP/1.1" 405 7510
-INFO 2025-04-05 15:06:11,555 basehttp 7047 136041386214976 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
-INFO 2025-04-05 15:06:11,561 basehttp 7047 136041375729216 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
-INFO 2025-04-05 15:06:11,563 basehttp 7047 136041365243456 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
-INFO 2025-04-05 15:06:11,569 basehttp 7047 136041365243456 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
-INFO 2025-04-05 15:06:11,573 basehttp 7047 136041396700736 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
-INFO 2025-04-05 15:06:11,574 basehttp 7047 136041354757696 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
-INFO 2025-04-05 15:06:11,576 basehttp 7047 136041275065920 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
-INFO 2025-04-05 15:06:11,578 basehttp 7047 136041375729216 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
-INFO 2025-04-05 15:06:11,579 basehttp 7047 136041396700736 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
-INFO 2025-04-05 15:06:11,581 basehttp 7047 136041354757696 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
-INFO 2025-04-05 15:06:11,584 basehttp 7047 136041275065920 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
-INFO 2025-04-05 15:06:11,635 basehttp 7047 136041275065920 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
-INFO 2025-04-05 15:06:22,235 basehttp 7047 136041275065920 "POST /user/login/token/ HTTP/1.1" 200 8213
-INFO 2025-04-05 15:21:04,157 autoreload 7047 136041544507392 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-04-05 15:21:06,226 autoreload 7393 124432376799232 Watching for file changes with StatReloader
-INFO 2025-04-05 15:21:21,100 basehttp 7393 124432295134784 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-04-05 15:21:27,201 basehttp 7393 124432295134784 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-05 15:21:42,566 basehttp 7393 124432295134784 "POST /user/reg/ HTTP/1.1" 201 274
-WARNING 2025-04-05 15:22:00,588 log 7393 124432295134784 Bad Request: /user/reg/
-WARNING 2025-04-05 15:22:00,589 basehttp 7393 124432295134784 "POST /user/reg/ HTTP/1.1" 400 61
-INFO 2025-04-05 15:22:12,380 basehttp 7393 124432284649024 "GET /admin/ HTTP/1.1" 200 21323
-INFO 2025-04-05 15:22:12,643 basehttp 7393 124432284649024 "GET /admin/user_login/user/ HTTP/1.1" 200 37863
-INFO 2025-04-05 15:22:12,675 basehttp 7393 124432284649024 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-04-05 15:22:16,626 basehttp 7393 124432284649024 "POST /admin/user_login/user/ HTTP/1.1" 200 6255
-INFO 2025-04-05 15:22:17,952 basehttp 7393 124432284649024 "POST /admin/user_login/user/ HTTP/1.1" 302 0
-INFO 2025-04-05 15:22:18,000 basehttp 7393 124432284649024 "GET /admin/user_login/user/ HTTP/1.1" 200 36567
-INFO 2025-04-05 15:22:18,113 basehttp 7393 124432284649024 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
-INFO 2025-04-05 15:22:30,264 basehttp 7393 124432295134784 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-WARNING 2025-04-05 15:22:40,847 log 7393 124432295134784 Bad Request: /user/reg/
-WARNING 2025-04-05 15:22:40,847 basehttp 7393 124432295134784 "POST /user/reg/ HTTP/1.1" 400 93
-ERROR 2025-04-05 15:22:44,895 log 7393 124432295134784 Internal Server Error: /user/reg/
-Traceback (most recent call last):
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
-    return view_func(request, *args, **kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
-    response = self.handle_exception(exc)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
-    self.raise_uncaught_exception(exc)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
-    raise exc
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
-    response = handler(request, *args, **kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/generics.py", line 194, in post
-    return self.create(request, *args, **kwargs)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/mixins.py", line 18, in create
-    serializer.is_valid(raise_exception=True)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/serializers.py", line 223, in is_valid
-    self._validated_data = self.run_validation(self.initial_data)
-  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/serializers.py", line 445, in run_validation
-    value = self.validate(value)
-  File "/home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py", line 191, in validate
-    if real_sms_code.decode() != sms_code:
-AttributeError: 'NoneType' object has no attribute 'decode'
-ERROR 2025-04-05 15:22:44,898 basehttp 7393 124432295134784 "POST /user/reg/ HTTP/1.1" 500 125299
-INFO 2025-04-05 20:27:38,130 autoreload 7393 124432376799232 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/user_login/serializers.py changed, reloading.
-INFO 2025-04-05 20:27:39,931 autoreload 8633 133010611744768 Watching for file changes with StatReloader
-INFO 2025-04-05 22:04:39,933 autoreload 10896 123296295411712 Watching for file changes with StatReloader
-INFO 2025-04-05 22:06:05,165 basehttp 10896 123296215467584 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-WARNING 2025-04-05 22:06:10,335 log 10896 123296215467584 Not Found: /user/mobile/156744583232/
-WARNING 2025-04-05 22:06:10,336 basehttp 10896 123296215467584 "GET /user/mobile/156744583232/ HTTP/1.1" 404 5084
-INFO 2025-04-05 22:06:13,492 basehttp 10896 123296215467584 "GET /user/mobile/15674458323/ HTTP/1.1" 200 59
-INFO 2025-04-05 22:06:13,920 basehttp 10896 123296215467584 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-05 22:07:28,241 basehttp 10896 123296215467584 "GET /user/sms/15674458323/ HTTP/1.1" 200 32
-INFO 2025-04-05 22:18:17,312 basehttp 10896 123296215467584 "OPTIONS /user/reg/ HTTP/1.1" 200 0
-WARNING 2025-04-05 22:18:17,487 log 10896 123296215467584 Bad Request: /user/reg/
-WARNING 2025-04-05 22:18:17,488 basehttp 10896 123296215467584 "POST /user/reg/ HTTP/1.1" 400 62
-WARNING 2025-04-05 22:18:27,928 log 10896 123296215467584 Bad Request: /user/reg/
-WARNING 2025-04-05 22:18:27,929 basehttp 10896 123296215467584 "POST /user/reg/ HTTP/1.1" 400 62
+INFO 2025-04-18 17:27:52,120 basehttp 10828 128443769423424 "GET /media/2025/04/18/2025-03-26-19-12-00.png HTTP/1.1" 304 0
+WARNING 2025-04-18 17:27:52,128 log 10828 128443779909184 Not Found: /media/2019/08/15/course-cover.jpeg
+INFO 2025-04-18 17:27:52,131 basehttp 10828 128443668760128 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 17:27:52,133 basehttp 10828 128443790394944 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=N5UC HTTP/1.1" 304 0
+WARNING 2025-04-18 17:27:52,135 basehttp 10828 128443779909184 "GET /media/2019/08/15/course-cover.jpeg HTTP/1.1" 404 2689
+INFO 2025-04-18 17:27:52,135 basehttp 10828 128443758937664 "GET /static/ckeditor/ckeditor/contents.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 17:30:11,696 basehttp 10828 128443779909184 "GET /static/ckeditor/ckeditor/plugins/magicline/images/icon.png?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 17:30:17,332 basehttp 10828 128443679245888 "GET /course/?page=5&size=3&ordering=-price HTTP/1.1" 200 989
+INFO 2025-04-18 17:30:20,444 basehttp 10828 128443679245888 "GET /course/?page=4&size=3&ordering=-price HTTP/1.1" 200 963
+INFO 2025-04-18 17:30:26,328 basehttp 10828 128443679245888 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-18 17:30:26,335 basehttp 10828 128443647788608 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 17:30:26,341 basehttp 10828 128443637302848 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 17:30:26,366 basehttp 10828 128443658274368 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+WARNING 2025-04-18 17:30:26,386 log 10828 128443626817088 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 17:30:26,387 basehttp 10828 128443626817088 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 17:30:29,447 basehttp 10828 128443679245888 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 17:30:29,455 basehttp 10828 128443658274368 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-18 17:30:29,466 basehttp 10828 128443647788608 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 17:30:29,499 basehttp 10828 128443637302848 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+WARNING 2025-04-18 17:30:29,521 log 10828 128443626817088 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 17:30:29,523 basehttp 10828 128443626817088 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 17:30:33,416 basehttp 10828 128443658274368 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 17:30:33,419 basehttp 10828 128443637302848 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-18 17:30:33,431 basehttp 10828 128443679245888 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 17:30:33,452 basehttp 10828 128443647788608 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+WARNING 2025-04-18 17:30:33,476 log 10828 128443626817088 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 17:30:33,476 basehttp 10828 128443626817088 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 17:35:14,297 autoreload 10828 128443871399936 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-04-18 17:35:15,085 autoreload 12462 127499005939712 Watching for file changes with StatReloader
+INFO 2025-04-18 17:35:18,049 basehttp 12462 127498853549632 "GET /admin/ HTTP/1.1" 200 23114
+INFO 2025-04-18 17:35:18,425 basehttp 12462 127498853549632 "GET /admin/course/course/ HTTP/1.1" 200 32783
+INFO 2025-04-18 17:35:18,459 basehttp 12462 127498853549632 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 17:35:20,819 basehttp 12462 127498853549632 "GET /admin/course/course/29/change/ HTTP/1.1" 200 24839
+INFO 2025-04-18 17:35:20,859 basehttp 12462 127498843063872 "GET /static/ckeditor/ckeditor.css HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:20,861 basehttp 12462 127498832578112 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:20,863 basehttp 12462 127498822092352 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:20,868 basehttp 12462 127498811606592 "GET /static/ckeditor/fixups.js HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:20,878 basehttp 12462 127498853549632 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 17:35:21,183 basehttp 12462 127498853549632 "GET /static/ckeditor/ckeditor/config.js?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:21,214 basehttp 12462 127498853549632 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:21,215 basehttp 12462 127498811606592 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:21,231 basehttp 12462 127498811606592 "GET /static/ckeditor/ckeditor/styles.js?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:21,292 basehttp 12462 127498853549632 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:21,295 basehttp 12462 127498811606592 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:21,296 basehttp 12462 127498832578112 "GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:21,297 basehttp 12462 127498843063872 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:21,298 basehttp 12462 127498822092352 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:21,324 basehttp 12462 127498822092352 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=4a1fb11f44 HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:21,365 basehttp 12462 127498811606592 "GET /static/ckeditor/ckeditor/contents.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 17:35:27,793 basehttp 12462 127498811606592 "GET /admin/course/course/ HTTP/1.1" 200 32783
+INFO 2025-04-18 17:35:27,830 basehttp 12462 127498811606592 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 17:35:29,011 basehttp 12462 127498811606592 "GET /admin/course/course/29/change/ HTTP/1.1" 200 24839
+INFO 2025-04-18 17:35:29,061 basehttp 12462 127498811606592 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 19:16:01,285 autoreload 12462 127499005939712 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-04-18 19:16:02,846 autoreload 14316 128794858631168 Watching for file changes with StatReloader
+INFO 2025-04-18 19:16:03,771 basehttp 14316 128794780239424 "GET /admin/ HTTP/1.1" 200 23114
+INFO 2025-04-18 19:16:04,297 basehttp 14316 128794780239424 "GET /admin/course/course/ HTTP/1.1" 200 32783
+INFO 2025-04-18 19:16:04,381 basehttp 14316 128794780239424 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 19:16:06,233 basehttp 14316 128794780239424 "GET /admin/course/course/29/change/ HTTP/1.1" 200 24428
+INFO 2025-04-18 19:16:06,282 basehttp 14316 128794769753664 "GET /static/ckeditor/ckeditor.css HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,288 basehttp 14316 128794757170752 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,289 basehttp 14316 128794658604608 "GET /static/ckeditor/fixups.js HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,290 basehttp 14316 128794746684992 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,303 basehttp 14316 128794780239424 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 19:16:06,681 basehttp 14316 128794780239424 "GET /static/ckeditor/ckeditor/config.js?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,725 basehttp 14316 128794780239424 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,727 basehttp 14316 128794746684992 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,764 basehttp 14316 128794746684992 "GET /static/ckeditor/ckeditor/styles.js?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,824 basehttp 14316 128794780239424 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,827 basehttp 14316 128794746684992 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,830 basehttp 14316 128794658604608 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,830 basehttp 14316 128794780239424 "GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,839 basehttp 14316 128794658604608 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,864 basehttp 14316 128794757170752 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=4a1fb11f44 HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:06,970 basehttp 14316 128794658604608 "GET /static/ckeditor/ckeditor/contents.css?t=N5UC HTTP/1.1" 304 0
+INFO 2025-04-18 19:16:16,612 autoreload 14316 128794858631168 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-04-18 19:16:17,382 autoreload 14344 137060769681408 Watching for file changes with StatReloader
+INFO 2025-04-18 19:16:22,131 basehttp 14344 137060690167360 "GET /admin/ HTTP/1.1" 200 23114
+INFO 2025-04-18 19:16:22,412 basehttp 14344 137060690167360 "GET /admin/course/course/ HTTP/1.1" 200 32783
+INFO 2025-04-18 19:16:22,455 basehttp 14344 137060690167360 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 19:16:23,693 basehttp 14344 137060690167360 "GET /admin/course/course/29/change/ HTTP/1.1" 200 24427
+INFO 2025-04-18 19:16:23,743 basehttp 14344 137060690167360 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 19:16:24,064 basehttp 14344 137060679681600 "GET /media/2025/04/18/2025-03-26-19-12-00.png HTTP/1.1" 304 0
+WARNING 2025-04-18 19:16:24,070 log 14344 137060690167360 Not Found: /media/2019/08/15/course-cover.jpeg
+WARNING 2025-04-18 19:16:24,071 basehttp 14344 137060690167360 "GET /media/2019/08/15/course-cover.jpeg HTTP/1.1" 404 2689
+INFO 2025-04-18 19:16:33,832 basehttp 14344 137060690167360 "GET /static/admin/simpleui-x/waves/waves.min.js.map HTTP/1.1" 200 9739
+INFO 2025-04-18 19:16:33,932 basehttp 14344 137060690167360 "GET /static/admin/simpleui-x/css/index.css.map HTTP/1.1" 200 3480
+INFO 2025-04-18 19:16:33,933 basehttp 14344 137060679681600 "GET /static/admin/simpleui-x/css/base.css.map HTTP/1.1" 200 2107
+INFO 2025-04-18 19:16:33,975 basehttp 14344 137060591601216 "GET /static/admin/simpleui-x/theme/simpleui.css.map HTTP/1.1" 200 1935
+INFO 2025-04-18 19:17:44,264 autoreload 14344 137060769681408 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-04-18 19:17:45,013 autoreload 14483 127470103015424 Watching for file changes with StatReloader
+INFO 2025-04-18 19:17:46,110 basehttp 14483 127470024001088 "GET /admin/ HTTP/1.1" 200 23114
+INFO 2025-04-18 19:17:46,574 basehttp 14483 127470024001088 "GET /admin/course/course/ HTTP/1.1" 200 32783
+INFO 2025-04-18 19:17:46,618 basehttp 14483 127470024001088 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 19:17:47,032 basehttp 14483 127470024001088 "GET /static/admin/simpleui-x/js/axios.min.map HTTP/1.1" 200 117473
+INFO 2025-04-18 19:17:49,387 basehttp 14483 127470024001088 "GET /admin/course/course/29/change/ HTTP/1.1" 200 24858
+INFO 2025-04-18 19:17:49,438 basehttp 14483 127470024001088 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+WARNING 2025-04-18 19:17:50,305 log 14483 127470024001088 Not Found: /media/2019/08/15/course-cover.jpeg
+WARNING 2025-04-18 19:17:50,306 basehttp 14483 127470024001088 "GET /media/2019/08/15/course-cover.jpeg HTTP/1.1" 404 2689
+INFO 2025-04-18 19:19:42,552 autoreload 14483 127470103015424 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-04-18 19:19:43,321 autoreload 14637 131383816302592 Watching for file changes with StatReloader
+INFO 2025-04-18 19:19:44,115 basehttp 14637 131383737452096 "GET /admin/ HTTP/1.1" 200 23114
+INFO 2025-04-18 19:19:44,358 basehttp 14637 131383737452096 "GET /admin/course/course/ HTTP/1.1" 200 32783
+INFO 2025-04-18 19:19:44,396 basehttp 14637 131383737452096 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 19:19:46,457 basehttp 14637 131383737452096 "GET /admin/course/course/29/change/ HTTP/1.1" 200 24858
+INFO 2025-04-18 19:19:46,496 basehttp 14637 131383737452096 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+WARNING 2025-04-18 19:19:46,812 log 14637 131383737452096 Not Found: /media/2019/08/15/course-cover.jpeg
+WARNING 2025-04-18 19:19:46,813 basehttp 14637 131383737452096 "GET /media/2019/08/15/course-cover.jpeg HTTP/1.1" 404 2689
+INFO 2025-04-18 19:21:41,234 basehttp 14637 131383737452096 "GET /admin/course/teacher/ HTTP/1.1" 200 25541
+INFO 2025-04-18 19:21:41,274 basehttp 14637 131383737452096 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 19:21:43,071 basehttp 14637 131383737452096 "GET /admin/course/course/ HTTP/1.1" 200 32783
+INFO 2025-04-18 19:21:43,102 basehttp 14637 131383737452096 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 19:21:44,613 basehttp 14637 131383737452096 "GET /admin/course/course/25/change/ HTTP/1.1" 200 23541
+INFO 2025-04-18 19:21:44,654 basehttp 14637 131383737452096 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 19:21:49,596 basehttp 14637 131383737452096 "GET /admin/course/course/ HTTP/1.1" 200 32783
+INFO 2025-04-18 19:21:49,638 basehttp 14637 131383737452096 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 19:21:51,357 basehttp 14637 131383737452096 "GET /admin/course/course/15/change/ HTTP/1.1" 200 23545
+INFO 2025-04-18 19:21:51,391 basehttp 14637 131383737452096 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-04-18 19:32:12,789 basehttp 14637 131383651468864 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-18 19:32:12,798 basehttp 14637 131383630497344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:32:12,830 basehttp 14637 131383640983104 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+INFO 2025-04-18 19:32:12,834 basehttp 14637 131383630497344 "GET /nav/footer/ HTTP/1.1" 200 354
+WARNING 2025-04-18 19:32:12,907 log 14637 131383620011584 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 19:32:12,908 basehttp 14637 131383620011584 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 19:32:12,912 basehttp 14637 131383620011584 - Broken pipe from ('127.0.0.1', 49568)
+INFO 2025-04-18 19:32:27,719 basehttp 14637 131383630497344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:32:27,746 basehttp 14637 131383640983104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:32:34,034 basehttp 14637 131383640983104 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:32:34,043 basehttp 14637 131383630497344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:32:39,551 basehttp 14637 131383630497344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:32:39,560 basehttp 14637 131383640983104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:33:03,593 basehttp 14637 131383640983104 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:33:03,597 basehttp 14637 131383630497344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:33:10,470 basehttp 14637 131383630497344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:33:10,484 basehttp 14637 131383640983104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:38:49,509 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:38:49,514 basehttp 14637 131383640983104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:38:55,586 basehttp 14637 131383640983104 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:38:55,597 basehttp 14637 131383651468864 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:39:04,619 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:39:04,629 basehttp 14637 131383640983104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:39:17,403 basehttp 14637 131383640983104 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-18 19:39:17,436 basehttp 14637 131383630497344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:39:17,443 basehttp 14637 131383640983104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:39:17,454 basehttp 14637 131383651468864 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+WARNING 2025-04-18 19:39:17,494 log 14637 131383620011584 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 19:39:17,498 basehttp 14637 131383620011584 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 19:39:17,503 basehttp 14637 131383620011584 - Broken pipe from ('127.0.0.1', 37774)
+INFO 2025-04-18 19:39:22,800 basehttp 14637 131383640983104 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:39:22,809 basehttp 14637 131383651468864 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:39:27,982 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:39:28,014 basehttp 14637 131383640983104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:39:34,994 basehttp 14637 131383640983104 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:39:34,996 basehttp 14637 131383651468864 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:39:40,365 basehttp 14637 131383651468864 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-18 19:39:40,382 basehttp 14637 131383630497344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:39:40,400 basehttp 14637 131383651468864 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:39:40,415 basehttp 14637 131383640983104 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+WARNING 2025-04-18 19:39:40,441 log 14637 131383620011584 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 19:39:40,441 basehttp 14637 131383620011584 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 19:39:45,469 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:39:45,479 basehttp 14637 131383640983104 "GET /nav/footer/ HTTP/1.1" 200 354
+WARNING 2025-04-18 19:39:49,168 log 14637 131383620011584 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 19:39:49,169 basehttp 14637 131383620011584 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 19:39:56,566 basehttp 14637 131383640983104 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:39:56,575 basehttp 14637 131383651468864 "GET /nav/footer/ HTTP/1.1" 200 354
+WARNING 2025-04-18 19:39:58,356 log 14637 131383620011584 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 19:39:58,357 basehttp 14637 131383620011584 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 19:45:27,634 basehttp 14637 131383640983104 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:45:27,650 basehttp 14637 131383630497344 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-18 19:45:27,672 basehttp 14637 131383737452096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:45:27,683 basehttp 14637 131383651468864 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+WARNING 2025-04-18 19:45:27,744 log 14637 131383620011584 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 19:45:27,745 basehttp 14637 131383620011584 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 19:45:32,303 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:45:32,308 basehttp 14637 131383737452096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:46:10,940 basehttp 14637 131383737452096 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-18 19:46:10,951 basehttp 14637 131383640983104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 19:46:10,951 basehttp 14637 131383630497344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:46:10,971 basehttp 14637 131383651468864 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+WARNING 2025-04-18 19:46:10,999 log 14637 131383620011584 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 19:46:11,000 basehttp 14637 131383620011584 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 19:46:14,039 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 19:46:14,041 basehttp 14637 131383640983104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 21:56:32,271 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 21:56:32,289 basehttp 14637 131383640983104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:07:48,727 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:07:48,737 basehttp 14637 131383640983104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:07:56,901 basehttp 14637 131383640983104 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:07:56,905 basehttp 14637 131383651468864 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:08:14,570 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:08:14,592 basehttp 14637 131383640983104 "GET /banner/ HTTP/1.1" 200 319
+INFO 2025-04-18 22:08:14,598 basehttp 14637 131383737452096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:08:22,155 basehttp 14637 131383737452096 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-18 22:08:22,175 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:08:22,176 basehttp 14637 131383630497344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:08:22,215 basehttp 14637 131383640983104 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+WARNING 2025-04-18 22:08:22,254 log 14637 131383620011584 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 22:08:22,255 basehttp 14637 131383620011584 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 22:08:24,082 basehttp 14637 131383640983104 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:08:24,085 basehttp 14637 131383651468864 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:08:33,332 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:08:33,613 basehttp 14637 131383651468864 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:18:11,553 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:18:11,758 basehttp 14637 131383651468864 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:29:46,769 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:29:46,782 basehttp 14637 131383630497344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:29:49,560 basehttp 14637 131383630497344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:29:49,814 basehttp 14637 131383630497344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:34:13,969 basehttp 14637 131383630497344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:34:13,983 basehttp 14637 131383651468864 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:34:26,224 basehttp 14637 131383651468864 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-18 22:34:26,247 basehttp 14637 131383640983104 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:34:26,267 basehttp 14637 131383737452096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:34:26,272 basehttp 14637 131383630497344 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+WARNING 2025-04-18 22:34:26,300 log 14637 131383620011584 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 22:34:26,301 basehttp 14637 131383620011584 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 22:34:26,304 basehttp 14637 131383620011584 - Broken pipe from ('127.0.0.1', 34862)
+INFO 2025-04-18 22:34:27,806 basehttp 14637 131383630497344 "GET /course/?page=1&size=5&ordering=-id&course_category=7 HTTP/1.1" 200 576
+INFO 2025-04-18 22:34:30,040 basehttp 14637 131383630497344 "GET /course/?page=1&size=5&ordering=id&course_category=7 HTTP/1.1" 200 576
+INFO 2025-04-18 22:34:31,471 basehttp 14637 131383630497344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:34:31,472 basehttp 14637 131383737452096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:36:55,847 basehttp 14637 131383630497344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:36:56,032 basehttp 14637 131383630497344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:43:04,196 basehttp 14637 131383630497344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:43:04,207 basehttp 14637 131383737452096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:46:52,604 basehttp 14637 131383737452096 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:46:52,786 basehttp 14637 131383737452096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:47:08,098 basehttp 14637 131383737452096 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:47:08,292 basehttp 14637 131383737452096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:48:21,129 basehttp 14637 131383737452096 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:48:21,342 basehttp 14637 131383737452096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:52:45,790 basehttp 14637 131383737452096 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:52:45,958 basehttp 14637 131383737452096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:54:12,455 basehttp 14637 131383737452096 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:54:12,480 basehttp 14637 131383737452096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:55:02,709 basehttp 14637 131383737452096 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:55:02,720 basehttp 14637 131383630497344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:55:41,622 basehttp 14637 131383630497344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:55:41,633 basehttp 14637 131383737452096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:56:59,022 basehttp 14637 131383737452096 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-18 22:56:59,039 basehttp 14637 131383651468864 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:56:59,053 basehttp 14637 131383737452096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-18 22:56:59,066 basehttp 14637 131383630497344 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+WARNING 2025-04-18 22:56:59,106 log 14637 131383620011584 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 22:56:59,107 basehttp 14637 131383620011584 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 22:57:00,749 basehttp 14637 131383737452096 "GET /course/?page=1&size=5&ordering=-id&course_category=3 HTTP/1.1" 200 1371
+INFO 2025-04-18 22:57:02,160 basehttp 14637 131383737452096 "GET /course/?page=1&size=5&ordering=-id&course_category=8 HTTP/1.1" 200 52
+INFO 2025-04-18 22:57:03,162 basehttp 14637 131383737452096 "GET /course/?page=1&size=5&ordering=-id&course_category=4 HTTP/1.1" 200 52
+INFO 2025-04-18 22:57:03,753 basehttp 14637 131383737452096 "GET /course/?page=1&size=5&ordering=-id&course_category=1 HTTP/1.1" 200 1732
+WARNING 2025-04-18 22:57:03,776 log 14637 131383620011584 Not Found: /media/course/2.jpeg
+WARNING 2025-04-18 22:57:03,776 basehttp 14637 131383620011584 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-18 22:57:03,779 basehttp 14637 131383620011584 - Broken pipe from ('127.0.0.1', 58822)
+INFO 2025-04-18 22:57:04,619 basehttp 14637 131383737452096 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-18 22:57:04,622 basehttp 14637 131383630497344 "GET /nav/footer/ HTTP/1.1" 200 354

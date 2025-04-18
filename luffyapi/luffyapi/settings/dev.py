@@ -60,10 +60,14 @@ INSTALLED_APPS = [
     'corsheaders',  # 跨域请求,需要配置CORS_ORIGIN_WHITELIST
     'rest_framework',  # 有很多功能，方便后面开发
     'rest_framework_simplejwt',
+    'django_filters',
+    'ckeditor',  # 富文本编辑器,核心应用
+    'ckeditor_uploader',  # 富文本编辑器上传图片模块
 
     # 子应用
     'home',
     'user_login',
+    'course',
 
 ]
 
@@ -330,3 +334,21 @@ SMS = {
     "_softVersion": "2013-12-26"
 }
 
+
+# 富文本编辑器ckeditor配置
+CKEDITOR_CONFIGS = {
+    'default': {
+        # 'toolbar': 'full',  # 工具条功能，full表示全部功能,Basic表示精简功能
+        'toolbar': 'Custom',  # 自定义工具条
+        'toolbar_Custom': [
+            # cke_button_工具名称[注意改成驼峰式写进来]
+            ['Bold', 'Italic', 'Underline','Image'],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+            ['Link', 'Unlink'],
+            ['RemoveFormat', 'Source']
+        ],
+        'height': 400,      # 编辑器高度
+        # 'width': 300,     # 编辑器宽
+    },
+}
+CKEDITOR_UPLOAD_PATH = ''  # 上传图片保存路径，留空则调用django的文件上传功能

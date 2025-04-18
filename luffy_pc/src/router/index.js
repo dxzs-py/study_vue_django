@@ -3,6 +3,9 @@ import Router from 'vue-router'
 import Home from "../components/Home.vue"
 import Login from "../components/Login.vue"
 import Register from "../components/Register.vue"
+import Course from "../components/Course.vue";
+import Detail from "../components/Detail.vue";
+
 // 这里是路由的配置
 
 Vue.use(Router)
@@ -25,6 +28,15 @@ export default new Router({
       name: "Register",
       component: Register
     },
-
+    {
+      path: '/courses',
+      name: "Course",
+      component: Course
+    },
+    {
+      path: '/courses/detail/:courses_id',
+      name: "Detail",
+      component: Detail
+    },
   ]
 })
