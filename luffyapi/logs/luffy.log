@@ -253,3 +253,74 @@ WARNING 2025-04-18 22:57:03,776 basehttp 14637 131383620011584 "GET /media/cours
 INFO 2025-04-18 22:57:03,779 basehttp 14637 131383620011584 - Broken pipe from ('127.0.0.1', 58822)
 INFO 2025-04-18 22:57:04,619 basehttp 14637 131383737452096 "GET /nav/header/ HTTP/1.1" 200 239
 INFO 2025-04-18 22:57:04,622 basehttp 14637 131383630497344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-20 19:42:50,673 autoreload 5505 135224785297408 Watching for file changes with StatReloader
+INFO 2025-04-20 19:45:32,249 autoreload 5791 131865459347456 Watching for file changes with StatReloader
+INFO 2025-04-20 19:46:05,965 autoreload 5791 131865459347456 /home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/ckeditor_uploader/backends/__init__.py changed, reloading.
+INFO 2025-04-20 19:46:06,758 autoreload 5980 128138245865472 Watching for file changes with StatReloader
+INFO 2025-04-20 19:46:38,026 autoreload 6071 126633719918592 Watching for file changes with StatReloader
+INFO 2025-04-20 19:52:14,788 basehttp 6071 126633639937600 "GET /admin/ HTTP/1.1" 200 23114
+INFO 2025-04-20 19:52:14,818 basehttp 6071 126633639937600 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:14,822 basehttp 6071 126633551857216 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:14,826 basehttp 6071 126633541371456 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:14,840 basehttp 6071 126633551857216 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:14,841 basehttp 6071 126633541371456 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:14,844 basehttp 6071 126633530885696 "GET /static/admin/simpleui-x/js/vue.min.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:14,866 basehttp 6071 126633639937600 "GET /static/admin/simpleui-x/elementui/index.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:14,896 basehttp 6071 126633551857216 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:14,898 basehttp 6071 126633541371456 "GET /static/admin/simpleui-x/automatic/segment.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:14,953 basehttp 6071 126633541371456 "GET /static/admin/simpleui-x/locale/en-us.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:14,954 basehttp 6071 126633551857216 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:14,965 basehttp 6071 126633639937600 "GET /static/admin/simpleui-x/js/cookie.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:15,022 basehttp 6071 126633551857216 "GET /static/admin/simpleui-x/theme/theme.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:15,025 basehttp 6071 126633639937600 "GET /static/admin/simpleui-x/js/menu.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:15,026 basehttp 6071 126633541371456 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:15,043 basehttp 6071 126633639937600 "GET /static/admin/simpleui-x/js/index.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:15,439 basehttp 6071 126633541371456 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:15,442 basehttp 6071 126633639937600 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:15,442 basehttp 6071 126633551857216 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:17,180 basehttp 6071 126633520399936 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-20 19:52:17,187 basehttp 6071 126633499428416 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-20 19:52:17,188 basehttp 6071 126633509914176 "GET /banner/ HTTP/1.1" 200 319
+INFO 2025-04-20 19:52:17,274 basehttp 6071 126633350530624 "GET /media/banner/clash_dBw4us0.jpg HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:17,275 basehttp 6071 126633340044864 "GET /media/banner/Loginbg.3377d0c.jpg HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:17,278 basehttp 6071 126633329559104 "GET /media/banner/banner2.png HTTP/1.1" 304 0
+INFO 2025-04-20 19:52:22,062 basehttp 6071 126633520399936 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-20 19:52:22,078 basehttp 6071 126633499428416 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-20 19:52:22,099 basehttp 6071 126633520399936 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-20 19:52:22,121 basehttp 6071 126633509914176 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+WARNING 2025-04-20 19:52:22,171 log 6071 126633329559104 Not Found: /media/course/2.jpeg
+WARNING 2025-04-20 19:52:22,172 basehttp 6071 126633329559104 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-20 19:52:22,175 basehttp 6071 126633329559104 - Broken pipe from ('127.0.0.1', 42356)
+INFO 2025-04-20 19:52:23,910 basehttp 6071 126633520399936 "GET /course/?page=1&size=5&ordering=-id&course_category=7 HTTP/1.1" 200 576
+INFO 2025-04-20 19:52:26,604 basehttp 6071 126633520399936 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-20 19:52:26,609 basehttp 6071 126633509914176 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-20 20:59:39,098 basehttp 6071 126633509914176 "GET /banner/ HTTP/1.1" 200 319
+INFO 2025-04-20 20:59:39,106 basehttp 6071 126633639937600 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-20 20:59:39,107 basehttp 6071 126633499428416 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-20 20:59:43,470 basehttp 6071 126633509914176 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-20 20:59:43,473 basehttp 6071 126633499428416 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-20 20:59:43,482 basehttp 6071 126633520399936 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-20 20:59:43,531 basehttp 6071 126633639937600 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+WARNING 2025-04-20 20:59:43,570 log 6071 126633551857216 Not Found: /media/course/2.jpeg
+WARNING 2025-04-20 20:59:43,571 basehttp 6071 126633551857216 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-20 20:59:43,574 basehttp 6071 126633551857216 - Broken pipe from ('127.0.0.1', 39266)
+INFO 2025-04-20 20:59:44,859 basehttp 6071 126633639937600 "GET /course/?page=1&size=5&ordering=-id&course_category=7 HTTP/1.1" 200 576
+INFO 2025-04-20 20:59:46,555 basehttp 6071 126633639937600 "GET /course/?page=1&size=5&ordering=id&course_category=7 HTTP/1.1" 200 576
+INFO 2025-04-20 20:59:47,036 basehttp 6071 126633639937600 "GET /course/?page=1&size=5&ordering=-id&course_category=7 HTTP/1.1" 200 576
+INFO 2025-04-20 21:04:36,685 autoreload 6071 126633719918592 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/views.py changed, reloading.
+INFO 2025-04-20 21:04:37,772 autoreload 8449 136730760597504 Watching for file changes with StatReloader
+INFO 2025-04-20 21:04:49,386 autoreload 8449 136730760597504 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/views.py changed, reloading.
+INFO 2025-04-20 21:04:50,161 autoreload 8466 130855024779264 Watching for file changes with StatReloader
+INFO 2025-04-20 21:05:39,839 autoreload 8548 137592395739136 Watching for file changes with StatReloader
+INFO 2025-04-20 21:06:13,342 autoreload 8607 128518447349760 Watching for file changes with StatReloader
+INFO 2025-04-20 21:06:17,831 basehttp 8607 128518298011200 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-04-20 21:06:17,860 basehttp 8607 128518266553920 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-04-20 21:06:17,863 basehttp 8607 128518277039680 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-04-20 21:06:17,906 basehttp 8607 128518287525440 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1426
+WARNING 2025-04-20 21:06:17,939 log 8607 128518256068160 Not Found: /media/course/2.jpeg
+WARNING 2025-04-20 21:06:17,940 basehttp 8607 128518256068160 "GET /media/course/2.jpeg HTTP/1.1" 404 2629
+INFO 2025-04-20 21:06:17,943 basehttp 8607 128518256068160 - Broken pipe from ('127.0.0.1', 49680)
+INFO 2025-04-20 21:06:22,595 basehttp 8607 128518287525440 "GET /course/?page=1&size=5&ordering=id HTTP/1.1" 200 2079
+INFO 2025-04-20 21:06:22,626 basehttp 8607 128518256068160 "GET /media/course/course-cover.jpeg HTTP/1.1" 304 0
+INFO 2025-04-20 21:07:30,788 autoreload 8607 128518447349760 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/views.py changed, reloading.
+INFO 2025-04-20 21:07:31,601 autoreload 8698 132488803303424 Watching for file changes with StatReloader

@@ -352,3 +352,4 @@ CKEDITOR_CONFIGS = {
     },
 }
 CKEDITOR_UPLOAD_PATH = ''  # 上传图片保存路径，留空则调用django的文件上传功能
+CKEDITOR_VERSION = '4.24.0-lts'  # 指定LTS版本
