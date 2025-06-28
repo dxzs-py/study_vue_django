@@ -32,10 +32,16 @@ import "../static/css/reset.css";
 // 导入极验的sdk
 import "../static/js/gt.js"
 
+// 导入vuex
+import store from "./store/index"
+
+
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   components: {App},
   template: '<App/>'
-})
+});

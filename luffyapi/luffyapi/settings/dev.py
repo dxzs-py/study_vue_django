@@ -68,6 +68,8 @@ INSTALLED_APPS = [
     'home',
     'user_login',
     'course',
+    'cart',
+    'order',
 
 ]
 
@@ -88,6 +90,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'luffyapi.middlewares.range_file_middleware.RangeFileMiddleware'
 ]
 
 ROOT_URLCONF = 'luffyapi.urls'
@@ -140,7 +143,7 @@ CACHES = {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
-    # 提供给xadmin或者admin的session存储
+    # 提供给admin或者admin的session存储
     "session": {
         "BACKEND": "django_redis.cache.RedisCache",
         "LOCATION": "redis://127.0.0.1:6379/1",
@@ -155,7 +158,16 @@ CACHES = {
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
-    }
+    },
+    # 提供存储购物车信息
+    "cart":{
+            "BACKEND": "django_redis.cache.RedisCache",
+            "LOCATION": "redis://127.0.0.1:6379/3",
+            "OPTIONS": {
+                "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            }
+        },
+
 }
 
 # 设置admin用户登录时,登录信息session保存到redis
@@ -191,7 +203,9 @@ TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
-USE_TZ = True
+# USE_TZ = True
+USE_TZ = False # 保证数据库中django中使用的时区一致！
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/

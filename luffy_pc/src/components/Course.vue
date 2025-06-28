@@ -37,14 +37,12 @@
           </div>
           <div class="course-info">
             <h3>
-              <router-link :to="'/courses/detail/'+course.id">{{ course.name }}</router-link>
+              <router-link :to="'/course/detail/'+course.id">{{ course.name }}</router-link>
               <span><img src="/static/image/avatar1.svg" alt="">{{ course.students }}</span></h3>
             <p class="teather-info">
               {{ course.teacher.name }} {{ course.teacher.signature }} {{ course.teacher.title }}
               <span>
-                共{{
-                  course.lessons
-                }}课时/{{ course.pub_lessons === course.lessons ? "更新完成" : `已经更新${course.pub_lessons}课时` }}
+                共{{course.lessons }}课时/{{ course.pub_lessons === course.lessons ? "更新完成" : `已经更新${course.pub_lessons}课时` }}
               </span>
             </p>
             <ul class="lesson-list">
@@ -56,9 +54,9 @@
               </li>
             </ul>
             <div class="pay-box">
-              <span class="discount-type">限时免费</span>
-              <span class="discount-price">￥0.00元</span>
-              <span class="original-price">原价：{{ course.price }}元</span>
+              <span class="discount-type" v-if="course.discount_name">{{ course.discount_name }}</span>
+              <span class="discount-price">￥{{course.real_price}}元</span>
+              <span class="original-price" v-if="course.discount_name">原价：{{ course.price }}元</span>
               <span class="buy-now">立即购买</span>
             </div>
           </div>

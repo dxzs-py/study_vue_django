@@ -83,7 +83,8 @@
           cancelButtonText: '取消',
           type: 'success'
         }).then(() => {
-          self.$router.push('/');  // 这里如果用this是alert对象，我们要重新回调到Vue
+          // self.$router.push('/');  // 这里如果用this是alert对象，我们要重新回调到Vue
+          self.$router.go(-1);
         });
 
       }).catch(error => {

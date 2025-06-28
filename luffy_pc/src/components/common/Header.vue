@@ -13,8 +13,8 @@
         </ul>
 
         <div v-if="token" class="login-bar full-right">
-
           <div class="shop-cart full-left">
+            <span style="padding-left: 4px" class="shop-cart-total">{{ this.$store.state.cart_length? this.$store.state.cart_length : ""}}</span>
             <img src="/static/image/cart.svg" alt="">
             <span><router-link to="/cart">购物车</router-link></span>
           </div>
@@ -212,7 +212,7 @@ export default {
   cursor: pointer;
   font-size: 14px;
   height: 28px;
-  width: 100px;
+  width: 110px;
   margin-top: 30px;
   line-height: 32px;
   text-align: center;

@@ -15,3 +15,6 @@ SMS_INTERVAL_TIME = 60
 
 # 短信的模版id，测试开发时使用 1
 SMS_TEMPLATE_ID = 1
+
+# 后端的富文本编辑器中的图片存储域名
+SERVER_IMAGE_DOMAIN = 'http://api.luffycity.cn:8000'

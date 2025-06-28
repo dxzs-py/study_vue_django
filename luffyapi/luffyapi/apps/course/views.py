@@ -1,6 +1,8 @@
-from django.shortcuts import render
-
 # Create your views here.
+import os
+
+from django.http import HttpResponse, FileResponse
+from django.utils.http import http_date
 from rest_framework.generics import ListAPIView
 from .models import CourseCategory
 from .serializers import CourseCategoryModelSerializer
@@ -28,6 +30,16 @@ class CourseListAPIView(ListAPIView):
     pagination_class = CustomPageNumberPagination  # 指定分页器类 在url中通过传入?page=xx参数指定页码。还有很多参数
 
 from rest_framework.generics import RetrieveAPIView
+from .serializers import CourseRetrieveModelSerializer
 class CourseRetrieveAPIView(RetrieveAPIView):
     queryset = Course.objects.filter(is_show=True, is_deleted=False).order_by("-id","order")
     serializer_class = CourseRetrieveModelSerializer  # 序列化器类
+
+
+from .models import CourseChapter
+from .serializers import CourseChapterModelSerializer
+class CourseChapterListAPIView(ListAPIView):
+    queryset = CourseChapter.objects.filter(is_show=True, is_deleted=False).order_by("id","order")
+    serializer_class = CourseChapterModelSerializer
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ["course"]

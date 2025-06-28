@@ -15,24 +15,33 @@
           </videoPlayer>
         </div>
         <div class="wrap-right">
-          <h3 class="course-name">Linux系统基础5周入门精讲</h3>
+          <h3 class="course-name">{{ course.name }}</h3>
           <p class="data">
-            23475人在学&nbsp;&nbsp;&nbsp;&nbsp;课程总时长：148课时/180小时&nbsp;&nbsp;&nbsp;&nbsp;难度：初级</p>
-          <div class="sale-time">
-            <p class="sale-type">限时免费</p>
-            <p class="expire">距离结束：仅剩 01天 04小时 33分 <span class="second">08</span> 秒</p>
+            {{ course.students }}人在学&nbsp;&nbsp;&nbsp;&nbsp;课程总时长：{{
+              course.lessons
+            }}课时/{{ course.pub_lessons === course.lessons ? "更新完成" : `已经更新${course.pub_lessons}课时` }}&nbsp;&nbsp;&nbsp;&nbsp;难度：{{
+              course.level_name
+            }}</p>
+          <div v-if="course.discount_name" class="sale-time">
+            <p class="sale-type">{{ course.discount_name }}</p>
+            <p class="expire">距离结束：仅剩 {{(course.activity_time)/(24*3600) | time_format}}天 {{ course.activity_time/3600%24 | time_format }}小时 {{ course.activity_time / 60 % 60 | time_format}}分 <span class="second">{{course.activity_time%60 | time_format}}</span> 秒</p>
           </div>
-          <p class="course-price">
+
+          <div v-else class="sale-time">
+            <p class="expire" style="font-size: 20px">价格 ¥ {{ course.real_price }}</p>
+          </div>
+
+          <p class="course-price" v-if="course.discount_name">
             <span>活动价</span>
-            <span class="discount">¥0.00</span>
-            <span class="original">¥29.00</span>
+            <span class="discount">¥{{ course.real_price }}</span>
+            <span class="original">¥{{ course.price }}</span>
           </p>
           <div class="buy">
             <div class="buy-btn">
               <button class="buy-now">立即购买</button>
               <button class="free">免费试学</button>
             </div>
-            <div class="add-cart"><img src="/static/image/cart-yellow.svg" alt="">加入购物车</div>
+            <div class="add-cart" @click="addCart"><img src="/static/image/cart.svg" alt="">加入购物车</div>
           </div>
         </div>
       </div>
@@ -48,48 +57,27 @@
       <div class="course-content">
         <div class="course-tab-list">
           <div class="tab-item" v-if="tabIndex==1">
-            <p><img alt="" src="https://hcdn1.luffycity.com/static/frontend/course/5/21天01_1547098127.6672518.jpeg"
-                    width="840"></p>
-            <p><img alt="" src="https://hcdn1.luffycity.com/static/frontend/course/5/21天01_1547098127.6672518.jpeg"
-                    width="840"></p>
-            <p><img alt="" src="https://hcdn1.luffycity.com/static/frontend/course/5/21天01_1547098127.6672518.jpeg"
-                    width="840"></p>
+            <div v-html="course.brief_html"></div>
           </div>
           <div class="tab-item" v-if="tabIndex==2">
             <div class="tab-item-title">
               <p class="chapter">课程章节</p>
-              <p class="chapter-length">共11章 147个课时</p>
+              <p class="chapter-length">共{{ chapter_list.length }}章 {{ course.lessons }}个课时</p>
             </div>
-            <div class="chapter-item">
-              <p class="chapter-title"><img src="/static/image/1.svg" alt="">第1章·Linux硬件基础</p>
+            <div class="chapter-item" v-for="chapter in chapter_list">
+              <p class="chapter-title"><img src="/static/image/1.png"
+                                            alt="">第{{ chapter.chapter }}章·{{ chapter.name }}</p>
               <ul class="lesson-list">
-                <li class="lesson-item">
-                  <p class="name"><span class="index">1-1</span> 课程介绍-学习流程<span class="free">免费</span></p>
+                <li class="lesson-item" v-for="lesson in chapter.coursesections">
+                  <p class="name"><span class="index">{{ chapter.chapter }}-{{ lesson.lesson }}</span> {{ lesson.name }}<span
+                    class="free" v-if="lesson.free_trail">免费</span></p>
                   <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
-                  <button class="try">立即试学</button>
-                </li>
-                <li class="lesson-item">
-                  <p class="name"><span class="index">1-2</span> 服务器硬件-详解<span class="free">免费</span></p>
-                  <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
-                  <button class="try">立即试学</button>
+                  <button class="try" v-if="lesson.free_trail">立即试学</button>
+                  <button class="try" v-else>立即购买</button>
                 </li>
               </ul>
             </div>
-            <div class="chapter-item">
-              <p class="chapter-title"><img src="/static/image/1.svg" alt="">第2章·Linux发展过程</p>
-              <ul class="lesson-list">
-                <li class="lesson-item">
-                  <p class="name"><span class="index">2-1</span> 操作系统组成-Linux发展过程</p>
-                  <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
-                  <button class="try">立即购买</button>
-                </li>
-                <li class="lesson-item">
-                  <p class="name"><span class="index">2-2</span> 自由软件-GNU-GPL核心讲解</p>
-                  <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
-                  <button class="try">立即购买</button>
-                </li>
-              </ul>
-            </div>
+
           </div>
           <div class="tab-item" v-if="tabIndex==3">
             用户评论
@@ -103,13 +91,19 @@
             <h4 class="side-title"><span>授课老师</span></h4>
             <div class="teacher-content">
               <div class="cont1">
-                <img src="/static/image/马金聚pc2x_1560859575.8268683.png">
+                <!--
+                course的内容是通过axios请求得来的，会晚于页面渲染，这样会导致报错，虽然问题不大
+                这里先判断course.teacher是否真(存在)如果为真则执行&&后面的语句，否则后面不执行
+                要是觉得麻烦，可以直接对course对象中添加teacher对象，但不是很推荐
+                --->
+                <img :src="course.teacher && course.teacher.image">
                 <div class="name">
-                  <p class="teacher-name">李泳谊</p>
-                  <p class="teacher-title">老男孩LInux学科带头人</p>
+                  <p class="teacher-name">{{ course.teacher && course.teacher.name }}</p>
+                  <p class="teacher-title" v-if="course.teacher">{{ course.teacher.signature }}
+                    {{ course.teacher.title }}</p>
                 </div>
               </div>
-              <p class="narrative">Linux运维技术专家，老男孩Linux金牌讲师，讲课风趣幽默、深入浅出、声音洪亮到爆炸</p>
+              <p class="narrative" v-if="course.teacher">{{ course.teacher.brief }}</p>
             </div>
           </div>
         </div>
@@ -131,6 +125,8 @@ export default {
     return {
       course_id: 0,
       tabIndex: 2, // 当前选项卡显示的下标
+      course: {},
+      chapter_list: {},
       playerOptions: {
         playbackRates: [0.7, 1.0, 1.5, 2.0], // 播放速度
         autoplay: false, //如果true,则自动播放
@@ -151,9 +147,21 @@ export default {
 
     }
   },
+  filters: {
+    // 时间戳转换
+    time_format(time){
+          time = parseInt(time);
+          if(time < 10){
+              time = "0"+time;
+          }
+          return time;
+      }
+  },
   created() {
     // 课程ID
     this.get_course_id();
+    this.get_course_info();
+    this.get_course_chapter();
   },
   methods: {
     get_course_id() {
@@ -170,6 +178,83 @@ export default {
         return false;
       }
       return course_id;
+    },
+    get_course_info() {
+      // 获取课程信息
+      this.$axios.get(`${this.$settings.HOST}/course/${this.course_id}/`).then(response => {
+        this.course = response.data;
+        this.playerOptions.sources[0].src = response.data.course_video;
+        this.playerOptions.poster = response.data.course_img;
+        // 设置活动进行时，课程优惠的倒计时
+        if (this.course.activity_time > 0) {
+          let timer = setInterval(() => {
+            if(this.course.activity_time > 1){
+              this.course.activity_time--;
+            }else {
+              clearInterval(timer);
+            }
+          },1000)
+        }
+      }).catch(error => {
+        this.$message({
+          message: error.response.data.message,
+          type: 'error'
+        });
+      })
+    },
+    get_course_chapter() {
+      this.$axios.get(`${this.$settings.HOST}/course/chapter/`, {
+        params: {
+          course: this.course_id
+        }
+      }).then(response => {
+        this.chapter_list = response.data;
+      }).catch(error => {
+        this.$message({
+          message: error.response.data.message,
+          type: 'error'
+        });
+      })
+    },
+    check_user_login() {
+      let token = localStorage.user_token || sessionStorage.user_token;
+      if (!token) {
+        let self = this;
+        this.$confirm("对不起，请先登录", "戴兴志", {
+          confirmButtonText: '确定',
+          cancelButtonText: '取消',
+          type: 'warning'
+        }).then(() => {
+          self.$router.push("/user/login");
+        });
+        return false; // 阻止js继续往下执行
+      }
+      return token;
+    },
+    addCart() {
+      // 添加商品必须用户已经登录了
+      let token = this.check_user_login();
+      let self = this;
+      // 添加商品到购物车
+      this.$axios.post(`${this.$settings.HOST}/cart/`, {
+        course_id: this.course_id,
+      }, {
+        headers: {
+          // 中间必须有个空格！！
+          "Authorization": "Bearer " + token,
+        }
+      }).then(response => {
+        this.$message.success({
+          message: response.data.message,
+          duration: 1000, // 显示2秒
+          type: 'success'
+        });
+        // 更新Vuex中购物车商品数量
+        this.$store.commit('add_cart', response.data.cart_length)
+      }).catch(error => {
+        self.$router.push("/user/login");
+        this.$message.error("请重新登录");
+      })
     },
     onPlayerPlay(event) {
       // 当视频播放时，执行的方法
