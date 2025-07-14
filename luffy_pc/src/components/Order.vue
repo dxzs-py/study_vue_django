@@ -2,7 +2,7 @@
   <div class="cart">
     <Header/>
     <div class="cart-info">
-      <h3 class="cart-top">购物车结算 <span>共{{course_list.length}}门课程</span></h3>
+      <h3 class="cart-top">购物车结算 <span>共{{ course_list.length }}门课程</span></h3>
       <div class="cart-title">
         <el-row>
           <el-col :span="2">&nbsp;</el-col>
@@ -27,7 +27,7 @@
           <el-col :span="8"><span>{{ course.expired_text }}</span></el-col>
           <el-col :span="4" class="course-price">
             <span class="real_price">¥{{ course.real_price.toFixed(2) }}</span><br>
-            <span class="original_price">原价￥{{course.original_price.toFixed(2)}}</span>
+            <span class="original_price">原价￥{{ course.original_price.toFixed(2) }}</span>
           </el-col>
         </el-row>
       </div>
@@ -36,11 +36,14 @@
         <el-row class="pay-row">
           <el-col :span="4" class="pay-col"><span class="pay-text">支付方式：</span></el-col>
           <el-col :span="8">
-            <span class="alipay"><img src="../../static/image/alipay2.png" alt=""></span>
-            <span class="alipay wechat"><img src="../../static/image/wechat.png" alt=""></span>
+            <span class="alipay" v-if="pay_type==0"><img src="../../static/image/alipay2.png" alt=""></span>
+            <span class="alipay" v-else @click="pay_type=0"><img src="../../static/image/alipay.png" alt=""></span>
+            <span class="alipay wechat" v-if="pay_type==1"><img src="../../static/image/wechat2.png" alt=""></span>
+            <span class="alipay wechat" v-else @click="pay_type=1"><img src="../../static/image/wechat.png"
+                                                                        alt=""></span>
           </el-col>
-          <el-col :span="8" class="count">实付款： <span>¥{{total_price.toFixed(2)}}</span></el-col>
-          <el-col :span="4" class="cart-pay"><span>支付宝支付</span></el-col>
+          <el-col :span="8" class="count">实付款： <span>¥{{ total_price.toFixed(2) }}</span></el-col>
+          <el-col :span="4" class="cart-pay"><span @click="PayHander">立即支付</span></el-col>
         </el-row>
       </div>
     </div>
@@ -57,6 +60,9 @@ export default {
   name: "Order",
   data() {
     return {
+      pay_type: 0,
+      credit: 0,
+      coupon: 0,
       course_list: [],
       total_price: 0,
 
@@ -98,7 +104,25 @@ export default {
       }).catch(error => {
         this.$message.error(error.response.data.message + "有问题，请重新登录");
       })
-    }
+    },
+    PayHander() {
+      // 生成订单
+      this.$axios.post(`${this.$settings.HOST}/order/`, {
+          pay_type: this.pay_type,  // 支付类型
+          credit: this.credit,  // 积分
+          coupon: this.coupon,  // 优惠劵
+        }, {
+          headers: {
+            "Authorization": `Bearer ${this.token}`
+          }
+        }).then(response => {
+          // 订单生成成功
+          this.$message.success("订单生成成功！即将跳转至支付页面！请不要离开！")
+
+      }).catch(error => {
+        this.$message.error(error.response.data.message+"订单生成失败");
+      })
+    },
   }
 }
 </script>
@@ -195,7 +219,7 @@ export default {
   margin-top: 20px;
 }
 
-.course-name{
+.course-name {
   display: inline-block;
   line-height: 140%;
   font-size: 16px;
@@ -211,7 +235,7 @@ export default {
   font-size: 13px;
 }
 
-.course-price{
+.course-price {
   line-height: 32px;
   padding-top: 18px;
 }
