@@ -7009,3 +7009,537 @@ INFO 2025-07-14 14:34:33,703 basehttp 16253 129560249095744 "POST /order/ HTTP/1
 INFO 2025-07-14 14:34:45,054 basehttp 16253 129560028898880 "GET /nav/header/ HTTP/1.1" 200 239
 INFO 2025-07-14 14:34:45,061 basehttp 16253 129560249095744 "GET /cart/order/ HTTP/1.1" 200 34
 INFO 2025-07-14 14:34:45,185 basehttp 16253 129560249095744 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-14 16:23:21,061 basehttp 16253 129560037291584 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-14 16:23:21,047 basehttp 16253 129560028898880 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-14 16:23:21,096 basehttp 16253 129560249095744 "GET /cart/order/ HTTP/1.1" 200 34
+INFO 2025-07-14 16:23:39,869 basehttp 16253 129560037291584 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-14 16:23:39,892 basehttp 16253 129560257488448 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-14 16:23:40,007 basehttp 16253 129560249095744 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-07-14 16:23:40,202 basehttp 16253 129560028898880 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1642
+INFO 2025-07-14 16:23:41,626 basehttp 16253 129560249095744 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-14 16:23:41,657 basehttp 16253 129560257488448 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-14 16:23:41,698 basehttp 16253 129560028898880 "GET /cart/ HTTP/1.1" 200 639
+INFO 2025-07-16 08:26:46,696 autoreload 5961 135481469087744 Watching for file changes with StatReloader
+INFO 2025-07-16 08:27:19,925 autoreload 5961 135481469087744 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/models.py changed, reloading.
+INFO 2025-07-16 08:27:23,847 autoreload 6063 128202005303296 Watching for file changes with StatReloader
+INFO 2025-07-16 08:28:43,414 autoreload 6063 128202005303296 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/admin.py changed, reloading.
+INFO 2025-07-16 08:28:44,694 autoreload 6165 124855858634752 Watching for file changes with StatReloader
+INFO 2025-07-16 08:30:32,457 autoreload 6165 124855858634752 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/admin.py changed, reloading.
+INFO 2025-07-16 08:30:33,930 autoreload 6288 123737457397760 Watching for file changes with StatReloader
+INFO 2025-07-16 08:30:42,024 basehttp 6288 123737378649664 "GET /admin/ HTTP/1.1" 200 26497
+WARNING 2025-07-16 08:30:42,994 log 6288 123737378649664 Not Found: /favicon.ico
+WARNING 2025-07-16 08:30:42,995 basehttp 6288 123737378649664 "GET /favicon.ico HTTP/1.1" 404 3860
+INFO 2025-07-16 08:30:43,031 basehttp 6288 123737359767104 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2025-07-16 08:30:50,153 basehttp 6288 123737378649664 "GET /admin/coupon/coupon/ HTTP/1.1" 200 25734
+INFO 2025-07-16 08:30:50,248 basehttp 6288 123737378649664 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 08:30:50,953 basehttp 6288 123737378649664 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 26067
+INFO 2025-07-16 08:30:51,003 basehttp 6288 123737378649664 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 08:31:23,307 autoreload 6288 123737457397760 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/apps.py changed, reloading.
+INFO 2025-07-16 08:31:24,629 autoreload 6616 129657580752896 Watching for file changes with StatReloader
+INFO 2025-07-16 08:32:15,468 basehttp 6616 129657502189120 "GET /admin/coupon/coupon/add/ HTTP/1.1" 200 13262
+INFO 2025-07-16 08:32:15,546 basehttp 6616 129657278035520 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-07-16 08:32:15,552 basehttp 6616 129657491699264 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-07-16 08:32:15,608 basehttp 6616 129657502189120 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 08:35:04,557 basehttp 6616 129657502189120 "POST /admin/coupon/coupon/add/ HTTP/1.1" 302 0
+INFO 2025-07-16 08:35:04,649 basehttp 6616 129657502189120 "GET /admin/coupon/coupon/ HTTP/1.1" 200 26476
+INFO 2025-07-16 08:35:04,741 basehttp 6616 129657502189120 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 08:35:15,805 basehttp 6616 129657502189120 "GET /admin/coupon/usercoupon/add/ HTTP/1.1" 200 14631
+INFO 2025-07-16 08:35:15,851 basehttp 6616 129657491699264 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2025-07-16 08:35:15,854 basehttp 6616 129657278035520 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2025-07-16 08:35:15,882 basehttp 6616 129657502189120 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 08:35:15,901 basehttp 6616 129657278035520 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-07-16 08:35:15,918 basehttp 6616 129657278035520 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-07-16 08:35:15,961 basehttp 6616 129657502189120 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-07-16 08:35:16,136 basehttp 6616 129657502189120 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2025-07-16 08:35:16,145 basehttp 6616 129657278035520 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2025-07-16 08:35:39,028 basehttp 6616 129657278035520 "POST /admin/coupon/usercoupon/add/ HTTP/1.1" 302 0
+INFO 2025-07-16 08:35:39,081 basehttp 6616 129657278035520 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 27058
+INFO 2025-07-16 08:35:39,160 basehttp 6616 129657502189120 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2025-07-16 08:35:39,176 basehttp 6616 129657278035520 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 08:40:58,359 basehttp 6616 129657278035520 "GET /admin/ HTTP/1.1" 200 26357
+INFO 2025-07-16 08:40:58,784 basehttp 6616 129657278035520 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 26827
+INFO 2025-07-16 08:40:58,838 basehttp 6616 129657278035520 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 08:41:00,589 basehttp 6616 129657278035520 "GET /admin/coupon/coupon/ HTTP/1.1" 200 28025
+INFO 2025-07-16 08:41:00,701 basehttp 6616 129657278035520 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 08:41:00,717 basehttp 6616 129657502189120 "GET /admin/coupon/coupon/ HTTP/1.1" 200 28025
+INFO 2025-07-16 08:41:00,786 basehttp 6616 129657278035520 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 08:41:08,919 basehttp 6616 129657278035520 "GET /admin/coupon/coupon/4/change/ HTTP/1.1" 200 13979
+INFO 2025-07-16 08:41:08,975 basehttp 6616 129657278035520 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 08:41:17,479 basehttp 6616 129657278035520 "POST /admin/coupon/coupon/4/change/ HTTP/1.1" 302 0
+INFO 2025-07-16 08:41:17,542 basehttp 6616 129657278035520 "GET /admin/coupon/coupon/ HTTP/1.1" 200 28204
+INFO 2025-07-16 08:41:17,645 basehttp 6616 129657278035520 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 08:41:46,011 basehttp 6616 129657278035520 "GET /admin/coupon/coupon/4/change/ HTTP/1.1" 200 13978
+INFO 2025-07-16 08:41:46,069 basehttp 6616 129657278035520 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 09:01:14,476 basehttp 6616 129657491699264 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 09:01:14,478 basehttp 6616 129657278035520 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 09:01:14,638 basehttp 6616 129657502189120 "GET /cart/ HTTP/1.1" 200 639
+INFO 2025-07-16 09:01:17,986 basehttp 6616 129657502189120 "PATCH /cart/ HTTP/1.1" 200 26
+INFO 2025-07-16 09:01:20,167 basehttp 6616 129657502189120 "PATCH /cart/ HTTP/1.1" 200 26
+INFO 2025-07-16 09:01:21,157 basehttp 6616 129657502189120 "OPTIONS /cart/order/ HTTP/1.1" 200 0
+INFO 2025-07-16 09:01:21,184 basehttp 6616 129657278035520 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 09:01:21,188 basehttp 6616 129657502189120 "GET /cart/order/ HTTP/1.1" 200 34
+INFO 2025-07-16 09:01:21,212 basehttp 6616 129657491699264 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 09:01:24,278 basehttp 6616 129657491699264 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 09:01:24,297 basehttp 6616 129657278035520 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 09:01:24,332 basehttp 6616 129657502189120 "GET /cart/ HTTP/1.1" 200 639
+INFO 2025-07-16 09:01:26,911 basehttp 6616 129657502189120 "PATCH /cart/ HTTP/1.1" 200 26
+INFO 2025-07-16 09:01:28,169 basehttp 6616 129657278035520 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 09:01:28,176 basehttp 6616 129657491699264 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 09:01:28,179 basehttp 6616 129657502189120 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 10:31:09,982 basehttp 6616 129657278035520 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 10:31:09,996 basehttp 6616 129657491699264 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 10:31:10,050 basehttp 6616 129657502189120 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 10:44:12,164 autoreload 6616 129657580752896 /home/dx/Desktop/luffy/luffyapi/luffyapi/urls.py changed, reloading.
+INFO 2025-07-16 10:44:15,466 autoreload 12185 127781329436672 Watching for file changes with StatReloader
+INFO 2025-07-16 10:46:40,214 basehttp 12185 127781182633536 "GET /coupon/ HTTP/1.1" 200 137
+INFO 2025-07-16 10:46:56,203 basehttp 12185 127781174240832 "POST /admin/coupon/coupon/4/change/ HTTP/1.1" 302 0
+INFO 2025-07-16 10:46:56,412 basehttp 12185 127781174240832 "GET /admin/coupon/coupon/ HTTP/1.1" 200 28204
+INFO 2025-07-16 10:46:56,572 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:47:01,625 basehttp 12185 127781174240832 "GET /admin/coupon/coupon/3/change/ HTTP/1.1" 200 13994
+INFO 2025-07-16 10:47:01,684 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:47:10,319 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 29879
+INFO 2025-07-16 10:47:10,382 basehttp 12185 127781163750976 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-07-16 10:47:10,390 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:47:15,744 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/1/change/ HTTP/1.1" 200 15497
+INFO 2025-07-16 10:47:15,807 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:47:19,473 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 29879
+INFO 2025-07-16 10:47:22,800 basehttp 12185 127781174240832 "GET /admin/ HTTP/1.1" 200 26274
+INFO 2025-07-16 10:47:23,208 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 29879
+INFO 2025-07-16 10:47:23,290 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:47:30,570 basehttp 12185 127781174240832 "GET /admin/ HTTP/1.1" 200 26274
+INFO 2025-07-16 10:47:30,930 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 29879
+INFO 2025-07-16 10:47:30,998 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:47:42,263 basehttp 12185 127781154309696 "GET /coupon/ HTTP/1.1" 200 137
+INFO 2025-07-16 10:47:56,337 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/1/change/ HTTP/1.1" 200 15497
+INFO 2025-07-16 10:47:56,426 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:48:00,665 basehttp 12185 127781174240832 "POST /admin/coupon/usercoupon/1/change/ HTTP/1.1" 302 0
+INFO 2025-07-16 10:48:00,735 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 30110
+INFO 2025-07-16 10:48:00,830 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:48:09,526 basehttp 12185 127781154309696 "GET /coupon/ HTTP/1.1" 200 2
+INFO 2025-07-16 10:48:16,634 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/1/change/ HTTP/1.1" 200 15505
+INFO 2025-07-16 10:48:16,689 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:48:18,896 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 29879
+INFO 2025-07-16 10:48:18,944 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:48:22,895 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/2/change/ HTTP/1.1" 200 15505
+INFO 2025-07-16 10:48:22,947 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:48:26,878 basehttp 12185 127781174240832 "POST /admin/coupon/usercoupon/2/change/ HTTP/1.1" 302 0
+INFO 2025-07-16 10:48:26,943 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 30120
+INFO 2025-07-16 10:48:27,035 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:48:31,016 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/3/change/ HTTP/1.1" 200 15507
+INFO 2025-07-16 10:48:31,077 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:48:35,138 basehttp 12185 127781174240832 "POST /admin/coupon/usercoupon/3/change/ HTTP/1.1" 302 0
+INFO 2025-07-16 10:48:35,207 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 30114
+INFO 2025-07-16 10:48:35,303 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:48:39,439 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/4/change/ HTTP/1.1" 200 15515
+INFO 2025-07-16 10:48:39,502 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:48:43,553 basehttp 12185 127781174240832 "POST /admin/coupon/usercoupon/4/change/ HTTP/1.1" 302 0
+INFO 2025-07-16 10:48:43,622 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 30110
+INFO 2025-07-16 10:48:43,741 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:48:45,703 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/5/change/ HTTP/1.1" 200 15507
+INFO 2025-07-16 10:48:45,761 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:48:49,590 basehttp 12185 127781174240832 "POST /admin/coupon/usercoupon/5/change/ HTTP/1.1" 302 0
+INFO 2025-07-16 10:48:49,654 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 30114
+INFO 2025-07-16 10:48:49,764 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:48:56,208 basehttp 12185 127781154309696 "GET /coupon/ HTTP/1.1" 200 271
+INFO 2025-07-16 10:49:02,251 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/1/change/ HTTP/1.1" 200 15505
+INFO 2025-07-16 10:49:02,317 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:49:05,357 basehttp 12185 127781174240832 "POST /admin/coupon/usercoupon/1/change/ HTTP/1.1" 302 0
+INFO 2025-07-16 10:49:05,416 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 30110
+INFO 2025-07-16 10:49:05,511 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:49:12,844 basehttp 12185 127781154309696 "GET /coupon/ HTTP/1.1" 200 407
+INFO 2025-07-16 10:49:59,865 basehttp 12185 127781174240832 "GET /admin/coupon/usercoupon/4/change/ HTTP/1.1" 200 15505
+INFO 2025-07-16 10:49:59,931 basehttp 12185 127781174240832 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:50:05,780 basehttp 12185 127781163750976 "POST /admin/coupon/usercoupon/4/change/ HTTP/1.1" 302 0
+INFO 2025-07-16 10:50:05,850 basehttp 12185 127781163750976 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 30110
+INFO 2025-07-16 10:50:05,954 basehttp 12185 127781163750976 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:50:07,859 basehttp 12185 127781163750976 "GET /admin/coupon/usercoupon/2/change/ HTTP/1.1" 200 15505
+INFO 2025-07-16 10:50:07,913 basehttp 12185 127781163750976 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:50:12,655 basehttp 12185 127781163750976 "POST /admin/coupon/usercoupon/2/change/ HTTP/1.1" 302 0
+INFO 2025-07-16 10:50:12,719 basehttp 12185 127781163750976 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 30120
+INFO 2025-07-16 10:50:12,814 basehttp 12185 127781163750976 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:50:17,064 basehttp 12185 127781174240832 "GET /coupon/ HTTP/1.1" 200 681
+INFO 2025-07-16 10:50:43,132 basehttp 12185 127781163750976 "GET /admin/coupon/usercoupon/3/change/ HTTP/1.1" 200 15497
+INFO 2025-07-16 10:50:43,186 basehttp 12185 127781163750976 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:50:45,986 basehttp 12185 127781163750976 "POST /admin/coupon/usercoupon/3/change/ HTTP/1.1" 302 0
+INFO 2025-07-16 10:50:46,047 basehttp 12185 127781163750976 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 30114
+INFO 2025-07-16 10:50:46,146 basehttp 12185 127781163750976 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:50:49,806 basehttp 12185 127781163750976 "GET /admin/coupon/usercoupon/5/change/ HTTP/1.1" 200 15497
+INFO 2025-07-16 10:50:49,859 basehttp 12185 127781163750976 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:50:52,176 basehttp 12185 127781163750976 "POST /admin/coupon/usercoupon/5/change/ HTTP/1.1" 302 0
+INFO 2025-07-16 10:50:52,238 basehttp 12185 127781163750976 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 30114
+INFO 2025-07-16 10:50:52,337 basehttp 12185 127781163750976 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:50:56,385 basehttp 12185 127781174240832 "GET /coupon/ HTTP/1.1" 200 411
+INFO 2025-07-16 10:51:19,170 basehttp 12185 127781163750976 "GET /admin/user_login/user/ HTTP/1.1" 200 36474
+INFO 2025-07-16 10:51:19,257 basehttp 12185 127781163750976 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:51:20,605 basehttp 12185 127781163750976 "GET /admin/user_login/user/add/ HTTP/1.1" 200 12949
+INFO 2025-07-16 10:51:20,671 basehttp 12185 127781163750976 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:51:42,470 basehttp 12185 127781163750976 "POST /admin/user_login/user/add/ HTTP/1.1" 302 0
+INFO 2025-07-16 10:51:42,545 basehttp 12185 127781163750976 "GET /admin/user_login/user/ HTTP/1.1" 200 37999
+INFO 2025-07-16 10:51:42,644 basehttp 12185 127781163750976 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:51:47,155 basehttp 12185 127781163750976 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 29879
+INFO 2025-07-16 10:51:47,218 basehttp 12185 127781163750976 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:51:48,733 basehttp 12185 127781163750976 "GET /admin/coupon/usercoupon/add/ HTTP/1.1" 200 14804
+INFO 2025-07-16 10:51:48,813 basehttp 12185 127781163750976 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:51:57,694 basehttp 12185 127781163750976 "POST /admin/coupon/usercoupon/add/ HTTP/1.1" 302 0
+INFO 2025-07-16 10:51:57,765 basehttp 12185 127781163750976 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 30873
+INFO 2025-07-16 10:51:57,863 basehttp 12185 127781163750976 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 10:52:02,678 basehttp 12185 127781145916992 "GET /coupon/ HTTP/1.1" 200 549
+INFO 2025-07-16 13:36:49,026 autoreload 12185 127781329436672 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/views.py changed, reloading.
+INFO 2025-07-16 13:36:52,448 autoreload 15249 128914646331392 Watching for file changes with StatReloader
+ERROR 2025-07-16 13:36:54,803 log 15249 128914568508992 Internal Server Error: /coupon/
+Traceback (most recent call last):
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2123, in get_prep_value
+    return int(value)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/contrib/auth/models.py", line 438, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/views.py", line 14, in get_queryset
+    return queryset.filter(user=user)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1555, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1385, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 156, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x753f431f9d50>.
+ERROR 2025-07-16 13:36:54,819 basehttp 15249 128914568508992 "GET /coupon/ HTTP/1.1" 500 171058
+INFO 2025-07-16 13:43:07,821 autoreload 15249 128914646331392 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/views.py changed, reloading.
+INFO 2025-07-16 13:43:09,412 autoreload 15607 126622663995392 Watching for file changes with StatReloader
+INFO 2025-07-16 13:43:22,528 basehttp 15607 126622585603648 "GET /coupon/ HTTP/1.1" 200 2
+INFO 2025-07-16 13:43:35,346 autoreload 15607 126622663995392 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/views.py changed, reloading.
+INFO 2025-07-16 13:43:36,699 autoreload 15682 125524526481408 Watching for file changes with StatReloader
+INFO 2025-07-16 13:43:37,748 basehttp 15682 125524378646080 "GET /coupon/ HTTP/1.1" 200 411
+INFO 2025-07-16 13:43:58,549 autoreload 15682 125524526481408 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/views.py changed, reloading.
+INFO 2025-07-16 13:43:59,917 autoreload 15708 133536836816896 Watching for file changes with StatReloader
+INFO 2025-07-16 13:44:04,881 basehttp 15708 133536758384192 "GET /coupon/ HTTP/1.1" 200 2
+INFO 2025-07-16 13:44:40,073 autoreload 15708 133536836816896 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/views.py changed, reloading.
+INFO 2025-07-16 13:44:41,383 autoreload 15782 130988124073984 Watching for file changes with StatReloader
+INFO 2025-07-16 13:44:43,433 basehttp 15782 130987977602624 "GET /coupon/ HTTP/1.1" 200 139
+INFO 2025-07-16 13:48:07,674 autoreload 15782 130988124073984 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/views.py changed, reloading.
+INFO 2025-07-16 13:48:09,030 autoreload 15981 133043634606080 Watching for file changes with StatReloader
+INFO 2025-07-16 13:48:10,322 basehttp 15981 133043555661376 "GET /coupon/ HTTP/1.1" 200 411
+INFO 2025-07-16 13:48:19,601 autoreload 15981 133043634606080 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/views.py changed, reloading.
+INFO 2025-07-16 13:48:20,907 autoreload 16045 123482019069952 Watching for file changes with StatReloader
+INFO 2025-07-16 13:48:24,440 basehttp 16045 123481940293184 "GET /coupon/ HTTP/1.1" 200 2
+INFO 2025-07-16 13:48:32,955 autoreload 16045 123482019069952 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/views.py changed, reloading.
+INFO 2025-07-16 13:48:34,187 autoreload 16073 127514685808640 Watching for file changes with StatReloader
+INFO 2025-07-16 13:48:37,389 basehttp 16073 127514607351360 "GET /coupon/ HTTP/1.1" 200 139
+INFO 2025-07-16 14:05:09,270 autoreload 16073 127514685808640 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/views.py changed, reloading.
+INFO 2025-07-16 14:05:10,716 autoreload 17013 135412229398528 Watching for file changes with StatReloader
+INFO 2025-07-16 14:14:15,284 basehttp 17013 135412142040640 "OPTIONS /coupon/ HTTP/1.1" 200 0
+INFO 2025-07-16 14:14:15,286 basehttp 17013 135412150433344 "OPTIONS /cart/order/ HTTP/1.1" 200 0
+INFO 2025-07-16 14:14:15,359 basehttp 17013 135412150433344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 14:14:15,420 basehttp 17013 135411921839680 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 14:14:15,469 basehttp 17013 135411930232384 "GET /coupon/ HTTP/1.1" 200 411
+INFO 2025-07-16 14:14:15,481 basehttp 17013 135412142040640 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 14:14:26,048 basehttp 17013 135412142040640 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 14:14:26,053 basehttp 17013 135411930232384 "GET /coupon/ HTTP/1.1" 200 411
+INFO 2025-07-16 14:14:26,057 basehttp 17013 135411921839680 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 14:14:26,127 basehttp 17013 135412142040640 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 14:18:35,999 basehttp 17013 135411930232384 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 14:18:36,016 basehttp 17013 135411921839680 "GET /coupon/ HTTP/1.1" 200 411
+INFO 2025-07-16 14:18:36,040 basehttp 17013 135412150433344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 14:18:36,060 basehttp 17013 135412142040640 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 14:18:44,673 basehttp 17013 135411912398400 "GET /admin/coupon/usercoupon/add/ HTTP/1.1" 200 14804
+INFO 2025-07-16 14:18:44,750 basehttp 17013 135411912398400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 14:19:03,439 basehttp 17013 135411912398400 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 30637
+INFO 2025-07-16 14:19:03,498 basehttp 17013 135411912398400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 14:19:05,525 basehttp 17013 135411912398400 "GET /admin/coupon/coupon/ HTTP/1.1" 200 28036
+INFO 2025-07-16 14:19:05,618 basehttp 17013 135411912398400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 14:19:05,652 basehttp 17013 135411901908544 "GET /admin/coupon/coupon/ HTTP/1.1" 200 28036
+INFO 2025-07-16 14:19:05,743 basehttp 17013 135411912398400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 14:19:10,587 basehttp 17013 135411912398400 "GET /admin/coupon/coupon/1/change/ HTTP/1.1" 200 13982
+INFO 2025-07-16 14:19:10,651 basehttp 17013 135411912398400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 14:19:13,489 basehttp 17013 135411912398400 "GET /admin/coupon/coupon/ HTTP/1.1" 200 28036
+INFO 2025-07-16 14:19:13,567 basehttp 17013 135411912398400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 14:19:15,955 basehttp 17013 135411912398400 "GET /admin/coupon/coupon/4/change/ HTTP/1.1" 200 13978
+INFO 2025-07-16 14:19:16,020 basehttp 17013 135411912398400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 14:19:34,091 basehttp 17013 135411912398400 "GET /admin/coupon/usercoupon/add/ HTTP/1.1" 200 14804
+INFO 2025-07-16 14:19:34,166 basehttp 17013 135411912398400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 14:19:40,029 basehttp 17013 135411912398400 "POST /admin/coupon/usercoupon/add/ HTTP/1.1" 302 0
+INFO 2025-07-16 14:19:40,116 basehttp 17013 135411912398400 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 31625
+INFO 2025-07-16 14:19:40,234 basehttp 17013 135411912398400 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 14:19:48,612 basehttp 17013 135411921839680 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 14:19:48,620 basehttp 17013 135412150433344 "GET /coupon/ HTTP/1.1" 200 543
+INFO 2025-07-16 14:19:48,651 basehttp 17013 135412142040640 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 14:19:48,669 basehttp 17013 135411921839680 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 14:38:00,541 autoreload 17013 135412229398528 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/models.py changed, reloading.
+INFO 2025-07-16 14:38:04,168 autoreload 19051 133138493042688 Watching for file changes with StatReloader
+INFO 2025-07-16 14:39:04,355 autoreload 19051 133138493042688 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/serializers.py changed, reloading.
+INFO 2025-07-16 14:39:05,559 autoreload 19142 129185411579904 Watching for file changes with StatReloader
+INFO 2025-07-16 14:39:51,312 basehttp 19142 129185316066880 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 14:39:51,401 basehttp 19142 129185316066880 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 14:39:51,412 basehttp 19142 129185332852288 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 14:39:51,422 basehttp 19142 129185324459584 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 14:44:06,632 basehttp 19142 129185316066880 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 14:44:06,654 basehttp 19142 129185324459584 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 14:44:06,658 basehttp 19142 129185332852288 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 14:44:06,679 basehttp 19142 129185100068416 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:03:59,662 autoreload 19142 129185411579904 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/coupon/models.py changed, reloading.
+INFO 2025-07-16 15:04:01,102 autoreload 20602 126441375096832 Watching for file changes with StatReloader
+INFO 2025-07-16 15:04:04,521 basehttp 20602 126441211553344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:04:04,554 basehttp 20602 126441202112064 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:04:04,590 basehttp 20602 126441219946048 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:04:04,602 basehttp 20602 126441296492096 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:05:49,288 basehttp 20602 126441202112064 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:05:49,341 basehttp 20602 126441219946048 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:05:49,364 basehttp 20602 126441211553344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:05:49,368 basehttp 20602 126441296492096 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:06:07,906 basehttp 20602 126441219946048 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:06:07,941 basehttp 20602 126441202112064 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:06:07,956 basehttp 20602 126441211553344 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:06:07,971 basehttp 20602 126441296492096 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:07:19,113 basehttp 20602 126441202112064 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:07:19,148 basehttp 20602 126441296492096 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:07:19,155 basehttp 20602 126441211553344 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:07:19,168 basehttp 20602 126441219946048 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:08:44,453 basehttp 20602 126441211553344 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:08:44,483 basehttp 20602 126441219946048 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:08:44,495 basehttp 20602 126441202112064 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:08:44,502 basehttp 20602 126441296492096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:43:11,722 basehttp 20602 126441202112064 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:43:11,738 basehttp 20602 126441219946048 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:43:11,754 basehttp 20602 126441211553344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:43:11,777 basehttp 20602 126441296492096 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:48:33,932 basehttp 20602 126441296492096 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:48:33,965 basehttp 20602 126441219946048 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:48:33,966 basehttp 20602 126441211553344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:48:33,971 basehttp 20602 126441202112064 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:48:40,475 basehttp 20602 126441219946048 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:48:40,518 basehttp 20602 126441202112064 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:48:40,520 basehttp 20602 126441211553344 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:48:40,533 basehttp 20602 126441296492096 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:49:33,364 basehttp 20602 126441202112064 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:49:33,376 basehttp 20602 126441211553344 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:49:33,390 basehttp 20602 126441296492096 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:49:33,412 basehttp 20602 126441219946048 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:49:53,857 basehttp 20602 126441192670784 "GET /admin/coupon/usercoupon/4/change/ HTTP/1.1" 200 15531
+INFO 2025-07-16 15:49:53,918 basehttp 20602 126441192670784 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 15:49:56,980 basehttp 20602 126441192670784 "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 304 0
+INFO 2025-07-16 15:50:01,883 basehttp 20602 126441192670784 "POST /admin/coupon/usercoupon/4/change/ HTTP/1.1" 302 0
+INFO 2025-07-16 15:50:02,063 basehttp 20602 126441192670784 "GET /admin/coupon/usercoupon/ HTTP/1.1" 200 31626
+INFO 2025-07-16 15:50:02,168 basehttp 20602 126441192670784 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-16 15:50:06,190 basehttp 20602 126441211553344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:50:06,221 basehttp 20602 126441219946048 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:50:06,237 basehttp 20602 126441202112064 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:50:06,241 basehttp 20602 126441296492096 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:55:32,335 basehttp 20602 126441219946048 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:55:32,371 basehttp 20602 126441211553344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:55:32,390 basehttp 20602 126441192670784 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:55:32,392 basehttp 20602 126441202112064 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:55:34,626 basehttp 20602 126441192670784 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:55:34,627 basehttp 20602 126441211553344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:55:34,632 basehttp 20602 126441202112064 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:55:34,653 basehttp 20602 126441219946048 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:56:20,685 basehttp 20602 126441211553344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:56:20,691 basehttp 20602 126441192670784 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:56:20,699 basehttp 20602 126441202112064 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:56:20,702 basehttp 20602 126441219946048 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:56:37,082 basehttp 20602 126441219946048 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:56:37,083 basehttp 20602 126441192670784 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:56:37,098 basehttp 20602 126441202112064 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:56:37,113 basehttp 20602 126441211553344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 15:57:29,682 basehttp 20602 126441211553344 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 15:57:29,688 basehttp 20602 126441192670784 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 15:57:29,699 basehttp 20602 126441202112064 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 15:57:29,721 basehttp 20602 126441219946048 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 16:02:33,206 basehttp 20602 126441192670784 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 16:02:33,224 basehttp 20602 126441202112064 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 16:02:33,236 basehttp 20602 126441211553344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 16:02:33,239 basehttp 20602 126441219946048 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 16:02:37,325 basehttp 20602 126441219946048 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 16:02:37,333 basehttp 20602 126441211553344 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 16:02:37,455 basehttp 20602 126441211553344 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 16:02:37,499 basehttp 20602 126441211553344 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 16:03:15,937 basehttp 20602 126441202112064 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 16:03:15,953 basehttp 20602 126441219946048 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 16:03:15,961 basehttp 20602 126441211553344 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 16:03:16,010 basehttp 20602 126441202112064 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 16:04:36,533 basehttp 20602 126441219946048 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 16:04:36,565 basehttp 20602 126441202112064 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 16:04:36,572 basehttp 20602 126441211553344 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 16:04:36,577 basehttp 20602 126441192670784 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 16:04:40,420 basehttp 20602 126441202112064 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 16:04:40,468 basehttp 20602 126441192670784 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 16:04:40,472 basehttp 20602 126441211553344 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 16:04:40,499 basehttp 20602 126441202112064 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 16:11:48,287 basehttp 20602 126441202112064 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 16:11:48,311 basehttp 20602 126441192670784 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 16:11:48,312 basehttp 20602 126441211553344 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 16:11:48,321 basehttp 20602 126441219946048 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:11:30,034 autoreload 5807 139679782739968 Watching for file changes with StatReloader
+INFO 2025-07-16 22:11:42,353 basehttp 5807 139679703758400 "GET /admin/ HTTP/1.1" 200 26337
+WARNING 2025-07-16 22:11:43,658 log 5807 139679703758400 Not Found: /favicon.ico
+WARNING 2025-07-16 22:11:43,659 basehttp 5807 139679703758400 "GET /favicon.ico HTTP/1.1" 404 4010
+INFO 2025-07-16 22:11:51,837 basehttp 5807 139679676483136 "OPTIONS /coupon/ HTTP/1.1" 200 0
+INFO 2025-07-16 22:11:51,839 basehttp 5807 139679684875840 "OPTIONS /cart/order/ HTTP/1.1" 200 0
+INFO 2025-07-16 22:11:51,902 basehttp 5807 139679676483136 "GET /nav/header/ HTTP/1.1" 200 239
+WARNING 2025-07-16 22:11:51,912 log 5807 139679684875840 Unauthorized: /cart/order/
+WARNING 2025-07-16 22:11:51,914 log 5807 139679668090432 Unauthorized: /coupon/
+WARNING 2025-07-16 22:11:51,916 basehttp 5807 139679684875840 "GET /cart/order/ HTTP/1.1" 401 179
+WARNING 2025-07-16 22:11:51,923 basehttp 5807 139679668090432 "GET /coupon/ HTTP/1.1" 401 179
+INFO 2025-07-16 22:11:51,929 basehttp 5807 139679248676416 "GET /nav/footer/ HTTP/1.1" 200 354
+WARNING 2025-07-16 22:11:55,827 log 5807 139679684875840 Unauthorized: /cart/order/
+WARNING 2025-07-16 22:11:55,850 basehttp 5807 139679684875840 "GET /cart/order/ HTTP/1.1" 401 179
+WARNING 2025-07-16 22:11:55,848 log 5807 139679676483136 Unauthorized: /coupon/
+WARNING 2025-07-16 22:11:55,862 basehttp 5807 139679676483136 "GET /coupon/ HTTP/1.1" 401 179
+INFO 2025-07-16 22:11:55,881 basehttp 5807 139679248676416 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:11:55,935 basehttp 5807 139679684875840 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:12:14,883 basehttp 5807 139679248676416 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
+INFO 2025-07-16 22:12:20,816 basehttp 5807 139679248676416 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2025-07-16 22:12:20,826 basehttp 5807 139679248676416 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2025-07-16 22:12:20,881 basehttp 5807 139679248676416 "OPTIONS /user/login/token/ HTTP/1.1" 200 0
+INFO 2025-07-16 22:12:22,214 basehttp 5807 139679248676416 "POST /user/login/token/ HTTP/1.1" 200 669
+INFO 2025-07-16 22:12:23,992 basehttp 5807 139679668090432 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:12:24,014 basehttp 5807 139679703758400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:12:24,052 basehttp 5807 139679684875840 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 22:12:24,224 basehttp 5807 139679248676416 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:35:37,685 basehttp 5807 139679668090432 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:35:37,717 basehttp 5807 139679248676416 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:35:37,736 basehttp 5807 139679703758400 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:35:37,741 basehttp 5807 139679684875840 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 22:44:42,358 basehttp 5807 139679668090432 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:44:42,368 basehttp 5807 139679703758400 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 22:44:42,423 basehttp 5807 139679703758400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:44:42,453 basehttp 5807 139679668090432 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:44:44,527 basehttp 5807 139679668090432 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 22:44:44,536 basehttp 5807 139679703758400 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:44:44,606 basehttp 5807 139679703758400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:44:44,672 basehttp 5807 139679703758400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:45:47,513 basehttp 5807 139679668090432 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 22:45:47,515 basehttp 5807 139679703758400 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:45:47,548 basehttp 5807 139679703758400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:45:47,576 basehttp 5807 139679668090432 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:45:58,149 basehttp 5807 139679668090432 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 22:45:58,153 basehttp 5807 139679703758400 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:45:58,385 basehttp 5807 139679703758400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:45:58,448 basehttp 5807 139679703758400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:49:51,994 basehttp 5807 139679703758400 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:49:51,999 basehttp 5807 139679684875840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:49:52,011 basehttp 5807 139679668090432 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 22:49:52,099 basehttp 5807 139679248676416 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:54:33,764 basehttp 5807 139679684875840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:54:33,789 basehttp 5807 139679248676416 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:54:33,803 basehttp 5807 139679703758400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:54:33,806 basehttp 5807 139679668090432 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 22:56:35,128 basehttp 5807 139679248676416 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:56:35,162 basehttp 5807 139679684875840 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:56:35,173 basehttp 5807 139679668090432 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:56:35,177 basehttp 5807 139679703758400 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 22:56:39,939 basehttp 5807 139679684875840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:56:39,946 basehttp 5807 139679703758400 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:56:39,962 basehttp 5807 139679668090432 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 22:56:39,979 basehttp 5807 139679248676416 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:56:44,633 basehttp 5807 139679703758400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:56:44,656 basehttp 5807 139679248676416 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:56:44,661 basehttp 5807 139679684875840 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:56:44,672 basehttp 5807 139679668090432 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 22:56:53,714 basehttp 5807 139679668090432 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2025-07-16 22:56:53,768 basehttp 5807 139679684875840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:56:53,775 basehttp 5807 139679248676416 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:56:53,805 basehttp 5807 139679668090432 "GET /cart/ HTTP/1.1" 200 638
+INFO 2025-07-16 22:56:59,038 basehttp 5807 139679684875840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:56:59,083 basehttp 5807 139679703758400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 22:56:59,083 basehttp 5807 139679668090432 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:56:59,088 basehttp 5807 139679248676416 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 22:57:42,704 basehttp 5807 139679248676416 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 22:57:42,722 basehttp 5807 139679668090432 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 22:57:42,737 basehttp 5807 139679703758400 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 22:57:42,748 basehttp 5807 139679684875840 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:03:54,508 basehttp 5807 139679668090432 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:03:54,517 basehttp 5807 139679248676416 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:03:54,521 basehttp 5807 139679703758400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:03:54,530 basehttp 5807 139679684875840 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:11:07,633 basehttp 5807 139679668090432 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:11:07,638 basehttp 5807 139679703758400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:11:07,686 basehttp 5807 139679684875840 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:11:07,717 basehttp 5807 139679248676416 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:11:11,213 basehttp 5807 139679703758400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:11:11,247 basehttp 5807 139679684875840 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:11:11,252 basehttp 5807 139679248676416 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:11:11,267 basehttp 5807 139679668090432 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:14:55,754 basehttp 5807 139679684875840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:14:55,762 basehttp 5807 139679668090432 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:14:55,766 basehttp 5807 139679248676416 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:14:55,793 basehttp 5807 139679703758400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:15:49,339 basehttp 5807 139679668090432 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:15:49,343 basehttp 5807 139679684875840 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:15:49,356 basehttp 5807 139679703758400 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:15:49,365 basehttp 5807 139679248676416 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:16:43,449 basehttp 5807 139679684875840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:16:43,496 basehttp 5807 139679668090432 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:16:43,498 basehttp 5807 139679248676416 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:16:43,510 basehttp 5807 139679703758400 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:17:48,262 basehttp 5807 139679248676416 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:17:48,290 basehttp 5807 139679684875840 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:17:48,323 basehttp 5807 139679703758400 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:17:48,332 basehttp 5807 139679668090432 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:17:51,788 basehttp 5807 139679668090432 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:17:51,809 basehttp 5807 139679703758400 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:17:51,815 basehttp 5807 139679684875840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:17:51,847 basehttp 5807 139679248676416 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:18:23,507 basehttp 5807 139679703758400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:18:23,541 basehttp 5807 139679248676416 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:18:23,555 basehttp 5807 139679668090432 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:18:23,575 basehttp 5807 139679684875840 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:19:10,169 basehttp 5807 139679248676416 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:19:10,206 basehttp 5807 139679703758400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:19:10,222 basehttp 5807 139679684875840 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:19:10,239 basehttp 5807 139679668090432 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:20:12,672 basehttp 5807 139679703758400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:20:12,698 basehttp 5807 139679248676416 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:20:12,703 basehttp 5807 139679668090432 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:20:12,714 basehttp 5807 139679684875840 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:20:49,846 basehttp 5807 139679248676416 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:20:49,874 basehttp 5807 139679684875840 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:20:49,899 basehttp 5807 139679703758400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:20:49,905 basehttp 5807 139679668090432 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:21:37,234 basehttp 5807 139679684875840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:21:37,250 basehttp 5807 139679248676416 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:21:37,267 basehttp 5807 139679703758400 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:21:37,268 basehttp 5807 139679668090432 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:22:32,068 basehttp 5807 139679248676416 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:22:32,083 basehttp 5807 139679668090432 "GET /coupon/ HTTP/1.1" 200 675
+INFO 2025-07-16 23:22:32,092 basehttp 5807 139679684875840 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:22:32,093 basehttp 5807 139679703758400 "GET /cart/order/ HTTP/1.1" 200 229
+INFO 2025-07-16 23:24:43,120 basehttp 5807 139679684875840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-16 23:24:43,138 basehttp 5807 139679668090432 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-16 23:24:43,160 basehttp 5807 139679703758400 "GET /cart/ HTTP/1.1" 200 638

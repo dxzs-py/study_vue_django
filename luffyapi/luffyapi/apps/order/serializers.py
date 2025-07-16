@@ -121,6 +121,7 @@ class OrderModelSerializer(serializers.ModelSerializer):
                     pipe.hdel("cart_%s" % user_id, course_id)
                     pipe.srem("selected_%s" % user_id, course_id)
             try:
+                # 对
                 order.save()
                 pipe.execute()
             except:

@@ -70,6 +70,7 @@ INSTALLED_APPS = [
     'course',
     'cart',
     'order',
+    'coupon'
 
 ]
 
