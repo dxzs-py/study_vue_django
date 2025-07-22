@@ -70,7 +70,8 @@ INSTALLED_APPS = [
     'course',
     'cart',
     'order',
-    'coupon'
+    'coupon',
+    'payments'
 
 ]
 
@@ -368,3 +369,17 @@ CKEDITOR_CONFIGS = {
 }
 CKEDITOR_UPLOAD_PATH = ''  # 上传图片保存路径，留空则调用django的文件上传功能
 CKEDITOR_VERSION = '4.24.0-lts'  # 指定LTS版本
+
+# 支付宝配置信息
+ALIAPY_CONFIG = {
+    # "gateway_url": "https://openapi.alipay.com/gateway.do", # 真实支付宝网关地址
+    "gateway_url": "https://openapi-sandbox.dl.alipaydev.com/gateway.do", # 沙箱支付宝网关地址
+    "appid": "9021000150658560",
+    "app_notify_url": None,  # 支付宝异步通知地址
+    "app_private_key_path": os.path.join(BASE_DIR, "apps/payments/keys/app_private_key.pem"),
+    "alipay_public_key_path": os.path.join(BASE_DIR, "apps/payments/keys/alipay_public_key.pem"),
+    "sign_type": "RSA2",
+    "debug": False,
+    "return_url": "http://www.luffycity.cn:8080/payments/result", # 同步回调地址
+    "notify_url": "http://api.luffycity.cn:8000/payments/result", # 异步结果通知
+}

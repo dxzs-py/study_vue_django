@@ -15,7 +15,7 @@ app.config_from_object("my_celery.config")
 # 自动搜索并加载任务
 # 参数必须必须是一个列表，里面的每一个任务都是任务的路径名称
 # app.autodiscover_tasks(["任务1","任务2"])
-app.autodiscover_tasks(["my_celery.sms","my_celery.mail"])
+app.autodiscover_tasks(["my_celery.sms","my_celery.mail","my_celery.order"])
 
 # 启动Celery的命令
 # 强烈建议切换目录到项目的根目录下启动celery!!

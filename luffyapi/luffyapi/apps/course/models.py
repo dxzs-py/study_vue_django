@@ -123,7 +123,7 @@ class Course(BaseModel):
                         condition_price,condition_sale = sale_item[1:].split("-")
                         if original_price >= float(condition_price):
                             price_list.append(float(condition_sale))
-                    price = original_price - max(price_list) # 减去最大的优惠金额
+                    price = original_price - max(price_list or [0]) # 减去最大的优惠金额
         return "%.2f" % price
 
     @property

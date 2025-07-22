@@ -1,7 +1,8 @@
 from django.db import models
 from luffyapi.utils.models import BaseModel
 from user_login.models import User
-from course.models import Course
+from course.models import Course, CourseExpire
+from luffyapi.settings import constants
 
 
 class Order(BaseModel):
@@ -23,7 +24,7 @@ class Order(BaseModel):
     order_status = models.SmallIntegerField(choices=status_choices, default=0, verbose_name="订单状态")
     pay_type = models.SmallIntegerField(choices=pay_choices, default=1, verbose_name="支付方式")
     credit = models.IntegerField(default=0, verbose_name="使用的积分数量")
-    coupon = models.IntegerField(null=True, verbose_name="用户优惠券ID")
+    coupon = models.IntegerField(null=True, verbose_name="拥有优惠券的用户ID")
     order_desc = models.TextField(max_length=500, null=True, blank=True, verbose_name="订单描述")
     pay_time = models.DateTimeField(null=True, blank=True, verbose_name="支付时间")
     user = models.ForeignKey(User, related_name='user_orders', on_delete=models.DO_NOTHING, verbose_name="下单用户")
@@ -35,6 +36,28 @@ class Order(BaseModel):
 
     def __str__(self):
         return "%s,总价: %s,实付: %s" % (self.order_title, self.total_price, self.real_price)
+
+    @property
+    def course_list(self):
+        """获取当前订单相关的课程列表"""
+        order_course_list = self.order_courses.all()
+        data = []
+        for detail in order_course_list:
+            course = detail.course
+            try:
+                expire_text = CourseExpire.objects.get(id=detail.expire).expire_text
+            except:
+                expire_text = "永久有效"
+            data.append({
+                "id": course.id,
+                "name": course.name,
+                "course_img": constants.SERVER_IMAGE_DOMAIN + course.course_img.url,
+                "expire_text": expire_text,
+                "discount_name": detail.discount_name,
+                "price": detail.price,
+                "real_price": detail.real_price,
+            })
+        return data
 
 
 class OrderDetail(BaseModel):

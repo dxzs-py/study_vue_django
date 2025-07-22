@@ -122,9 +122,21 @@ class SmSAPIView(APIView):
         try:
             # 1. 声明一个和celery一模一样的任务函数，但是我们可以导包来解决
             from my_celery.sms.tasks import send_sms
-            send_sms.delay(mobile,sms_code)
+            send_sms.delay(mobile, sms_code)
         except:
             return Response({"message": "短信发送失败"}, status=http_status.HTTP_500_INTERNAL_SERVER_ERROR)
 
         # 5.响应发送短信的结果
         return Response({"message": "短信发送成功"}, status=http_status.HTTP_200_OK)
+
+
+from rest_framework.generics import ListAPIView
+from order.models import Order
+from .serializers import UserOrderModelSerializer
+from rest_framework.permissions import IsAuthenticated
+class UserOrderAPIView(ListAPIView):
+    queryset = Order.objects.filter(is_deleted=False, is_show=True)
+    serializer_class = UserOrderModelSerializer
+    permission_classes = [IsAuthenticated]
+    def get_queryset(self):
+        return self.queryset.filter(user_id=self.request.user.id)

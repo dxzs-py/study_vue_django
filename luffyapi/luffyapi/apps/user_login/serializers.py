@@ -1,7 +1,7 @@
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework import serializers
 from rest_framework_simplejwt.tokens import RefreshToken
-
+from luffyapi.settings.constants import CREDIT_MONEY
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
     @classmethod
     def get_token(cls, user):
@@ -36,6 +36,8 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
             'id': self.user.id,  # 用户ID
             'msg': '登录成功成功',  # 登录成功消息
             'username': self.user.username,  # 用户名
+            'credit_to_money':CREDIT_MONEY,
+            'user_credit':self.user.credit,
             'refresh': str(refresh),  # 刷新令牌
             'access': str(refresh.access_token)  # 访问令牌
         }
@@ -219,3 +221,9 @@ class UserModelSerializer(serializers.ModelSerializer):
         # 这只是在内存中为new_User实例添加了一个临时属性，并不会修改数据库表结构，也不会将token存入数据库
 
         return new_User  # 会传递给序列化器的序列化阶段这个实例会被序列化器用来生成最终的响应数据
+
+from order.models import Order
+class UserOrderModelSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Order
+        fields = ['id', 'order_number', 'order_status','create_time', 'course_list']

@@ -9,7 +9,7 @@ from rest_framework_simplejwt.views import (
 )
 
 # 引入自定义的视图类
-from .views import MyObtainTokenPairView,CaptchaAPIView,UserAPIView,MobileAPIView,SmSAPIView
+from .views import MyObtainTokenPairView,CaptchaAPIView,UserAPIView,MobileAPIView,SmSAPIView,UserOrderAPIView
 
 urlpatterns = [
     # DRF 提供的一系列身份认证的接口，用于在页面中认证身份，详情查阅DRF文档
@@ -23,5 +23,7 @@ urlpatterns = [
     path(r"captcha/",CaptchaAPIView.as_view(), name="captcha"),
     path(r"reg/",UserAPIView.as_view(),name='register'),
     re_path(r"mobile/(?P<mobile>1[3-9]\d{9}/?$)",MobileAPIView.as_view(),name='mobile'),
-    re_path(r"sms/(?P<mobile>1[3-9]\d{9}/?$)",SmSAPIView.as_view(),name='mobile')
+    re_path(r"sms/(?P<mobile>1[3-9]\d{9}/?$)",SmSAPIView.as_view(),name='mobile'),
+    path('order/', UserOrderAPIView.as_view(), name='user_order'),
+
 ]
