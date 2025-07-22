@@ -28,7 +28,7 @@
                   </span>
                 </template>
                 <el-menu-item index="2-1">我的账户</el-menu-item>
-                <el-menu-item index="2-2">我的订单</el-menu-item>
+                <el-menu-item index="2-2"><router-link to="/user/order">我的订单</router-link></el-menu-item>
                 <el-menu-item index="2-3">我的优惠卷</el-menu-item>
                 <span @click="logoutHander"><el-menu-item index="2-3">退出登录</el-menu-item></span>
               </el-submenu>

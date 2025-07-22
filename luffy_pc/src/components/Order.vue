@@ -47,7 +47,7 @@
             <ul class="coupon-list" v-if="coupon_list.length>0">
 
               <li class="coupon-item" :class="selected_coupon(index,item.id)" v-for="(item,index) in coupon_list"
-                  :key="item.id" @click="toggleCoupon(item.id)">
+                  :key="item.id" @click="click_select_coupon(index,item.id)">
                 <p class="coupon-name">{{ item.coupon.name }}</p>
                 <p class="coupon-condition" v-if="item.coupon.condition>0"> 满{{ item.coupon.condition }}元可以使用</p>
                 <p class="coupon-condition" v-else> 优惠券无门槛使用 </p>
@@ -65,7 +65,17 @@
             <el-checkbox class="my_el_checkbox" v-model="use_credit"></el-checkbox>
           </label>
           <p class="discount-num1" v-if="!use_credit">使用我的贝里</p>
-          <p class="discount-num2" v-else><span>总积分：100，已抵扣 ￥0.00，本次花费0积分</span></p>
+          <p class="discount-num2" v-else>
+            <span>
+              总积分：{{ user_credit }}，抵扣
+            <el-input-number @change="handleChange"
+                             v-model="credit" :min="0"
+                             :max="max_credit()"
+                             label="请填写积分">
+            </el-input-number>，
+              本次花费以后，剩余{{ parseInt(user_credit - credit) }}积分
+          </span>
+          </p>
         </div>
         <p class="sun-coupon-num">优惠券抵扣：<span>0.00元</span></p>
       </div>
@@ -79,7 +89,8 @@
             <span class="alipay wechat" v-else @click="pay_type=1"><img src="../../static/image/wechat.png"
                                                                         alt=""></span>
           </el-col>
-          <el-col :span="8" class="count">实付款： <span>¥{{ real_total.toFixed(2) }}</span></el-col>
+          <el-col :span="8" class="count">实付款： <span>¥{{ (real_total - credit / credit_to_money).toFixed(2) }}</span>
+          </el-col>
           <el-col :span="4" class="cart-pay"><span @click="PayHander">立即支付</span></el-col>
         </el-row>
       </div>
@@ -105,7 +116,9 @@ export default {
       total_price: 0,     // 订单总金额
       real_total: 0,      // 优惠劵和积分折算的价格
       course_list: [],     // 勾选商品
-      coupon_list: []      // 优惠券列表
+      coupon_list: [],      // 优惠券列表
+      user_credit: localStorage.user_credit || sessionStorage.user_credit,  // 积分
+      credit_to_money: localStorage.credit_to_money || sessionStorage.credit_to_money, // 积分兑换金额
     }
   },
   components: {
@@ -116,6 +129,9 @@ export default {
     coupon: {
       handler(newVal, oldVal) {
         this.calc_real_total(oldVal)
+        if (this.real_total - this.credit / this.credit_to_money < 0) {
+          this.credit = parseInt(this.real_total * this.credit_to_money)
+        }
       }
     },
     use_coupon() {
@@ -172,11 +188,23 @@ export default {
         this.$message.error(error.response.data.message + "有问题，请重新登录");
       })
     },
-    toggleCoupon(coupon_id) {
-      if (this.coupon === coupon_id) {
+    click_select_coupon(index, uer_coupon_id) {  // 点击切换优惠券时记录本次点击的优惠券
+      let user_coupon = this.coupon_list[index]
+      // 判断总价格是否满足优惠券条件
+      if (this.total_price < user_coupon.coupon.condition) {
+        return
+      }
+      // 判断优惠券是否处于使用时间范围内
+      let start_time = parseInt(new Date(user_coupon.start_time) / 1000)
+      let end_time = parseInt(new Date(user_coupon.end_time) / 1000)
+      let now_time = parseInt(new Date() / 1000)
+      if (now_time < start_time || now_time > end_time) {
+        return
+      }
+      if (this.coupon === uer_coupon_id) {
         this.coupon = 0;
       } else {
-        this.coupon = coupon_id;
+        this.coupon = uer_coupon_id;
       }
     },
     selected_coupon(index, uer_coupon_id) {
@@ -202,6 +230,10 @@ export default {
       return ""
     },
     PayHander() {
+      if (this.real_total===0){
+        this.$message.error("请选择课程")
+        return
+      }
       // 生成订单
       this.$axios.post(`${this.$settings.HOST}/order/`, {
         pay_type: this.pay_type,  // 支付类型
@@ -215,8 +247,16 @@ export default {
         // 订单生成成功
         this.$message.success("订单生成成功！即将跳转至支付页面！请不要离开！")
         // 发起支付[页面跳转,后端需要提供跳转地址]
-
-
+        this.$axios.get(`${this.$settings.HOST}/payments/alipay/`,{
+          params: {
+            order_number: response.data.order_number
+          }
+        }).then(response => {
+          // 跳转至支付页面
+          location.href = response.data.url;
+        }).catch(error => {
+          this.$message.error(error.response.data.message + "订单生成失败");
+        })
       }).catch(error => {
         this.$message.error(error.response.data.message + "订单生成失败");
       })
@@ -226,7 +266,6 @@ export default {
         this.coupon_list.forEach(item => {
           // 判断当前优惠劵是否被选中
           if (item.id === oldVal) {
-            console.log(1)
             let f = parseFloat(item.coupon.sale.substr(1));
             if (item.coupon.sale[0] === "*") {
               this.real_total /= f;
@@ -257,6 +296,27 @@ export default {
           }
         }
       })
+    },
+    max_credit() {
+      // 计算本次订单中，用户可以设置的最大积分
+
+      // 用户拥有的积分允许抵扣的最大金额
+      let max_credit_to_money = this.user_credit / this.credit_to_money;
+      console.log("用户积分抵扣", max_credit_to_money);
+      // 计算当前真实的订单实付金额
+      let ret = 0;
+      if (max_credit_to_money > this.real_total) {
+        ret = parseInt(this.real_total * this.credit_to_money);
+      } else {
+        ret = parseInt(this.user_credit);
+      }
+      console.log(ret);
+      return ret;
+    },
+    handleChange(value) {
+      if (typeof value !== "number" || !isFinite(value) || value < 0) {
+        this.credit = 0;
+      }
     }
   }
 }

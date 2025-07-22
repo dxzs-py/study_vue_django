@@ -64,17 +64,26 @@
           sessionStorage.removeItem('user_token'); // 为了避免登录状态被覆盖
           sessionStorage.removeItem('user_id');
           sessionStorage.removeItem('user_name');
+          sessionStorage.removeItem('user_credit');
+          sessionStorage.removeItem('credit_to_money');
           localStorage.user_token = res.data.access;
           localStorage.user_id = res.data.id;
           localStorage.user_name = res.data.username;
+          localStorage.user_credit = res.data.user_credit;
+          localStorage.credit_to_money = res.data.credit_to_money;
         } else {
           // 不记住登录状态
           localStorage.removeItem('user_token');  // 为了避免登录状态被覆盖
           localStorage.removeItem('user_id');
           localStorage.removeItem('user_name');
+          localStorage.removeItem('user_credit');
+          localStorage.removeItem('credit_to_money');
+
           sessionStorage.user_token = res.data.access;
           sessionStorage.user_id = res.data.id;
           sessionStorage.user_name = res.data.username;
+          sessionStorage.user_credit = res.data.user_credit;
+          sessionStorage.credit_to_money = res.data.credit_to_money;
         }
         // 页面跳转
         let self = this;
