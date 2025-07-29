@@ -9,6 +9,7 @@ import Cart from "../components/Cart.vue"
 import Order from "../components/Order.vue"
 import Success from "../components/Success.vue"
 import UserOrder from "@/components/UserOrder"
+import Player from "../components/Player.vue";
 // 这里是路由的配置
 
 Vue.use(Router)
@@ -60,6 +61,11 @@ export default new Router({
       path: "/user/order",
       name: "UserOrder",
       component: UserOrder
-    }
+    },
+    {
+      path: "/course/player",
+      name: "Player",
+      component: Player
+    },
   ]
 })

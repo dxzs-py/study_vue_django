@@ -45,7 +45,7 @@ class CourseRetrieveModelSerializer(serializers.ModelSerializer):
     teacher = TeacherRetrieveModelSerializer()
     class Meta:
         model = Course
-        fields = ["id","name","course_img","students","lessons","pub_lessons","price","teacher","level_name","brief_html","course_video","discount_name","real_price","activity_time"]
+        fields = ["id","name","course_img","course_video","students","lessons","pub_lessons","price","teacher","level_name","brief_html","course_video","discount_name","real_price","activity_time"]
 
 from .models import CourseLesson
 class CourseLessonModelSerializer(serializers.ModelSerializer):
@@ -54,7 +54,7 @@ class CourseLessonModelSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = CourseLesson
-        fields = ["id","lesson","name","free_trail"]
+        fields = ["id","name","duration","free_trail","section_type","section_link"]
 
 from .models import CourseChapter
 class CourseChapterModelSerializer(serializers.ModelSerializer):

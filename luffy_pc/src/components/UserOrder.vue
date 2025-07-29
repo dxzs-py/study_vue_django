@@ -51,7 +51,19 @@
             <li class="order-do">
               <span class="btn btn2" v-if="order.order_status===0"><span
                 @click="gotopay(order.order_number)">去付款</span></span>
-              <span class="btn btn2" v-else-if="order.order_status===1">去学习</span>
+              <span class="btn btn2" v-else-if="order.order_status===1">
+                <router-link v-if="course.section_type===2"
+                :to="{path: '/course/player',query:{'vid':course.section_link}}">去学习
+                </router-link>
+                <router-link v-else-if="course.section_type===1"
+                :to="{path: '/course/exam',query:{'vid':course.section_link}}">去学习
+                </router-link>
+                <router-link v-else-if="course.section_type===0"
+                :to="{path: '/course/document',query:{'vid':course.section_link}}">去学习
+                </router-link>
+                <span class="btn btn2" v-else>哎嘿，还没有做，哈哈哈</span>
+
+              </span>
             </li>
           </ul>
 

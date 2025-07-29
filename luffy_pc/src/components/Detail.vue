@@ -5,6 +5,7 @@
       <div class="course-info">
         <div class="wrap-left">
           <videoPlayer
+            v-if="course.course_video"
             class="video-player vjs-custom-skin"
             ref="videoPlayer"
             :playsinline="true"
@@ -13,6 +14,7 @@
             @pause="onPlayerPause($event)">
 
           </videoPlayer>
+          <img v-else class="course_img" :src="course.course_img" alt="">
         </div>
         <div class="wrap-right">
           <h3 class="course-name">{{ course.name }}</h3>
@@ -24,7 +26,10 @@
             }}</p>
           <div v-if="course.discount_name" class="sale-time">
             <p class="sale-type">{{ course.discount_name }}</p>
-            <p class="expire">距离结束：仅剩 {{(course.activity_time)/(24*3600) | time_format}}天 {{ course.activity_time/3600%24 | time_format }}小时 {{ course.activity_time / 60 % 60 | time_format}}分 <span class="second">{{course.activity_time%60 | time_format}}</span> 秒</p>
+            <p class="expire">距离结束：仅剩 {{ (course.activity_time) / (24 * 3600) | time_format }}天
+              {{ course.activity_time / 3600 % 24 | time_format }}小时
+              {{ course.activity_time / 60 % 60 | time_format }}分 <span
+                class="second">{{ course.activity_time % 60 | time_format }}</span> 秒</p>
           </div>
 
           <div v-else class="sale-time">
@@ -47,19 +52,19 @@
       </div>
       <div class="course-tab">
         <ul class="tab-list">
-          <li :class="tabIndex==1?'active':''" @click="tabIndex=1">详情介绍</li>
-          <li :class="tabIndex==2?'active':''" @click="tabIndex=2">课程章节 <span
-            :class="tabIndex!=2?'free':''">(试学)</span></li>
-          <li :class="tabIndex==3?'active':''" @click="tabIndex=3">用户评论 (42)</li>
-          <li :class="tabIndex==4?'active':''" @click="tabIndex=4">常见问题</li>
+          <li :class="tabIndex===1?'active':''" @click="tabIndex=1">详情介绍</li>
+          <li :class="tabIndex===2?'active':''" @click="tabIndex=2">课程章节 <span
+            :class="tabIndex!==2?'free':''">(试学)</span></li>
+          <li :class="tabIndex===3?'active':''" @click="tabIndex=3">用户评论 (42)</li>
+          <li :class="tabIndex===4?'active':''" @click="tabIndex=4">常见问题</li>
         </ul>
       </div>
       <div class="course-content">
         <div class="course-tab-list">
-          <div class="tab-item" v-if="tabIndex==1">
+          <div class="tab-item" v-if="tabIndex===1">
             <div v-html="course.brief_html"></div>
           </div>
-          <div class="tab-item" v-if="tabIndex==2">
+          <div class="tab-item" v-if="tabIndex===2">
             <div class="tab-item-title">
               <p class="chapter">课程章节</p>
               <p class="chapter-length">共{{ chapter_list.length }}章 {{ course.lessons }}个课时</p>
@@ -71,18 +76,23 @@
                 <li class="lesson-item" v-for="lesson in chapter.coursesections">
                   <p class="name"><span class="index">{{ chapter.chapter }}-{{ lesson.lesson }}</span> {{ lesson.name }}<span
                     class="free" v-if="lesson.free_trail">免费</span></p>
-                  <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
-                  <button class="try" v-if="lesson.free_trail">立即试学</button>
+                  <p class="time">{{ lesson.duration }} <img src="/static/image/chapter-player.svg"></p>
+                  <button class="try" v-if="lesson.free_trail">
+                      <router-link v-if="lesson.section_type===0" :to="{path: '/course/document',query:{'vid':lesson.section_link}}">立即试学</router-link>
+                      <router-link v-if="lesson.section_type===1" :to="{path: '/course/exam',query:{'vid':lesson.section_link}}">立即试学</router-link>
+                      <router-link v-if="lesson.section_type===2" :to="{path: '/course/player',query:{'vid':lesson.section_link}}">立即试学</router-link>
+                    <!-- 我们只做了player的视频播放 -->
+                  </button>
                   <button class="try" v-else>立即购买</button>
                 </li>
               </ul>
             </div>
 
           </div>
-          <div class="tab-item" v-if="tabIndex==3">
+          <div class="tab-item" v-if="tabIndex===3">
             用户评论
           </div>
-          <div class="tab-item" v-if="tabIndex==4">
+          <div class="tab-item" v-if="tabIndex===4">
             常见问题
           </div>
         </div>
@@ -149,13 +159,13 @@ export default {
   },
   filters: {
     // 时间戳转换
-    time_format(time){
-          time = parseInt(time);
-          if(time < 10){
-              time = "0"+time;
-          }
-          return time;
+    time_format(time) {
+      time = parseInt(time);
+      if (time < 10) {
+        time = "0" + time;
       }
+      return time;
+    }
   },
   created() {
     // 课程ID
@@ -183,21 +193,25 @@ export default {
       // 获取课程信息
       this.$axios.get(`${this.$settings.HOST}/course/${this.course_id}/`).then(response => {
         this.course = response.data;
-        this.playerOptions.sources[0].src = response.data.course_video;
         this.playerOptions.poster = response.data.course_img;
+        // 在服务端中新增一个模型字段 course_video，如果有视频，则显示到播放器中，如果没有则显示一张封面图片
+        if (response.data.course_video) {
+          // this.playerOptions.sources[0].src = "http://img.ksbbs.com/asset/Mon_1703/05cacb4e02f9d9e.mp4";
+          this.playerOptions.sources[0].src = response.data.course_video;
+        }
         // 设置活动进行时，课程优惠的倒计时
         if (this.course.activity_time > 0) {
           let timer = setInterval(() => {
-            if(this.course.activity_time > 1){
+            if (this.course.activity_time > 1) {
               this.course.activity_time--;
-            }else {
+            } else {
               clearInterval(timer);
             }
-          },1000)
+          }, 1000)
         }
       }).catch(error => {
         this.$message({
-          message: error.response.data.message,
+          message: error.response.data.message+"对不起，访问页面出错！请联系客服工作人员！",
           type: 'error'
         });
       })
@@ -246,7 +260,7 @@ export default {
       }).then(response => {
         this.$message.success({
           message: response.data.message,
-          duration: 1000, // 显示2秒
+          duration: 500, // 显示0.5秒
           type: 'success'
         });
         // 更新Vuex中购物车商品数量

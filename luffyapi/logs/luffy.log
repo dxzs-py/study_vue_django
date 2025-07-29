@@ -10111,3 +10111,559 @@ INFO 2025-07-22 21:08:14,529 basehttp 37024 126653261932096 "GET /nav/footer/ HT
 INFO 2025-07-22 21:08:14,668 basehttp 37024 126653234656832 "GET /user/order/ HTTP/1.1" 200 3458
 WARNING 2025-07-22 21:08:14,708 log 37024 126653251442240 Not Found: /media/course/course-cover.jpeg
 WARNING 2025-07-22 21:08:14,709 basehttp 37024 126653251442240 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 11:13:01,897 autoreload 4560 129922539401216 Watching for file changes with StatReloader
+INFO 2025-07-29 11:14:41,097 basehttp 4560 129922439243328 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 11:14:41,108 basehttp 4560 129922447636032 "GET /banner/ HTTP/1.1" 200 319
+INFO 2025-07-29 11:14:41,119 basehttp 4560 129922456028736 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 11:14:50,538 basehttp 4560 129922223830592 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 11:14:50,587 basehttp 4560 129922223830592 "GET /banner/ HTTP/1.1" 200 319
+INFO 2025-07-29 11:14:50,601 basehttp 4560 129922215437888 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 11:14:50,755 basehttp 4560 129922207045184 "GET /media/banner/clash_dBw4us0.jpg HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:50,761 basehttp 4560 129922198652480 "GET /media/banner/banner2.png HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:50,765 basehttp 4560 129922190259776 "GET /media/banner/Loginbg.3377d0c.jpg HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,774 basehttp 4560 129922181867072 "GET /admin/ HTTP/1.1" 200 26342
+INFO 2025-07-29 11:14:58,859 basehttp 4560 129921619850816 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,864 basehttp 4560 129922173474368 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,864 basehttp 4560 129922181867072 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,866 basehttp 4560 129921611458112 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,884 basehttp 4560 129921611458112 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,891 basehttp 4560 129922181867072 "GET /static/admin/simpleui-x/elementui/index.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,895 basehttp 4560 129922173474368 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,903 basehttp 4560 129921619850816 "GET /static/admin/simpleui-x/js/vue.min.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,908 basehttp 4560 129921603065408 "GET /static/admin/simpleui-x/locale/en-us.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,910 basehttp 4560 129921594672704 "GET /static/admin/simpleui-x/automatic/segment.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,923 basehttp 4560 129921594672704 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,925 basehttp 4560 129921603065408 "GET /static/admin/simpleui-x/js/cookie.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,952 basehttp 4560 129921619850816 "GET /static/admin/simpleui-x/theme/theme.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,955 basehttp 4560 129922173474368 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,959 basehttp 4560 129922181867072 "GET /static/admin/simpleui-x/js/menu.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:58,977 basehttp 4560 129921603065408 "GET /static/admin/simpleui-x/js/index.js?_=2025.01.13 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:59,613 basehttp 4560 129921603065408 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:59,614 basehttp 4560 129922173474368 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2025-07-29 11:14:59,619 basehttp 4560 129922181867072 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+WARNING 2025-07-29 11:14:59,710 log 4560 129922181867072 Not Found: /favicon.ico
+WARNING 2025-07-29 11:14:59,711 basehttp 4560 129922181867072 "GET /favicon.ico HTTP/1.1" 404 4162
+INFO 2025-07-29 11:21:22,865 basehttp 4560 129922181867072 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2025-07-29 11:21:22,909 basehttp 4560 129921603065408 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 11:21:22,920 basehttp 4560 129922173474368 "GET /nav/footer/ HTTP/1.1" 200 354
+WARNING 2025-07-29 11:21:22,947 log 4560 129922181867072 Unauthorized: /cart/
+WARNING 2025-07-29 11:21:22,948 basehttp 4560 129922181867072 "GET /cart/ HTTP/1.1" 401 179
+INFO 2025-07-29 11:21:46,162 basehttp 4560 129922181867072 "GET /user/captcha/?username=daixing HTTP/1.1" 200 140
+INFO 2025-07-29 11:21:52,489 basehttp 4560 129922181867072 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2025-07-29 11:21:52,500 basehttp 4560 129922181867072 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2025-07-29 11:21:52,556 basehttp 4560 129922181867072 "OPTIONS /user/login/token/ HTTP/1.1" 200 0
+INFO 2025-07-29 11:21:54,088 basehttp 4560 129922181867072 "POST /user/login/token/ HTTP/1.1" 200 709
+INFO 2025-07-29 11:21:55,690 basehttp 4560 129922173474368 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 11:21:55,693 basehttp 4560 129921603065408 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 11:21:55,772 basehttp 4560 129922181867072 "GET /cart/ HTTP/1.1" 200 221
+INFO 2025-07-29 11:21:55,977 basehttp 4560 129921611458112 "GET /media/course/clash_dBw4us0.jpg HTTP/1.1" 304 0
+INFO 2025-07-29 11:22:04,635 basehttp 4560 129922181867072 "OPTIONS /user/order/ HTTP/1.1" 200 0
+INFO 2025-07-29 11:22:04,680 basehttp 4560 129921603065408 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 11:22:04,691 basehttp 4560 129922173474368 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 11:22:04,828 basehttp 4560 129922181867072 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 11:22:04,915 log 4560 129921611458112 Not Found: /media/course/course-cover.jpeg
+INFO 2025-07-29 11:22:04,916 basehttp 4560 129922454955584 "GET /media/course/2.jpeg HTTP/1.1" 304 0
+WARNING 2025-07-29 11:22:04,917 basehttp 4560 129921611458112 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 12:06:47,009 basehttp 4560 129922181867072 "GET /admin/course/course/ HTTP/1.1" 200 32783
+INFO 2025-07-29 12:06:47,063 basehttp 4560 129922446562880 "GET /static/admin/css/changelists.css?_=20180905 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,067 basehttp 4560 129922173474368 "GET /static/admin/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,071 basehttp 4560 129921603065408 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,073 basehttp 4560 129922454955584 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,088 basehttp 4560 129922454955584 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,094 basehttp 4560 129922223830592 "GET /static/admin/css/responsive.css?_=20180905 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,096 basehttp 4560 129922446562880 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,097 basehttp 4560 129921603065408 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,098 basehttp 4560 129922173474368 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,102 basehttp 4560 129922223830592 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,117 basehttp 4560 129922181867072 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 12:06:47,126 basehttp 4560 129922446562880 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,132 basehttp 4560 129922454955584 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,139 basehttp 4560 129921603065408 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,148 basehttp 4560 129922173474368 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,152 basehttp 4560 129922223830592 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,174 basehttp 4560 129922446562880 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,176 basehttp 4560 129922181867072 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,181 basehttp 4560 129922454955584 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,187 basehttp 4560 129921603065408 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,195 basehttp 4560 129922173474368 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:47,201 basehttp 4560 129922223830592 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:50,266 basehttp 4560 129922223830592 "GET /admin/course/course/22/change/ HTTP/1.1" 200 24113
+INFO 2025-07-29 12:06:50,320 basehttp 4560 129922454955584 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:50,322 basehttp 4560 129921603065408 "GET /static/ckeditor/ckeditor.css HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:50,326 basehttp 4560 129922181867072 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:50,328 basehttp 4560 129922173474368 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:50,352 basehttp 4560 129922223830592 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 12:06:50,398 basehttp 4560 129922173474368 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:50,899 basehttp 4560 129922173474368 "GET /static/ckeditor/ckeditor/config.js?t=N2M9 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:50,929 basehttp 4560 129922173474368 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=N2M9 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:50,932 basehttp 4560 129922223830592 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=N2M9 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:50,951 basehttp 4560 129922223830592 "GET /static/ckeditor/ckeditor/styles.js?t=N2M9 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:51,017 basehttp 4560 129922223830592 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=N2M9 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:51,024 basehttp 4560 129922181867072 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=N2M9 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:51,027 basehttp 4560 129921603065408 "GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=N2M9 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:51,028 basehttp 4560 129922173474368 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=N2M9 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:51,038 basehttp 4560 129922173474368 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=N2M9 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:51,088 basehttp 4560 129922173474368 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=d529d176d7 HTTP/1.1" 304 0
+INFO 2025-07-29 12:06:51,140 basehttp 4560 129922173474368 "GET /static/ckeditor/ckeditor/contents.css?t=N2M9 HTTP/1.1" 304 0
+INFO 2025-07-29 12:07:01,777 basehttp 4560 129922173474368 "GET /admin/course/course/ HTTP/1.1" 200 32783
+INFO 2025-07-29 12:07:08,442 basehttp 4560 129922173474368 "GET /admin/course/coursechapter/ HTTP/1.1" 200 28967
+INFO 2025-07-29 12:07:08,483 basehttp 4560 129922173474368 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 12:07:10,530 basehttp 4560 129922173474368 "GET /admin/course/coursechapter/8/change/ HTTP/1.1" 200 14835
+INFO 2025-07-29 12:07:10,584 basehttp 4560 129922173474368 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 12:07:13,983 basehttp 4560 129922173474368 "GET /admin/course/coursechapter/ HTTP/1.1" 200 28967
+INFO 2025-07-29 12:07:14,033 basehttp 4560 129922173474368 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 12:07:15,855 basehttp 4560 129922173474368 "GET /admin/course/courseexpire/ HTTP/1.1" 200 28891
+INFO 2025-07-29 12:07:15,895 basehttp 4560 129922173474368 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 12:07:17,325 basehttp 4560 129922173474368 "GET /admin/course/coursecategory/ HTTP/1.1" 200 30718
+INFO 2025-07-29 12:07:17,370 basehttp 4560 129922173474368 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 12:07:19,776 basehttp 4560 129922173474368 "GET /admin/course/coursediscounttype/ HTTP/1.1" 200 26879
+INFO 2025-07-29 12:07:19,835 basehttp 4560 129922173474368 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 12:07:20,838 basehttp 4560 129922173474368 "GET /admin/course/coursepricediscount/ HTTP/1.1" 200 27788
+INFO 2025-07-29 12:07:20,883 basehttp 4560 129922173474368 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 12:07:23,986 basehttp 4560 129922173474368 "GET /admin/course/teacher/ HTTP/1.1" 200 25541
+INFO 2025-07-29 12:07:24,048 basehttp 4560 129922173474368 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 12:07:25,004 basehttp 4560 129922173474368 "GET /admin/course/activity/ HTTP/1.1" 200 26404
+INFO 2025-07-29 12:07:25,059 basehttp 4560 129922173474368 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 12:07:26,537 basehttp 4560 129922173474368 "GET /admin/course/coursediscount/ HTTP/1.1" 200 28299
+INFO 2025-07-29 12:07:26,592 basehttp 4560 129922173474368 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 12:48:20,624 autoreload 4560 129922539401216 /home/dx/Desktop/luffy/luffyapi/luffyapi/settings/dev.py changed, reloading.
+INFO 2025-07-29 12:48:22,381 autoreload 11694 126344913428480 Watching for file changes with StatReloader
+INFO 2025-07-29 13:00:47,497 autoreload 11694 126344913428480 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/views.py changed, reloading.
+INFO 2025-07-29 13:00:48,580 autoreload 12568 131596801105920 Watching for file changes with StatReloader
+INFO 2025-07-29 13:24:36,437 autoreload 12568 131596801105920 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/views.py changed, reloading.
+INFO 2025-07-29 13:24:37,496 autoreload 13979 136355424968704 Watching for file changes with StatReloader
+INFO 2025-07-29 13:40:39,227 autoreload 13979 136355424968704 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/urls.py changed, reloading.
+INFO 2025-07-29 13:40:40,302 autoreload 15151 132311577559040 Watching for file changes with StatReloader
+ERROR 2025-07-29 13:43:48,207 log 15151 132311426782784 Internal Server Error: /course/player/
+Traceback (most recent call last):
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/dx/.virtualenvs/luffy/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/views.py", line 78, in get
+    return Response(result.get("token"))
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2025-07-29 13:43:48,215 basehttp 15151 132311426782784 "GET /course/player/?vid=a8f20da82400315175a954565968891c_a HTTP/1.1" 500 105453
+INFO 2025-07-29 13:44:27,139 autoreload 15151 132311577559040 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/views.py changed, reloading.
+INFO 2025-07-29 13:44:28,241 autoreload 15409 133080557785088 Watching for file changes with StatReloader
+INFO 2025-07-29 13:44:41,720 basehttp 15409 133080474375744 "GET /course/player/?vid=a8f20da82400315175a954565968891c_a HTTP/1.1" 200 4
+INFO 2025-07-29 13:46:14,359 autoreload 15409 133080557785088 /home/dx/Desktop/luffy/luffyapi/luffyapi/libs/polyv.py changed, reloading.
+INFO 2025-07-29 13:46:15,483 autoreload 15544 137193801891840 Watching for file changes with StatReloader
+INFO 2025-07-29 13:46:23,784 basehttp 15544 137193718273600 "GET /course/player/?vid=a8f20da82400315175a954565968891c_a HTTP/1.1" 200 4
+INFO 2025-07-29 13:57:28,730 autoreload 15544 137193801891840 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/views.py changed, reloading.
+INFO 2025-07-29 13:57:29,770 autoreload 16187 133596951625728 Watching for file changes with StatReloader
+INFO 2025-07-29 13:57:35,615 basehttp 16187 133596868265536 "GET /course/player/?vid=a8f20da82400315175a954565968891c_a HTTP/1.1" 200 4
+INFO 2025-07-29 14:29:18,982 autoreload 16187 133596951625728 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/views.py changed, reloading.
+INFO 2025-07-29 14:29:20,042 autoreload 18192 138078661902336 Watching for file changes with StatReloader
+INFO 2025-07-29 14:29:26,124 autoreload 18192 138078661902336 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/views.py changed, reloading.
+INFO 2025-07-29 14:29:27,266 autoreload 18233 140078004850688 Watching for file changes with StatReloader
+INFO 2025-07-29 14:55:58,282 basehttp 18233 140077921486400 "OPTIONS /user/order/ HTTP/1.1" 200 0
+INFO 2025-07-29 14:55:58,365 basehttp 18233 140077921486400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 14:55:58,378 basehttp 18233 140077904700992 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 14:55:58,576 basehttp 18233 140077913093696 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 14:55:58,630 log 18233 140077895259712 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 14:55:58,631 basehttp 18233 140077895259712 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 14:55:58,634 basehttp 18233 140077895259712 - Broken pipe from ('127.0.0.1', 39494)
+INFO 2025-07-29 14:56:11,998 basehttp 18233 140077904700992 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 14:56:12,003 basehttp 18233 140077921486400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 14:56:12,111 basehttp 18233 140077913093696 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 14:56:12,152 log 18233 140077895259712 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 14:56:12,153 basehttp 18233 140077895259712 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 14:59:00,628 basehttp 18233 140077921486400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 14:59:00,696 basehttp 18233 140077921486400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 14:59:00,812 basehttp 18233 140077913093696 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 14:59:00,862 log 18233 140077895259712 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 14:59:00,865 basehttp 18233 140077895259712 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 14:59:00,869 basehttp 18233 140077895259712 - Broken pipe from ('127.0.0.1', 35780)
+INFO 2025-07-29 14:59:04,745 basehttp 18233 140077921486400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 14:59:04,791 basehttp 18233 140077921486400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 14:59:04,869 basehttp 18233 140077913093696 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 14:59:05,379 log 18233 140077895259712 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 14:59:05,381 basehttp 18233 140077895259712 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 14:59:05,385 basehttp 18233 140077895259712 - Broken pipe from ('127.0.0.1', 52606)
+INFO 2025-07-29 15:02:08,591 basehttp 18233 140077921486400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 15:02:08,626 basehttp 18233 140077904700992 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 15:02:08,726 basehttp 18233 140077913093696 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 15:02:08,771 log 18233 140077895259712 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 15:02:08,772 basehttp 18233 140077895259712 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 15:02:08,776 basehttp 18233 140077895259712 - Broken pipe from ('127.0.0.1', 47240)
+INFO 2025-07-29 15:02:18,423 basehttp 18233 140077904700992 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 15:02:18,438 basehttp 18233 140077921486400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 15:02:18,541 basehttp 18233 140077913093696 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 15:02:18,584 log 18233 140077895259712 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 15:02:18,585 basehttp 18233 140077895259712 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 15:07:40,884 basehttp 18233 140077921486400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 15:07:40,933 basehttp 18233 140077904700992 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 15:07:41,064 basehttp 18233 140077913093696 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 15:07:41,110 log 18233 140077895259712 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 15:07:41,111 basehttp 18233 140077895259712 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 15:07:44,279 basehttp 18233 140077904700992 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 15:07:44,314 basehttp 18233 140077921486400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 15:07:44,409 basehttp 18233 140077913093696 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 15:07:44,844 log 18233 140077895259712 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 15:07:44,845 basehttp 18233 140077895259712 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 15:10:32,005 basehttp 18233 140077913093696 "OPTIONS /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 0
+INFO 2025-07-29 15:10:32,094 basehttp 18233 140077904700992 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 15:10:32,161 basehttp 18233 140077895259712 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 15:10:32,271 basehttp 18233 140077921486400 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 15:10:32,322 log 18233 140077885793856 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 15:10:32,323 basehttp 18233 140077885793856 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 15:10:32,326 basehttp 18233 140077885793856 - Broken pipe from ('127.0.0.1', 47214)
+INFO 2025-07-29 15:10:32,394 basehttp 18233 140077913093696 "GET /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 41
+INFO 2025-07-29 15:10:37,716 basehttp 18233 140077921486400 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 15:10:37,762 basehttp 18233 140077921486400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 15:10:37,834 basehttp 18233 140077913093696 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 15:10:38,032 log 18233 140077885793856 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 15:10:38,034 basehttp 18233 140077885793856 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 15:10:43,031 basehttp 18233 140077913093696 "GET /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 41
+INFO 2025-07-29 15:42:27,741 basehttp 18233 140077913093696 "GET /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 41
+INFO 2025-07-29 15:50:12,526 autoreload 18233 140078004850688 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/serializers.py changed, reloading.
+INFO 2025-07-29 15:50:14,390 autoreload 24092 133049549553664 Watching for file changes with StatReloader
+INFO 2025-07-29 15:55:52,667 basehttp 24092 133049457559104 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 15:55:52,700 basehttp 24092 133049449166400 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 15:55:52,878 basehttp 24092 133049465951808 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 15:55:52,923 log 24092 133049439725120 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 15:55:52,925 basehttp 24092 133049439725120 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 15:55:54,540 basehttp 24092 133049457559104 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 15:55:54,570 basehttp 24092 133049465951808 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-07-29 15:55:54,586 basehttp 24092 133049457559104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 15:55:54,678 basehttp 24092 133049449166400 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1642
+INFO 2025-07-29 15:55:57,527 basehttp 24092 133049457559104 "GET /course/chapter/?course=29 HTTP/1.1" 200 2
+INFO 2025-07-29 15:55:57,529 basehttp 24092 133049439725120 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 15:55:57,534 basehttp 24092 133049465951808 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 15:55:57,561 basehttp 24092 133049449166400 "GET /course/29/ HTTP/1.1" 200 758
+INFO 2025-07-29 15:55:57,683 basehttp 24092 133049094239808 "GET /media/teacher/zsl.jpg HTTP/1.1" 304 0
+INFO 2025-07-29 15:56:06,751 basehttp 24092 133049449166400 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-07-29 15:56:06,754 basehttp 24092 133049439725120 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 15:56:06,759 basehttp 24092 133049457559104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 15:56:06,845 basehttp 24092 133049465951808 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1642
+INFO 2025-07-29 15:59:38,791 basehttp 24092 133049457559104 "GET /course/chapter/?course=29 HTTP/1.1" 200 2
+INFO 2025-07-29 15:59:38,794 basehttp 24092 133049465951808 "GET /course/29/ HTTP/1.1" 200 758
+INFO 2025-07-29 15:59:47,250 basehttp 24092 133049457559104 "GET /course/chapter/?course=29 HTTP/1.1" 200 2
+INFO 2025-07-29 15:59:47,253 basehttp 24092 133049465951808 "GET /course/29/ HTTP/1.1" 200 758
+INFO 2025-07-29 16:00:03,248 basehttp 24092 133049457559104 "GET /course/chapter/?course=29 HTTP/1.1" 200 2
+INFO 2025-07-29 16:00:03,252 basehttp 24092 133049465951808 "GET /course/29/ HTTP/1.1" 200 758
+INFO 2025-07-29 16:01:48,568 basehttp 24092 133049465951808 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:01:48,606 basehttp 24092 133049465951808 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:01:51,474 basehttp 24092 133049457559104 "GET /course/chapter/?course=29 HTTP/1.1" 200 2
+INFO 2025-07-29 16:01:51,485 basehttp 24092 133049439725120 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:01:51,511 basehttp 24092 133049465951808 "GET /course/29/ HTTP/1.1" 200 758
+INFO 2025-07-29 16:01:51,518 basehttp 24092 133049094239808 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:02:26,011 basehttp 24092 133049094239808 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-07-29 16:02:26,031 basehttp 24092 133049439725120 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:02:26,062 basehttp 24092 133049439725120 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:02:26,117 basehttp 24092 133049465951808 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1642
+INFO 2025-07-29 16:02:27,720 basehttp 24092 133049465951808 "GET /course/?page=1&size=5&ordering=id HTTP/1.1" 200 2294
+WARNING 2025-07-29 16:02:27,755 log 24092 133049449166400 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 16:02:27,758 basehttp 24092 133049449166400 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 16:02:29,140 basehttp 24092 133049457559104 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:02:29,169 basehttp 24092 133049094239808 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:02:29,197 basehttp 24092 133049465951808 "GET /course/1/ HTTP/1.1" 200 623
+INFO 2025-07-29 16:02:29,199 basehttp 24092 133049439725120 "GET /course/chapter/?course=1 HTTP/1.1" 200 761
+INFO 2025-07-29 16:02:32,594 basehttp 24092 133049042142784 "GET /media/2025/04/20/clash.jpg HTTP/1.1" 304 0
+INFO 2025-07-29 16:08:38,194 autoreload 24092 133049549553664 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/serializers.py changed, reloading.
+INFO 2025-07-29 16:08:39,376 autoreload 25437 132749868814336 Watching for file changes with StatReloader
+INFO 2025-07-29 16:08:52,323 basehttp 25437 132749701133888 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:08:52,421 basehttp 25437 132749692741184 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:08:52,422 basehttp 25437 132749709526592 "GET /course/chapter/?course=1 HTTP/1.1" 200 888
+INFO 2025-07-29 16:08:52,466 basehttp 25437 132749717919296 "GET /course/1/ HTTP/1.1" 200 623
+INFO 2025-07-29 16:26:10,222 basehttp 25437 132749709526592 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:26:10,244 basehttp 25437 132749701133888 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:26:10,278 basehttp 25437 132749692741184 "GET /course/chapter/?course=1 HTTP/1.1" 200 888
+INFO 2025-07-29 16:26:10,282 basehttp 25437 132749717919296 "GET /course/1/ HTTP/1.1" 200 623
+INFO 2025-07-29 16:26:11,318 basehttp 25437 132749701133888 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:26:11,319 basehttp 25437 132749717919296 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-07-29 16:26:11,344 basehttp 25437 132749709526592 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:26:11,421 basehttp 25437 132749692741184 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1642
+INFO 2025-07-29 16:26:16,676 basehttp 25437 132749701133888 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:26:16,694 basehttp 25437 132749717919296 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:26:16,701 basehttp 25437 132749692741184 "GET /course/29/ HTTP/1.1" 200 758
+INFO 2025-07-29 16:26:16,702 basehttp 25437 132749709526592 "GET /course/chapter/?course=29 HTTP/1.1" 200 2
+INFO 2025-07-29 16:26:19,296 basehttp 25437 132749692741184 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-07-29 16:26:19,300 basehttp 25437 132749717919296 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:26:19,308 basehttp 25437 132749701133888 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:26:19,397 basehttp 25437 132749709526592 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1642
+INFO 2025-07-29 16:26:21,073 basehttp 25437 132749717919296 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:26:21,094 basehttp 25437 132749701133888 "GET /course/chapter/?course=28 HTTP/1.1" 200 2
+INFO 2025-07-29 16:26:21,096 basehttp 25437 132749692741184 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:26:21,101 basehttp 25437 132749709526592 "GET /course/28/ HTTP/1.1" 200 465
+INFO 2025-07-29 16:26:26,106 basehttp 25437 132749709526592 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-07-29 16:26:26,149 basehttp 25437 132749717919296 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:26:26,152 basehttp 25437 132749701133888 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:26:26,250 basehttp 25437 132749692741184 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1642
+INFO 2025-07-29 16:26:29,588 basehttp 25437 132749692741184 "GET /course/?page=1&size=5&ordering=id HTTP/1.1" 200 2294
+WARNING 2025-07-29 16:26:29,627 log 25437 132749683299904 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 16:26:29,633 basehttp 25437 132749683299904 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 16:26:30,975 basehttp 25437 132749709526592 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:26:30,980 basehttp 25437 132749717919296 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:26:31,014 basehttp 25437 132749701133888 "GET /course/chapter/?course=1 HTTP/1.1" 200 888
+INFO 2025-07-29 16:26:31,022 basehttp 25437 132749692741184 "GET /course/1/ HTTP/1.1" 200 623
+INFO 2025-07-29 16:52:36,741 autoreload 25437 132749868814336 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/serializers.py changed, reloading.
+INFO 2025-07-29 16:52:37,988 autoreload 28077 136726391382016 Watching for file changes with StatReloader
+INFO 2025-07-29 16:56:02,908 basehttp 28077 136726215652928 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:56:02,923 basehttp 28077 136726224045632 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:56:02,996 basehttp 28077 136726232438336 "GET /course/chapter/?course=1 HTTP/1.1" 200 1294
+INFO 2025-07-29 16:56:03,006 basehttp 28077 136726240831040 "GET /course/1/ HTTP/1.1" 200 623
+INFO 2025-07-29 16:56:14,345 basehttp 28077 136726215652928 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:56:14,367 basehttp 28077 136726224045632 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:56:14,413 basehttp 28077 136726240831040 "GET /course/1/ HTTP/1.1" 200 623
+INFO 2025-07-29 16:56:14,417 basehttp 28077 136726232438336 "GET /course/chapter/?course=1 HTTP/1.1" 200 1294
+INFO 2025-07-29 16:56:20,836 basehttp 28077 136726224045632 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:56:20,851 basehttp 28077 136726215652928 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:56:20,895 basehttp 28077 136726240831040 "GET /course/chapter/?course=1 HTTP/1.1" 200 1294
+INFO 2025-07-29 16:56:20,901 basehttp 28077 136726232438336 "GET /course/1/ HTTP/1.1" 200 623
+INFO 2025-07-29 16:57:03,125 basehttp 28077 136726215652928 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:57:03,149 basehttp 28077 136726240831040 "GET /course/chapter/?course=1 HTTP/1.1" 200 1294
+INFO 2025-07-29 16:57:03,165 basehttp 28077 136726232438336 "GET /course/1/ HTTP/1.1" 200 623
+INFO 2025-07-29 16:57:03,167 basehttp 28077 136726224045632 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:57:06,768 basehttp 28077 136726240831040 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:57:06,792 basehttp 28077 136726215652928 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:57:06,825 basehttp 28077 136726232438336 "GET /course/chapter/?course=1 HTTP/1.1" 200 1294
+INFO 2025-07-29 16:57:06,832 basehttp 28077 136726224045632 "GET /course/1/ HTTP/1.1" 200 623
+INFO 2025-07-29 16:57:08,419 basehttp 28077 136726224045632 "GET /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 41
+INFO 2025-07-29 16:57:19,616 basehttp 28077 136726240831040 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 16:57:19,645 basehttp 28077 136726215652928 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 16:57:19,691 basehttp 28077 136726232438336 "GET /course/chapter/?course=1 HTTP/1.1" 200 1294
+INFO 2025-07-29 16:57:19,694 basehttp 28077 136726224045632 "GET /course/1/ HTTP/1.1" 200 623
+INFO 2025-07-29 17:07:40,508 basehttp 28077 136726215652928 "OPTIONS /user/order/ HTTP/1.1" 200 0
+INFO 2025-07-29 17:07:40,564 basehttp 28077 136726224045632 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:07:40,603 basehttp 28077 136726232438336 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:07:40,759 basehttp 28077 136726215652928 "GET /user/order/ HTTP/1.1" 200 3458
+INFO 2025-07-29 17:16:58,949 autoreload 28077 136726391382016 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/order/models.py changed, reloading.
+INFO 2025-07-29 17:17:00,052 autoreload 29679 137721330278400 Watching for file changes with StatReloader
+INFO 2025-07-29 17:23:51,621 autoreload 29679 137721330278400 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/order/models.py changed, reloading.
+INFO 2025-07-29 17:23:52,695 autoreload 30158 129903839137792 Watching for file changes with StatReloader
+INFO 2025-07-29 17:25:27,429 basehttp 30158 129903671367232 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:25:27,445 basehttp 30158 129903679759936 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:25:27,684 basehttp 30158 129903688152640 "GET /user/order/ HTTP/1.1" 200 913
+INFO 2025-07-29 17:25:36,311 basehttp 30158 129903679759936 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:25:36,363 basehttp 30158 129903679759936 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:25:36,401 basehttp 30158 129903688152640 "GET /user/order/ HTTP/1.1" 200 913
+INFO 2025-07-29 17:25:42,207 basehttp 30158 129903688152640 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:25:42,237 basehttp 30158 129903671367232 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:25:42,285 basehttp 30158 129903679759936 "GET /user/order/ HTTP/1.1" 200 913
+INFO 2025-07-29 17:25:43,042 basehttp 30158 129903679759936 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-07-29 17:25:43,052 basehttp 30158 129903688152640 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:25:43,095 basehttp 30158 129903679759936 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:25:43,161 basehttp 30158 129903671367232 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1642
+INFO 2025-07-29 17:25:44,621 basehttp 30158 129903688152640 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:25:44,639 basehttp 30158 129903661925952 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:25:44,656 basehttp 30158 129903679759936 "GET /course/chapter/?course=28 HTTP/1.1" 200 2
+INFO 2025-07-29 17:25:44,658 basehttp 30158 129903671367232 "GET /course/28/ HTTP/1.1" 200 465
+INFO 2025-07-29 17:25:53,377 basehttp 30158 129903661925952 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:25:53,392 basehttp 30158 129903679759936 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-07-29 17:25:53,428 basehttp 30158 129903661925952 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:25:53,496 basehttp 30158 129903671367232 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1642
+INFO 2025-07-29 17:25:55,043 basehttp 30158 129903671367232 "GET /course/?page=1&size=5&ordering=id HTTP/1.1" 200 2294
+WARNING 2025-07-29 17:25:55,087 log 30158 129903653533248 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:25:55,089 basehttp 30158 129903653533248 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:25:56,238 basehttp 30158 129903679759936 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:25:56,268 basehttp 30158 129903688152640 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:25:56,309 basehttp 30158 129903661925952 "GET /course/chapter/?course=1 HTTP/1.1" 200 1294
+INFO 2025-07-29 17:25:56,311 basehttp 30158 129903671367232 "GET /course/1/ HTTP/1.1" 200 623
+INFO 2025-07-29 17:26:05,670 basehttp 30158 129903679759936 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:26:05,699 basehttp 30158 129903688152640 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:26:05,734 basehttp 30158 129903671367232 "GET /course/1/ HTTP/1.1" 200 623
+INFO 2025-07-29 17:26:05,742 basehttp 30158 129903661925952 "GET /course/chapter/?course=1 HTTP/1.1" 200 1294
+INFO 2025-07-29 17:26:10,043 basehttp 30158 129903661925952 "OPTIONS /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 0
+INFO 2025-07-29 17:26:10,402 basehttp 30158 129903661925952 "GET /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 41
+INFO 2025-07-29 17:26:11,910 basehttp 30158 129903679759936 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:26:11,922 basehttp 30158 129903688152640 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:26:11,931 basehttp 30158 129903671367232 "GET /course/chapter/?course=1 HTTP/1.1" 200 1294
+INFO 2025-07-29 17:26:11,967 basehttp 30158 129903661925952 "GET /course/1/ HTTP/1.1" 200 623
+INFO 2025-07-29 17:26:17,944 basehttp 30158 129903661925952 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-07-29 17:26:17,948 basehttp 30158 129903688152640 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:26:17,970 basehttp 30158 129903679759936 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:26:18,058 basehttp 30158 129903671367232 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1642
+INFO 2025-07-29 17:26:21,197 basehttp 30158 129903679759936 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:26:21,208 basehttp 30158 129903688152640 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:26:21,274 basehttp 30158 129903671367232 "GET /user/order/ HTTP/1.1" 200 913
+INFO 2025-07-29 17:27:17,862 autoreload 30158 129903839137792 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/order/models.py changed, reloading.
+INFO 2025-07-29 17:27:19,006 autoreload 30472 130140172881920 Watching for file changes with StatReloader
+INFO 2025-07-29 17:27:23,043 basehttp 30472 130140080686656 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:27:23,175 basehttp 30472 130140072293952 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:27:23,339 basehttp 30472 130140089079360 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 17:27:23,399 log 30472 130139857876544 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:27:23,401 basehttp 30472 130139857876544 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:31:50,777 autoreload 30472 130140172881920 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/models.py changed, reloading.
+INFO 2025-07-29 17:31:51,965 autoreload 30777 134027488800768 Watching for file changes with StatReloader
+INFO 2025-07-29 17:38:27,607 autoreload 30777 134027488800768 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/order/models.py changed, reloading.
+INFO 2025-07-29 17:38:28,781 autoreload 31184 127656292225024 Watching for file changes with StatReloader
+INFO 2025-07-29 17:38:32,058 basehttp 31184 127656133117504 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:38:32,186 basehttp 31184 127656124724800 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:38:32,521 basehttp 31184 127656141510208 "GET /user/order/ HTTP/1.1" 200 3814
+WARNING 2025-07-29 17:38:32,634 log 31184 127656115283520 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:38:32,644 basehttp 31184 127656115283520 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:39:10,591 autoreload 31184 127656292225024 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/order/models.py changed, reloading.
+INFO 2025-07-29 17:39:11,780 autoreload 31214 135629823787008 Watching for file changes with StatReloader
+INFO 2025-07-29 17:39:14,363 basehttp 31214 135629732013632 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:39:14,399 basehttp 31214 135629723620928 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:39:14,576 basehttp 31214 135629741454912 "GET /user/order/ HTTP/1.1" 200 3458
+WARNING 2025-07-29 17:39:15,003 log 31214 135629714179648 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:39:15,004 basehttp 31214 135629714179648 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:39:15,012 basehttp 31214 135629714179648 - Broken pipe from ('127.0.0.1', 45270)
+INFO 2025-07-29 17:40:06,461 autoreload 31214 135629823787008 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/order/models.py changed, reloading.
+INFO 2025-07-29 17:40:07,880 autoreload 31336 128580425318400 Watching for file changes with StatReloader
+INFO 2025-07-29 17:40:14,527 basehttp 31336 128580333323840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:40:14,633 basehttp 31336 128580324931136 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:40:14,783 basehttp 31336 128580341716544 "GET /user/order/ HTTP/1.1" 200 3814
+WARNING 2025-07-29 17:40:14,850 log 31336 128580113659456 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:40:14,851 basehttp 31336 128580113659456 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:40:22,029 basehttp 31336 128580341716544 "GET /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 41
+INFO 2025-07-29 17:40:23,823 basehttp 31336 128580324931136 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:40:23,850 basehttp 31336 128580333323840 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:40:24,000 basehttp 31336 128580341716544 "GET /user/order/ HTTP/1.1" 200 3814
+WARNING 2025-07-29 17:40:24,043 log 31336 128580113659456 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:40:24,045 basehttp 31336 128580113659456 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:40:27,378 basehttp 31336 128580341716544 "GET /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 41
+INFO 2025-07-29 17:40:28,544 basehttp 31336 128580324931136 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:40:28,546 basehttp 31336 128580333323840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:40:28,715 basehttp 31336 128580341716544 "GET /user/order/ HTTP/1.1" 200 3814
+WARNING 2025-07-29 17:40:28,758 log 31336 128580113659456 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:40:28,760 basehttp 31336 128580113659456 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:40:28,763 basehttp 31336 128580113659456 - Broken pipe from ('127.0.0.1', 53994)
+INFO 2025-07-29 17:40:33,336 basehttp 31336 128580341716544 "GET /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 41
+INFO 2025-07-29 17:40:34,678 basehttp 31336 128580324931136 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:40:34,690 basehttp 31336 128580333323840 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:40:34,854 basehttp 31336 128580341716544 "GET /user/order/ HTTP/1.1" 200 3814
+WARNING 2025-07-29 17:40:34,892 log 31336 128580113659456 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:40:34,893 basehttp 31336 128580113659456 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:40:34,897 basehttp 31336 128580113659456 - Broken pipe from ('127.0.0.1', 37618)
+INFO 2025-07-29 17:41:10,610 basehttp 31336 128580341716544 "GET /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 41
+INFO 2025-07-29 17:41:16,166 basehttp 31336 128580324931136 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:41:16,174 basehttp 31336 128580333323840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:41:16,354 basehttp 31336 128580341716544 "GET /user/order/ HTTP/1.1" 200 3814
+WARNING 2025-07-29 17:41:16,394 log 31336 128580113659456 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:41:16,397 basehttp 31336 128580113659456 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:41:16,400 basehttp 31336 128580113659456 - Broken pipe from ('127.0.0.1', 32818)
+INFO 2025-07-29 17:45:05,194 basehttp 31336 128580333323840 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:45:05,226 basehttp 31336 128580324931136 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:45:05,378 basehttp 31336 128580341716544 "GET /user/order/ HTTP/1.1" 200 3814
+WARNING 2025-07-29 17:45:05,415 log 31336 128580113659456 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:45:05,416 basehttp 31336 128580113659456 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:45:57,307 autoreload 31336 128580425318400 /home/dx/Desktop/luffy/luffyapi/luffyapi/apps/course/models.py changed, reloading.
+INFO 2025-07-29 17:45:58,491 autoreload 31779 131110682693632 Watching for file changes with StatReloader
+INFO 2025-07-29 17:46:01,843 basehttp 31779 131110520485440 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:46:01,966 basehttp 31779 131110520485440 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:46:02,193 basehttp 31779 131110599284288 "GET /user/order/ HTTP/1.1" 200 4065
+WARNING 2025-07-29 17:46:02,245 log 31779 131110503700032 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:46:02,246 basehttp 31779 131110503700032 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:46:19,668 basehttp 31779 131110520485440 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:46:19,705 basehttp 31779 131110512092736 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:46:19,903 basehttp 31779 131110599284288 "GET /user/order/ HTTP/1.1" 200 4065
+WARNING 2025-07-29 17:46:19,947 log 31779 131110503700032 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:46:19,948 basehttp 31779 131110503700032 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:46:19,952 basehttp 31779 131110503700032 - Broken pipe from ('127.0.0.1', 50548)
+INFO 2025-07-29 17:47:27,789 basehttp 31779 131110512092736 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:47:27,830 basehttp 31779 131110520485440 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:47:28,065 basehttp 31779 131110599284288 "GET /user/order/ HTTP/1.1" 200 4065
+WARNING 2025-07-29 17:47:28,110 log 31779 131110503700032 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:47:28,120 basehttp 31779 131110503700032 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:49:47,423 basehttp 31779 131110520485440 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:49:47,461 basehttp 31779 131110520485440 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:49:47,650 basehttp 31779 131110599284288 "GET /user/order/ HTTP/1.1" 200 4065
+WARNING 2025-07-29 17:49:47,760 log 31779 131110503700032 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:49:47,763 basehttp 31779 131110503700032 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:49:59,181 basehttp 31779 131110512092736 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:49:59,193 basehttp 31779 131110520485440 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:49:59,385 basehttp 31779 131110599284288 "GET /user/order/ HTTP/1.1" 200 4065
+WARNING 2025-07-29 17:49:59,432 log 31779 131110503700032 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:49:59,433 basehttp 31779 131110503700032 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:49:59,437 basehttp 31779 131110503700032 - Broken pipe from ('127.0.0.1', 53894)
+INFO 2025-07-29 17:50:10,793 basehttp 31779 131110512092736 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:50:10,807 basehttp 31779 131110520485440 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:50:11,048 basehttp 31779 131110599284288 "GET /user/order/ HTTP/1.1" 200 4065
+WARNING 2025-07-29 17:50:11,087 log 31779 131110503700032 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:50:11,090 basehttp 31779 131110503700032 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+WARNING 2025-07-29 17:51:03,898 log 31779 131110503700032 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:51:03,899 basehttp 31779 131110503700032 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:51:24,773 basehttp 31779 131110503700032 "GET /admin/course/coursechapter/ HTTP/1.1" 200 28967
+INFO 2025-07-29 17:51:25,206 basehttp 31779 131110503700032 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 17:51:32,051 basehttp 31779 131110503700032 "GET /admin/course/coursechapter/1/change/ HTTP/1.1" 200 14851
+INFO 2025-07-29 17:51:32,116 basehttp 31779 131110503700032 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 17:51:37,145 basehttp 31779 131110503700032 "GET /admin/course/coursechapter/ HTTP/1.1" 200 28967
+INFO 2025-07-29 17:51:37,196 basehttp 31779 131110503700032 "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2025-07-29 17:52:25,789 basehttp 31779 131110520485440 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:52:25,827 basehttp 31779 131110520485440 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:52:26,036 basehttp 31779 131110599284288 "GET /user/order/ HTTP/1.1" 200 4065
+WARNING 2025-07-29 17:52:26,157 log 31779 131110494258752 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:52:26,158 basehttp 31779 131110494258752 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:53:49,669 basehttp 31779 131110520485440 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:53:49,700 basehttp 31779 131110512092736 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:53:49,888 basehttp 31779 131110599284288 "GET /user/order/ HTTP/1.1" 200 4065
+WARNING 2025-07-29 17:53:49,933 log 31779 131110494258752 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:53:49,934 basehttp 31779 131110494258752 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:53:53,051 basehttp 31779 131110599284288 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-07-29 17:53:53,064 basehttp 31779 131110520485440 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:53:53,104 basehttp 31779 131110520485440 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:53:53,176 basehttp 31779 131110512092736 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1642
+INFO 2025-07-29 17:53:57,397 basehttp 31779 131110512092736 "GET /course/?page=1&size=5&ordering=-id&course_category=1 HTTP/1.1" 200 1944
+INFO 2025-07-29 17:54:00,776 basehttp 31779 131110520485440 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:54:00,789 basehttp 31779 131110512092736 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:54:00,838 basehttp 31779 131110494258752 "GET /course/chapter/?course=3 HTTP/1.1" 200 1147
+INFO 2025-07-29 17:54:00,866 basehttp 31779 131110599284288 "GET /course/3/ HTTP/1.1" 200 479
+INFO 2025-07-29 17:54:06,788 basehttp 31779 131110520485440 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:54:06,820 basehttp 31779 131110512092736 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:54:06,895 basehttp 31779 131110599284288 "GET /course/3/ HTTP/1.1" 200 479
+INFO 2025-07-29 17:54:06,898 basehttp 31779 131110494258752 "GET /course/chapter/?course=3 HTTP/1.1" 200 1147
+INFO 2025-07-29 17:54:31,519 basehttp 31779 131110599284288 "GET /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 41
+INFO 2025-07-29 17:54:41,040 basehttp 31779 131110512092736 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:54:41,073 basehttp 31779 131110520485440 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:54:41,116 basehttp 31779 131110494258752 "GET /course/chapter/?course=3 HTTP/1.1" 200 1147
+INFO 2025-07-29 17:54:41,118 basehttp 31779 131110599284288 "GET /course/3/ HTTP/1.1" 200 479
+INFO 2025-07-29 17:54:43,155 basehttp 31779 131110599284288 "GET /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 41
+INFO 2025-07-29 17:54:44,628 basehttp 31779 131110520485440 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:54:44,645 basehttp 31779 131110512092736 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:54:44,681 basehttp 31779 131110494258752 "GET /course/chapter/?course=3 HTTP/1.1" 200 1147
+INFO 2025-07-29 17:54:44,705 basehttp 31779 131110599284288 "GET /course/3/ HTTP/1.1" 200 479
+INFO 2025-07-29 17:54:46,859 basehttp 31779 131110599284288 "GET /course/player/?vid=a8f20da824ead4c1aef8ec32b5c2a903_a HTTP/1.1" 200 41
+INFO 2025-07-29 17:55:01,649 basehttp 31779 131110520485440 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:55:01,657 basehttp 31779 131110512092736 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:55:01,662 basehttp 31779 131110599284288 "GET /course/3/ HTTP/1.1" 200 479
+INFO 2025-07-29 17:55:01,687 basehttp 31779 131110494258752 "GET /course/chapter/?course=3 HTTP/1.1" 200 1147
+INFO 2025-07-29 17:58:18,224 basehttp 31779 131110520485440 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:58:18,290 basehttp 31779 131110494258752 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:58:18,334 basehttp 31779 131110512092736 "GET /course/chapter/?course=3 HTTP/1.1" 200 1147
+INFO 2025-07-29 17:58:18,345 basehttp 31779 131110599284288 "GET /course/3/ HTTP/1.1" 200 479
+INFO 2025-07-29 17:58:22,539 basehttp 31779 131110520485440 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:58:22,539 basehttp 31779 131110494258752 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:58:22,583 basehttp 31779 131110512092736 "GET /course/chapter/?course=3 HTTP/1.1" 200 1147
+INFO 2025-07-29 17:58:22,590 basehttp 31779 131110599284288 "GET /course/3/ HTTP/1.1" 200 479
+INFO 2025-07-29 17:58:26,376 basehttp 31779 131110520485440 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:58:26,417 basehttp 31779 131110512092736 "GET /course/chapter/?course=3 HTTP/1.1" 200 1147
+INFO 2025-07-29 17:58:26,433 basehttp 31779 131110520485440 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:58:26,440 basehttp 31779 131110599284288 "GET /course/3/ HTTP/1.1" 200 479
+INFO 2025-07-29 17:58:31,520 basehttp 31779 131110512092736 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:58:31,536 basehttp 31779 131110494258752 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:58:31,553 basehttp 31779 131110599284288 "GET /course/chapter/?course=3 HTTP/1.1" 200 1147
+INFO 2025-07-29 17:58:31,563 basehttp 31779 131110520485440 "GET /course/3/ HTTP/1.1" 200 479
+INFO 2025-07-29 17:58:36,809 basehttp 31779 131110494258752 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:58:36,811 basehttp 31779 131110512092736 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:58:36,844 basehttp 31779 131110599284288 "GET /course/chapter/?course=3 HTTP/1.1" 200 1147
+INFO 2025-07-29 17:58:36,861 basehttp 31779 131110520485440 "GET /course/3/ HTTP/1.1" 200 479
+INFO 2025-07-29 17:58:38,712 basehttp 31779 131110520485440 "GET /course/category/ HTTP/1.1" 200 245
+INFO 2025-07-29 17:58:38,739 basehttp 31779 131110512092736 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:58:38,757 basehttp 31779 131110520485440 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:58:38,854 basehttp 31779 131110599284288 "GET /course/?page=1&size=5&ordering=-id HTTP/1.1" 200 1642
+INFO 2025-07-29 17:58:52,285 basehttp 31779 131110512092736 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:58:52,295 basehttp 31779 131110520485440 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:58:52,528 basehttp 31779 131110599284288 "GET /user/order/ HTTP/1.1" 200 4065
+WARNING 2025-07-29 17:58:52,572 log 31779 131110503700032 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:58:52,574 basehttp 31779 131110503700032 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673
+INFO 2025-07-29 17:59:00,113 basehttp 31779 131110520485440 "GET /nav/header/ HTTP/1.1" 200 239
+INFO 2025-07-29 17:59:00,128 basehttp 31779 131110512092736 "GET /nav/footer/ HTTP/1.1" 200 354
+INFO 2025-07-29 17:59:00,347 basehttp 31779 131110599284288 "GET /user/order/ HTTP/1.1" 200 4065
+WARNING 2025-07-29 17:59:00,388 log 31779 131110503700032 Not Found: /media/course/course-cover.jpeg
+WARNING 2025-07-29 17:59:00,391 basehttp 31779 131110503700032 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 2673

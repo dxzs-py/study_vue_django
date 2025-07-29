@@ -154,7 +154,7 @@ CACHES = {
         }
     },
     # 提供存储短信验证码
-    "sms_code":{
+    "sms_code": {
         "BACKEND": "django_redis.cache.RedisCache",
         "LOCATION": "redis://127.0.0.1:6379/2",
         "OPTIONS": {
@@ -162,13 +162,13 @@ CACHES = {
         }
     },
     # 提供存储购物车信息
-    "cart":{
-            "BACKEND": "django_redis.cache.RedisCache",
-            "LOCATION": "redis://127.0.0.1:6379/3",
-            "OPTIONS": {
-                "CLIENT_CLASS": "django_redis.client.DefaultClient",
-            }
-        },
+    "cart": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
 
 }
 
@@ -206,8 +206,7 @@ TIME_ZONE = 'Asia/Shanghai'
 USE_I18N = True
 
 # USE_TZ = True
-USE_TZ = False # 保证数据库中django中使用的时区一致！
-
+USE_TZ = False  # 保证数据库中django中使用的时区一致！
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
@@ -350,7 +349,6 @@ SMS = {
     "_softVersion": "2013-12-26"
 }
 
-
 # 富文本编辑器ckeditor配置
 CKEDITOR_CONFIGS = {
     'default': {
@@ -358,12 +356,13 @@ CKEDITOR_CONFIGS = {
         'toolbar': 'Custom',  # 自定义工具条
         'toolbar_Custom': [
             # cke_button_工具名称[注意改成驼峰式写进来]
-            ['Bold', 'Italic', 'Underline','Image'],
-            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+            ['Bold', 'Italic', 'Underline', 'Image'],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter',
+             'JustifyRight', 'JustifyBlock'],
             ['Link', 'Unlink'],
             ['RemoveFormat', 'Source']
         ],
-        'height': 400,      # 编辑器高度
+        'height': 400,  # 编辑器高度
         # 'width': 300,     # 编辑器宽
     },
 }
@@ -373,13 +372,20 @@ CKEDITOR_VERSION = '4.24.0-lts'  # 指定LTS版本
 # 支付宝配置信息
 ALIAPY_CONFIG = {
     # "gateway_url": "https://openapi.alipay.com/gateway.do", # 真实支付宝网关地址
-    "gateway_url": "https://openapi-sandbox.dl.alipaydev.com/gateway.do", # 沙箱支付宝网关地址
+    "gateway_url": "https://openapi-sandbox.dl.alipaydev.com/gateway.do",  # 沙箱支付宝网关地址
     "appid": "9021000150658560",
     "app_notify_url": None,  # 支付宝异步通知地址
     "app_private_key_path": os.path.join(BASE_DIR, "apps/payments/keys/app_private_key.pem"),
     "alipay_public_key_path": os.path.join(BASE_DIR, "apps/payments/keys/alipay_public_key.pem"),
     "sign_type": "RSA2",
     "debug": False,
-    "return_url": "http://www.luffycity.cn:8080/payments/result", # 同步回调地址
-    "notify_url": "http://api.luffycity.cn:8000/payments/result", # 异步结果通知
+    "return_url": "http://www.luffycity.cn:8080/payments/result",  # 同步回调地址
+    "notify_url": "http://api.luffycity.cn:8000/payments/result",  # 异步结果通知
+}
+
+# 保利威视频加密服务
+POLYV_CONFIG = {
+    "userId": "a8f20da824",
+    "secretkey": "t1VqfGx5BH",
+    "tokenUrl": "https://hls.videocc.net/service/v1/token",
 }

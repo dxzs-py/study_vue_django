@@ -6,4 +6,5 @@ urlpatterns = [
     path(r'', views.CourseListAPIView.as_view()),
     re_path("(?P<pk>\d+)/",views.CourseRetrieveAPIView.as_view()),
     path(r'chapter/', views.CourseChapterListAPIView.as_view()),
+    path(r'player/', views.PolyvPlayerAPIView.as_view()),
 ]

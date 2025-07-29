@@ -56,6 +56,8 @@ class Order(BaseModel):
                 "discount_name": detail.discount_name,
                 "price": detail.price,
                 "real_price": detail.real_price,
+                "section_link":course.section_link,
+                "section_type": course.section_type,
             })
         return data
 
