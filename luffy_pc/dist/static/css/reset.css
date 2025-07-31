@@ -1,0 +1,99 @@
+/* 声明全局样式和项目的初始化样式 */
+body, h1, h2, h3, h4, p, table, tr, td, ul, li, a, form, input, select, option, textarea {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+/* 因为每个浏览器对这些标签有些不一样，这里是修改，保证每个浏览器效果都一样 */
+a {
+  text-decoration: none; /* 消除下划线 */
+  color: #333; /* 改变字体颜色 */
+}
+
+ul, li {
+  list-style: none; /* 取消默认的列表符号 */
+}
+
+table {
+  border-collapse: collapse; /* 合并边框 */
+}
+
+/* 工具的全局样式 */
+.full-left {
+  float: left !important;
+}
+
+.full-right {
+  float: right !important;
+}
+
+[class*=" el-icon-"], [class^=el-icon-] {
+  font-size: 16px;  /* 用来设置Element插件某些大小 */
+}
+
+.el-carousel__arrow {
+  width: 120px;
+  height: 120px;
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background: #ffc210;
+  border-color: #ffc210;
+  border: none;
+}
+
+.el-checkbox__inner:hover {
+  border-color: #9b9b9b;
+}
+
+.el-checkbox__inner {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #9b9b9b;
+  border-radius: 0;
+}
+
+.el-checkbox__inner::after {
+  height: 9px;
+  width: 5px;
+}
+
+.el-submenu__icon-arrow::before{
+  /*content:"";   !* 这个是控制Header.vue那个箭头是什么这样写是不展示任何东西，不写content就是展示默认选项 *!  */
+  font-size: 20px;
+}
+.el-submenu__title{
+  padding: 0;
+}
+.el-menu--popup{   /* 这个是控制下拉框的位置 */
+  min-width: 140px;
+  margin-left: 10px;
+}
+
+
+.geetest_holder.geetest_wind{
+  min-width: 100%!important;
+  margin-top: 20px;
+}
+
+.el-pagination button, .el-pagination span:not([class*=suffix]),
+.el-input--mini,
+.el-pagination__sizes .el-input .el-input__inner,
+.el-pager li{
+  font-size: 16px;
+}
+
+.course-brief img{
+  width: 100%;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.el-icon-minus,.el-icon-plus{
+ 	font-size: 12px;
+}
