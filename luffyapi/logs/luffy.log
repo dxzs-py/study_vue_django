@@ -10688,3 +10688,11 @@ INFO 2025-07-31 18:34:53,911 basehttp 35056 131364413744704 "GET /course/chapter
 INFO 2025-07-31 18:34:53,925 basehttp 35056 131364405352000 "GET /nav/header/ HTTP/1.1" 200 239
 INFO 2025-07-31 18:34:53,942 basehttp 35056 131363990664768 "GET /nav/footer/ HTTP/1.1" 200 354
 INFO 2025-07-31 18:34:53,956 basehttp 35056 131364422137408 "GET /course/29/ HTTP/1.1" 200 758
+INFO 2025-08-03 12:53:38,803 autoreload 14710 133092704043008 Watching for file changes with StatReloader
+INFO 2025-08-03 12:53:48,884 autoreload 14710 133092704043008 /home/dx/Desktop/luffy/luffyapi/manage.py changed, reloading.
+INFO 2025-08-03 12:53:50,185 autoreload 14732 138597440684032 Watching for file changes with StatReloader
+INFO 2025-08-03 12:53:55,923 autoreload 14749 131755232665600 Watching for file changes with StatReloader
+INFO 2025-08-03 12:54:09,611 basehttp 14749 131755148826176 "GET /admin/ HTTP/1.1" 200 26342
+WARNING 2025-08-03 12:54:10,390 log 14749 131755148826176 Not Found: /favicon.ico
+WARNING 2025-08-03 12:54:10,393 basehttp 14749 131755148826176 "GET /favicon.ico HTTP/1.1" 404 4162
+INFO 2025-08-03 13:11:45,147 autoreload 15978 124914497421312 Watching for file changes with StatReloader

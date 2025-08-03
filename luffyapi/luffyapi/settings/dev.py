@@ -218,6 +218,14 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
 ]
 
+# 访问上传文件的url地址前缀
+MEDIA_URL = "/media/"
+# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错
+MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
+
+# 静态文件收集目录，项目的根目录下
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static')
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
@@ -309,10 +317,6 @@ SIMPLEUI_LOGO = ''  # 去掉默认Logo或换成自己Logo链接
 # 隐藏右侧SimpleUI广告链接和使用分析
 SIMPLEUI_HOME_INFO = False
 SIMPLEUI_ANALYSIS = False
-# 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错
-MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
-# 访问上传文件的url地址前缀
-MEDIA_URL = "/media/"
 
 # 注册自定义用户模型 值格式必须是“应用名.模型类名”
 AUTH_USER_MODEL = 'user_login.User'
