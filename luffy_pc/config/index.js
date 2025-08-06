@@ -13,7 +13,7 @@ module.exports = {
     proxyTable: {},
 
     // Various Dev Server settings
-    host: 'www.luffycity.cn', // can be overwritten by process.env.HOST
+    host: '8.149.245.93', // can be overwritten by process.env.HOST
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false, // 是否自动打开浏览器
     errorOverlay: true,

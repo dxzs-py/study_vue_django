@@ -17,7 +17,7 @@ SMS_INTERVAL_TIME = 60
 SMS_TEMPLATE_ID = 1
 
 # 后端的富文本编辑器中的图片存储域名
-SERVER_IMAGE_DOMAIN = 'http://api.luffycity.cn:8000'
+SERVER_IMAGE_DOMAIN = 'http://8.149.245.93:8000'
 
 # 积分和现金的兑换比例[兑换1元的积分数量]
 CREDIT_MONEY = 10

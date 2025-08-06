@@ -43,8 +43,7 @@ SECRET_KEY = 'django-insecure-wp(a!sv^o5tq_g(u!iper(kydhbexg^*aa*y$9xhy5wx+ozw4-
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "8.149.245.93:8000",
-    "8.149.245.93:80"
+    "8.149.245.93"
 ]
 
 # 应用程序定义
@@ -78,7 +77,9 @@ INSTALLED_APPS = [
 # CORS组的配置信息
 CORS_ORIGIN_WHITELIST = (
     # 在部分的cors_headrs模块中，如果不带协议，会导致客户端无法跨越，就需要配置"http://www.luffycity.cn:8080"
-    'http://8.149.245.93:80',
+    "http://8.149.245.93",
+    "http://8.149.245.93:80",
+    "http://8.149.245.93:8000",
 )
 CORS_ALLOW_CREDENTIALS = False  # 是否允许ajax跨域请求时携带cookie
 
@@ -125,9 +126,9 @@ DATABASES = {
     # }
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "HOST": "127.0.0.1",
+        "HOST": "8.149.245.93",
         "PORT": 3306,
-        "USER": "root", # 自定根据之前项目搭建时说的，创建一个属于当前项目的独立用户
+        "USER": "root",  # 自定根据之前项目搭建时说的，创建一个属于当前项目的独立用户
         "PASSWORD": "123456",
         "NAME": "luffy",
     }
@@ -139,7 +140,7 @@ CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
         # 项目上线时,需要调整这里的路径
-        "LOCATION": "redis://127.0.0.1:6379/0",
+        "LOCATION": "redis://8.149.245.93:6379/0",
 
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
@@ -148,7 +149,7 @@ CACHES = {
     # 提供给admin或者admin的session存储
     "session": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/1",
+        "LOCATION": "redis://8.149.245.93:6379/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
@@ -156,7 +157,7 @@ CACHES = {
     # 提供存储短信验证码
     "sms_code": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/2",
+        "LOCATION": "redis://8.149.245.93:6379/2",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
@@ -164,7 +165,7 @@ CACHES = {
     # 提供存储购物车信息
     "cart": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/3",
+        "LOCATION": "redis://8.149.245.93:6379/3",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
